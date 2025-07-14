@@ -6,7 +6,7 @@
       "type": "python",
       "request": "launch",
       "program": "${file}",
-      "python": "/home/user1/micromamba/envs/datascience_clean_v02/bin/python",
+      "python": "/home/user1/micromamba/envs/inflation_by_income_percentile/bin/python",
       "justMyCode": false
     }
   ]
