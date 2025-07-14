@@ -29,9 +29,12 @@ char_df.columns = char_df.columns.str.strip()
 # Filter for mean spending series in income quintiles (02–06)
 income_quintile_codes = ['02', '03', '04', '05', '06']
 filtered_series = series_df[
-    series_df['series_title'].str.contains("quintile", case=False, na=False)
+    series_df['series_id'].str.strip().str.endswith('M') &
+    series_df['series_title'].str.contains("quintile", case=False, na=False) &
+    series_df['series_id'].str[13:15].isin(income_quintile_codes)
 ]
 
+filtered_series.to_csv(main_folder / "data"/ "processing"/ "filtered_series.tsv", sep="\t", encoding="utf-8")
 
 # BLS API allows max 10 years per request
 year_ranges = [(start, min(start + 9, 2025)) for start in range(1984, 2026, 10)]
