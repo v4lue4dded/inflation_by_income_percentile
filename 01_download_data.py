@@ -1,51 +1,42 @@
 import requests
-
 import pandas as pd
 import time
 from pathlib import Path
-from os.path import join as opj
 import os
 
-# Create a folder to store data
+# Get the directory where this script is located
+main_folder = Path(__file__).resolve().parent
 
-import os
-
-main_folder = os.path.dirname(__file__)
-
-output_dir = opj("data","raw")
-output_dir.mkdir(exist_ok=True)
+# Create raw data folder
+output_dir = main_folder / "data" / "raw"
+output_dir.mkdir(parents=True, exist_ok=True)
 
 # Load CE series definitions
-# downloaded from:
-# https://download.bls.gov/pub/time.series/cx/cx.series
-series_df = pd.read_csv(
-    opj(output_dir,"cx.series"), sep="\t")
+# Downloaded from: https://download.bls.gov/pub/time.series/cx/cx.series
+series_df = pd.read_csv(output_dir / "cx.series", sep="\t")
+series_df.columns = series_df.columns.str.strip()  # Trim column names
 
-# Load characteristic codes (to identify income quintiles)
-# downloaded from:
-# https://download.bls.gov/pub/time.series/cx/cx.characteristics
+# Load characteristic codes (income quintiles)
+# Downloaded from: https://download.bls.gov/pub/time.series/cx/cx.characteristics
 char_df = pd.read_csv(
-    opj(output_dir,"cx.characteristics"),
+    output_dir / "cx.characteristics",
     sep="\t", names=[
         "demographics_code", "characteristics_code", "characteristics_text",
         "display_level", "selectable", "sort_sequence"
     ])
+char_df.columns = char_df.columns.str.strip()
 
-# Filter for series that are:
-# - Mean spending values (code ends with 'M')
-# - Belong to income quintiles (codes 02–06)
+# Filter for mean spending series in income quintiles (02–06)
 income_quintile_codes = ['02', '03', '04', '05', '06']
 filtered_series = series_df[
-    series_df['series_id'].str.endswith('M') &
-    series_df['series_id'].str[12:14].isin(income_quintile_codes)
+    series_df['series_title'].str.contains("quintile", case=False, na=False)
 ]
 
-# Time chunks: BLS API max = 10 years per call
+
+# BLS API allows max 10 years per request
 year_ranges = [(start, min(start + 9, 2025)) for start in range(1984, 2026, 10)]
 
-requests_dir = opj(output_dir, "requests")
-
-# Function to download and save one series chunk
+# Function to download and save a series
 def fetch_and_save_series(sid, start, end):
     url = f"https://api.bls.gov/publicAPI/v2/timeseries/data/{sid}"
     params = {"startyear": start, "endyear": end}
@@ -61,9 +52,9 @@ def fetch_and_save_series(sid, start, end):
             print(f"⚠️  No data for {sid} ({start}-{end})")
     else:
         print(f"❌ Failed for {sid} ({start}-{end})")
-    time.sleep(0.5)  # Throttle requests to avoid hitting BLS limits
+    time.sleep(0.5)
 
-# Run the loop to download all filtered series
+# Run the loop
 for sid in filtered_series['series_id'].unique():
     for start, end in year_ranges:
         fetch_and_save_series(sid, start, end)
