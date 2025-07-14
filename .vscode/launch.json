@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: current file (micromamba)",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "python": "/home/user1/micromamba/envs/datascience_clean_v02/bin/python",
+      "justMyCode": false
+    }
+  ]
+}
