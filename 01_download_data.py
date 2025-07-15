@@ -36,33 +36,31 @@ filtered_series = series_df[
     (series_df["characteristics_code"].isin(income_quintile_codes))
 ]
 
-# ────────────────────────────────────────────────────────────────────────────────
-# BLS API batch download  |  50 series × 20 years per call  (v2.0, key required)
-# ────────────────────────────────────────────────────────────────────────────────
+# ────────────────────────  series dict  ───────────────────
+series_dict = {
+    row.series_id: {"begin": int(row.begin_year), "end": int(row.end_year)}
+    for _, row in filtered_series.iterrows()
+}
 
+# year windows: 20‑year slices
+year_ranges = [(yr, min(yr+19, 2025)) for yr in range(1984, 2026, 20)]
+batch_size  = 50
 
-# Build a list of 20‑year windows (1984‑2003, 2004‑2023, 2024‑2025)
-year_ranges = [(start, min(start + 19, 2025)) for start in range(1984, 2026, 20)]
-
-# All unique series IDs we need
-series_list = filtered_series['series_id'].unique().tolist()
-
+# ────────────────────────  download  ──────────────────────
 for start, end in year_ranges:
 
-    # Identify series still missing for this window
+    # series that overlap this window and aren’t on disk
     remaining = [
-        sid for sid in series_list
-        if not (requests_dir / f"{sid}_{start}_{end}.json").exists()
+        sid for sid, yrs in series_dict.items()
+        if yrs["begin"] <= end and yrs["end"] >= start
+        and not (requests_dir / f"{sid}_{start}_{end}.json").exists()
     ]
-
     if not remaining:
         continue
-    # ── 1. PRE‑BUILD all batches (≤ 50 series each) ───────────────────────────
-    batch_size = 50
-    batches = [remaining[i:i + batch_size] for i in range(0, len(remaining), batch_size)]
-    # ──────────────────────────────────────────────────────────────────────────
 
-    # ── 2. Iterate over the prepared list of batches ─────────────────────────
+    # build fixed‑size batches
+    batches = [remaining[i:i+batch_size] for i in range(0, len(remaining), batch_size)]
+
     for batch in batches:
         print(batch)
 
@@ -92,5 +90,4 @@ for start, end in year_ranges:
             print(f"❌ Batch {start}-{end} HTTP {resp.status_code}")
             print(resp.text[:400])
 
-        time.sleep(0.25)  # stay below 50 requests / 10 s   
-
+        time.sleep(0.25)   # stay below 50 requests / 10 s

@@ -1,0 +1,39 @@
+{
+  "Results": {
+    "series": [
+      {
+        "seriesID": "CXU360340LB0104M",
+        "data": [
+          {
+            "year": "2012",
+            "period": "A01",
+            "periodName": "Annual",
+            "latest": "true",
+            "value": "6",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2011",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "12",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2010",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "10",
+            "footnotes": [
+              {}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
