@@ -1,0 +1,57 @@
+{
+  "status": "REQUEST_SUCCEEDED",
+  "responseTime": 107,
+  "message": [
+    "No Data Available for Series CXU002120LB0103M Year: 2004",
+    "No Data Available for Series CXU002120LB0103M Year: 2005",
+    "No Data Available for Series CXU002120LB0103M Year: 2006",
+    "No Data Available for Series CXU002120LB0103M Year: 2007",
+    "No Data Available for Series CXU002120LB0103M Year: 2008",
+    "No Data Available for Series CXU002120LB0103M Year: 2009"
+  ],
+  "Results": {
+    "series": [
+      {
+        "seriesID": "CXU002120LB0103M",
+        "data": [
+          {
+            "year": "2013",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "11",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2012",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "16",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2011",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "10",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2010",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "9",
+            "footnotes": [
+              {}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
