@@ -64,6 +64,7 @@ for start, end in year_ranges:
 
     # ── 2. Iterate over the prepared list of batches ─────────────────────────
     for batch in batches:
+        print(batch)
 
         payload = {
             "seriesid": batch,
@@ -77,6 +78,7 @@ for start, end in year_ranges:
             json=payload,
             timeout=30
         )
+        print(resp)
 
         if resp.status_code == 200 and resp.json().get("status") == "REQUEST_SUCCEEDED":
             for s in resp.json()["Results"]["series"]:
