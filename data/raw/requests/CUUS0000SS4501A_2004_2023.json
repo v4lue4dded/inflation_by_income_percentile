@@ -1,0 +1,498 @@
+{
+  "Results": {
+    "series": [
+      {
+        "seriesID": "CUUS0000SS4501A",
+        "data": [
+          {
+            "year": "2021",
+            "period": "S03",
+            "periodName": "Annual",
+            "latest": "true",
+            "value": "108.295",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2021",
+            "period": "S02",
+            "periodName": "2nd Half",
+            "value": "112.040",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2021",
+            "period": "S01",
+            "periodName": "1st Half",
+            "value": "104.550",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "S03",
+            "periodName": "Annual",
+            "value": "102.284",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "S02",
+            "periodName": "2nd Half",
+            "value": "102.524",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "S01",
+            "periodName": "1st Half",
+            "value": "102.045",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2019",
+            "period": "S03",
+            "periodName": "Annual",
+            "value": "101.752",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2019",
+            "period": "S02",
+            "periodName": "2nd Half",
+            "value": "101.288",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2019",
+            "period": "S01",
+            "periodName": "1st Half",
+            "value": "102.216",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2018",
+            "period": "S03",
+            "periodName": "Annual",
+            "value": "101.372",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2018",
+            "period": "S02",
+            "periodName": "2nd Half",
+            "value": "101.171",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2018",
+            "period": "S01",
+            "periodName": "1st Half",
+            "value": "101.573",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2017",
+            "period": "S03",
+            "periodName": "Annual",
+            "value": "101.858",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2017",
+            "period": "S02",
+            "periodName": "2nd Half",
+            "value": "100.904",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2017",
+            "period": "S01",
+            "periodName": "1st Half",
+            "value": "102.813",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2016",
+            "period": "S03",
+            "periodName": "Annual",
+            "value": "102.125",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2016",
+            "period": "S02",
+            "periodName": "2nd Half",
+            "value": "101.819",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2016",
+            "period": "S01",
+            "periodName": "1st Half",
+            "value": "102.432",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "S03",
+            "periodName": "Annual",
+            "value": "102.005",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "S02",
+            "periodName": "2nd Half",
+            "value": "101.743",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "S01",
+            "periodName": "1st Half",
+            "value": "102.266",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2014",
+            "period": "S03",
+            "periodName": "Annual",
+            "value": "101.383",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2014",
+            "period": "S02",
+            "periodName": "2nd Half",
+            "value": "101.336",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2014",
+            "period": "S01",
+            "periodName": "1st Half",
+            "value": "101.431",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2013",
+            "period": "S03",
+            "periodName": "Annual",
+            "value": "101.051",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2013",
+            "period": "S02",
+            "periodName": "2nd Half",
+            "value": "100.894",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2013",
+            "period": "S01",
+            "periodName": "1st Half",
+            "value": "101.207",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2012",
+            "period": "S03",
+            "periodName": "Annual",
+            "value": "99.970",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2012",
+            "period": "S02",
+            "periodName": "2nd Half",
+            "value": "99.963",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2012",
+            "period": "S01",
+            "periodName": "1st Half",
+            "value": "99.976",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2011",
+            "period": "S03",
+            "periodName": "Annual",
+            "value": "98.359",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2011",
+            "period": "S02",
+            "periodName": "2nd Half",
+            "value": "98.857",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2011",
+            "period": "S01",
+            "periodName": "1st Half",
+            "value": "97.861",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2010",
+            "period": "S03",
+            "periodName": "Annual",
+            "value": "95.651",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2010",
+            "period": "S02",
+            "periodName": "2nd Half",
+            "value": "95.476",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2010",
+            "period": "S01",
+            "periodName": "1st Half",
+            "value": "95.825",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2009",
+            "period": "S03",
+            "periodName": "Annual",
+            "value": "93.983",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2009",
+            "period": "S02",
+            "periodName": "2nd Half",
+            "value": "94.654",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2009",
+            "period": "S01",
+            "periodName": "1st Half",
+            "value": "93.313",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2008",
+            "period": "S03",
+            "periodName": "Annual",
+            "value": "93.012",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2008",
+            "period": "S02",
+            "periodName": "2nd Half",
+            "value": "92.066",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2008",
+            "period": "S01",
+            "periodName": "1st Half",
+            "value": "93.958",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2007",
+            "period": "S03",
+            "periodName": "Annual",
+            "value": "94.427",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2007",
+            "period": "S02",
+            "periodName": "2nd Half",
+            "value": "93.997",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2007",
+            "period": "S01",
+            "periodName": "1st Half",
+            "value": "94.858",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2006",
+            "period": "S03",
+            "periodName": "Annual",
+            "value": "95.4",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2006",
+            "period": "S02",
+            "periodName": "2nd Half",
+            "value": "94.8",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2006",
+            "period": "S01",
+            "periodName": "1st Half",
+            "value": "96.0",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2005",
+            "period": "S03",
+            "periodName": "Annual",
+            "value": "95.6",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2005",
+            "period": "S02",
+            "periodName": "2nd Half",
+            "value": "94.8",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2005",
+            "period": "S01",
+            "periodName": "1st Half",
+            "value": "96.4",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2004",
+            "period": "S03",
+            "periodName": "Annual",
+            "value": "95.1",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2004",
+            "period": "S02",
+            "periodName": "2nd Half",
+            "value": "94.6",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2004",
+            "period": "S01",
+            "periodName": "1st Half",
+            "value": "95.5",
+            "footnotes": [
+              {}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

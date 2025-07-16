@@ -1,0 +1,39 @@
+{
+  "Results": {
+    "series": [
+      {
+        "seriesID": "CUUS0000SEHP",
+        "data": [
+          {
+            "year": "2024",
+            "period": "S03",
+            "periodName": "Annual",
+            "latest": "true",
+            "value": "255.599",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2024",
+            "period": "S02",
+            "periodName": "2nd Half",
+            "value": "260.277",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2024",
+            "period": "S01",
+            "periodName": "1st Half",
+            "value": "250.920",
+            "footnotes": [
+              {}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

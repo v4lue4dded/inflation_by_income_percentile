@@ -1,0 +1,66 @@
+{
+  "Results": {
+    "series": [
+      {
+        "seriesID": "CUUS0000SS62011",
+        "data": [
+          {
+            "year": "2020",
+            "period": "S03",
+            "periodName": "Annual",
+            "latest": "true",
+            "value": "120.612",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "S02",
+            "periodName": "2nd Half",
+            "value": "121.242",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "S01",
+            "periodName": "1st Half",
+            "value": "119.982",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2018",
+            "period": "S03",
+            "periodName": "Annual",
+            "value": "119.995",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2018",
+            "period": "S02",
+            "periodName": "2nd Half",
+            "value": "120.592",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2018",
+            "period": "S01",
+            "periodName": "1st Half",
+            "value": "119.399",
+            "footnotes": [
+              {}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

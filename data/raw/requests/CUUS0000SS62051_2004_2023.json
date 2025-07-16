@@ -1,0 +1,93 @@
+{
+  "Results": {
+    "series": [
+      {
+        "seriesID": "CUUS0000SS62051",
+        "data": [
+          {
+            "year": "2020",
+            "period": "S03",
+            "periodName": "Annual",
+            "latest": "true",
+            "value": "124.263",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "S02",
+            "periodName": "2nd Half",
+            "value": "124.612",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "S01",
+            "periodName": "1st Half",
+            "value": "123.914",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2019",
+            "period": "S03",
+            "periodName": "Annual",
+            "value": "123.270",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2019",
+            "period": "S02",
+            "periodName": "2nd Half",
+            "value": "122.489",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2019",
+            "period": "S01",
+            "periodName": "1st Half",
+            "value": "124.050",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2018",
+            "period": "S03",
+            "periodName": "Annual",
+            "value": "128.595",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2018",
+            "period": "S02",
+            "periodName": "2nd Half",
+            "value": "129.405",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2018",
+            "period": "S01",
+            "periodName": "1st Half",
+            "value": "127.786",
+            "footnotes": [
+              {}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

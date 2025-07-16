@@ -46,12 +46,13 @@ cpi_series_df = (
 )
 cpi_series_df.columns = cpi_series_df.columns.str.strip()
 
-# Filter CPI: U.S. City Average, not seasonally adjusted, annual average
+# Filter CPI: U.S. City Average, getting semianual data will filter on full year later
 cpi_filtered = cpi_series_df[
-    # (cpi_series_df["area_code"]        == "0000") &   # U.S. city average
-    # (cpi_series_df["seasonal"]         == "U")    &   # unadjusted
-    (cpi_series_df["periodicity_code"] == "A")        # annual average
+    (cpi_series_df["area_code"] == "0000") &   # U.S. city average
+    (cpi_series_df["seasonal"]  == "U")    &    # unadjusted
+    (cpi_series_df["periodicity_code"] == "S")        # annual average
 ]
+
 
 # ────────────────────────  series dict  ───────────────────
 
@@ -84,7 +85,8 @@ for start, end in year_ranges:
         payload = {
             "seriesid": batch,
             "startyear": start,
-            "endyear": end
+            "endyear": end,
+            "annualaverage": "true",
         }
         if bls_api_key:
             payload["registrationkey"] = bls_api_key
