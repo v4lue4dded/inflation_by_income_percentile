@@ -10,3 +10,6 @@
 
 # Load demographics codes
 # Downloaded from: https://download.bls.gov/pub/time.series/cx/cx.demographics
+
+# Load concordance ce_cpi_concordance:
+# https://www.bls.gov/cpi/additional-resources/ce-cpi-concordance.htm
