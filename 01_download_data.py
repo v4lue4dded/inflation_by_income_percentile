@@ -31,11 +31,12 @@ ce_series_df.columns = ce_series_df.columns.str.strip()
 # Filter CE: average annual expenditures by income‑before‑tax quintile
 quints = ['02','03','04','05','06']
 ce_filtered = ce_series_df[
-    (ce_series_df["category_code"]      == "EXPEND") &
-    (ce_series_df["process_code"]       == "M")      &
-    (ce_series_df["demographics_code"]  == "LB01")   &
-    (ce_series_df["characteristics_code"].isin(quints))
+     (ce_series_df["category_code"]      == "EXPEND")   # total consumer expenditures
+   & (ce_series_df["process_code"]       == "M")        # mean (average) value
+   & (ce_series_df["demographics_code"]  == "LB01")     # income‑before‑tax classification
+#    & (ce_series_df["characteristics_code"].isin(quints)) # quintiles 
 ]
+
 
 # ────────────────────────────────────────────────────────────────────────────────
 # Load CPI (Consumer Price Index) series metadata
@@ -49,8 +50,8 @@ cpi_series_df.columns = cpi_series_df.columns.str.strip()
 # Filter CPI: U.S. City Average, getting semianual data will filter on full year later
 cpi_filtered = cpi_series_df[
     (cpi_series_df["area_code"] == "0000") &   # U.S. city average
-    (cpi_series_df["seasonal"]  == "U")    &    # unadjusted
-    (cpi_series_df["periodicity_code"] == "S")        # annual average
+    (cpi_series_df["seasonal"]  == "U")    &   # unadjusted
+    (cpi_series_df["periodicity_code"] == "S") # annual average
 ]
 
 

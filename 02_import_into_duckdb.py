@@ -43,13 +43,14 @@ for fp in requests_dir.glob("*.json"):
                     "seriesID":  sid,
                     "period":    obs["year"],          # store the calendar year
                     "periodName": obs["periodName"],   # e.g. "Annual"
-                    "value":     float(obs["value"]),
+                    "value":     obs["value"],
                     "footnotes": footnote_text,
                 }
             )
 
 # Put everything into a DataFrame
 df = pd.DataFrame(records)
+df["value"] = pd.to_numeric(df["value"], errors="coerce")
 
 # ────────────────────────────────────────────────────────────────────────────────
 # Write to DuckDB
