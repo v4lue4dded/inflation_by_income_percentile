@@ -1,0 +1,1199 @@
+subcategory_code	item_code	item_text	display_level	selectable	sort_sequence
+ALCBEVG	200111	Beer and ale	2	T	20150
+ALCBEVG	200119	Beer, ale, and other malt beverage	2	T	20200
+ALCBEVG	200210	Whiskey	2	T	20300
+ALCBEVG	200219	Distilled spirits	2	T	20250
+ALCBEVG	200310	Wine	2	T	20350
+ALCBEVG	200410	Other alcoholic beverages	2	T	20400
+ALCBEVG	200511	Beer and ale at fast food, carry out, delivery, concession stands, buffets, and cafeterias	3	T	20550
+ALCBEVG	200512	Beer and ale at full service restaurants	3	T	20600
+ALCBEVG	200513	Beer and ale at vending machines and mobile vendors	3	T	20650
+ALCBEVG	200514	Beer at employer	3	T	20700
+ALCBEVG	200515	Beer at board	3	T	20750
+ALCBEVG	200516	Beer and ale at catered affairs	3	T	20800
+ALCBEVG	200521	Wine at fast food, carry out, delivery, concession stands, buffets, and cafeterias	3	T	20900
+ALCBEVG	200522	Wine at full service restaurants	3	T	20950
+ALCBEVG	200523	Wine at vending machines and mobile vendors	3	T	21000
+ALCBEVG	200524	Wine at employer	3	T	21050
+ALCBEVG	200525	Wine at board	3	T	21100
+ALCBEVG	200526	Wine at catered affairs	3	T	21150
+ALCBEVG	200531	Other alcoholic beverages at fast food, carry out, delivery, concession stands, buffets, and cafeterias	3	T	21250
+ALCBEVG	200532	Other alcoholic beverages at full service restaurants	3	T	21300
+ALCBEVG	200533	Other alcoholic beverages at vending machines and mobile vendors	3	T	21350
+ALCBEVG	200534	Other alcohol at employer	3	T	21400
+ALCBEVG	200535	Other alcohol at board	3	T	21450
+ALCBEVG	200536	Other alcoholic beverages at catered affairs	3	T	21500
+ALCBEVG	200900	Alcoholic beverages purchased on trips	2	T	21550
+ALCBEVG	790420	Alcoholic beverages at restaurants, taverns	2	T	21600
+ALCBEVG	ALCAWAY	Away from home	1	T	20450
+ALCBEVG	ALCBEVG	Alcoholic beverages	0	T	20050
+ALCBEVG	ALCHOME	At home	1	T	20100
+ALCBEVG	BEERNALE	Beer and ale	2	T	20500
+ALCBEVG	OTHALCBV	Other alcoholic beverages	2	T	21200
+ALCBEVG	WINE	Wine	2	T	20850
+APPAREL	360110	Men's suits	3	T	35800
+APPAREL	360120	Men's sportcoats and tailored jackets	3	T	35850
+APPAREL	360210	Men's coats and jackets	3	T	35900
+APPAREL	360311	Men's underwear	3	T	35950
+APPAREL	360312	Men's hosiery	3	T	36000
+APPAREL	360319	Men's underwear, hosiery, nightwear, and swimwear	2	T	36150
+APPAREL	360320	Men's nightwear	3	T	36050
+APPAREL	360330	Men's accessories	3	T	36100
+APPAREL	360340	Men's sweaters and vests	3	T	36250
+APPAREL	360350	Men's active sportswear	3	T	36300
+APPAREL	360360	Men's swimwear	3	T	36400
+APPAREL	360410	Men's shirts	3	T	36350
+APPAREL	360420	Men's shirts, sweaters, and vests	3	T	36200
+APPAREL	360513	Men's pants and shorts	3	T	36450
+APPAREL	360901	Men's uniforms	3	T	36500
+APPAREL	360902	Men's costumes	3	T	36550
+APPAREL	370110	Boys' coats and jackets	3	T	36650
+APPAREL	370120	Boys' sweaters	3	T	36700
+APPAREL	370125	Boys' shirts and sweaters	3	T	36800
+APPAREL	370130	Boys' shirts	3	T	36750
+APPAREL	370211	Boys' underwear	3	T	36900
+APPAREL	370212	Boys' nightwear	3	T	36950
+APPAREL	370213	Boys' hosiery	3	T	37000
+APPAREL	370219	Boy's underwear, hosiery, nightwear, and swimwear	2	T	36850
+APPAREL	370220	Boys' accessories	3	T	37050
+APPAREL	370311	Boys' suits, sportcoats, and vests	3	T	37150
+APPAREL	370314	Boys' pants and shorts	3	T	37200
+APPAREL	370319	Boy's suits, sportscoats, pants, and shorts	2	T	37100
+APPAREL	370360	Boys' swimwear	3	T	37450
+APPAREL	370901	Boys' uniforms and active sportswear	3	T	37350
+APPAREL	370902	Boys' costumes	3	T	37400
+APPAREL	370903	Boys' uniforms	3	T	37250
+APPAREL	370904	Boys' active sportswear	3	T	37300
+APPAREL	380110	Women's coats and jackets	3	T	37600
+APPAREL	380210	Women's dresses	3	T	37650
+APPAREL	380311	Women's sportcoats and tailored jackets	3	T	37850
+APPAREL	380312	Women's vests and sweaters	3	T	37900
+APPAREL	380313	Women's shirts, tops, blouses	3	T	37950
+APPAREL	380315	Women's sweaters, shirts, tops, and vests	3	T	38000
+APPAREL	380319	Women's tops	2	T	37700
+APPAREL	380320	Women's skirts	3	T	38050
+APPAREL	380333	Women's pants and shorts	3	T	38100
+APPAREL	380339	Women's skirts, pants, and shorts	2	T	37750
+APPAREL	380340	Women's active sportswear	3	T	38150
+APPAREL	380360	Women's swimwear	3	T	38200
+APPAREL	380410	Women's sleepwear	3	T	38250
+APPAREL	380420	Women's undergarments	3	T	38300
+APPAREL	380429	Women's undergarments, nightwear, and swimwear	2	T	37800
+APPAREL	380430	Women's hosiery	3	T	38350
+APPAREL	380510	Women's suits	3	T	38400
+APPAREL	380901	Women's accessories	3	T	38450
+APPAREL	380902	Women's uniforms	3	T	38550
+APPAREL	380903	Women's costumes	3	T	38600
+APPAREL	380909	Women's costumes and uniforms	2	T	38500
+APPAREL	390110	Girls' coats and jackets	3	T	38700
+APPAREL	390120	Girls' dresses and suits	3	T	38750
+APPAREL	390210	Girls' shirts, blouses, sweaters, and vests	3	T	38800
+APPAREL	390223	Girls' skirts, pants, and shorts	3	T	38850
+APPAREL	390230	Girls' active sportswear	3	T	38950
+APPAREL	390310	Girls' underwear and sleepwear	3	T	39000
+APPAREL	390319	Girl's underwear, nightwear, hosiery, and swimwear	2	T	38900
+APPAREL	390321	Girls' hosiery	3	T	39050
+APPAREL	390322	Girls' accessories	3	T	39100
+APPAREL	390360	Girls' swimwear	3	T	39250
+APPAREL	390901	Girls' uniforms	3	T	39150
+APPAREL	390902	Girls' costumes	3	T	39200
+APPAREL	400110	Men's footwear	2	T	39700
+APPAREL	400210	Boys' footwear	2	T	39750
+APPAREL	400220	Girls' footwear	2	T	39850
+APPAREL	400310	Women's footwear	2	T	39800
+APPAREL	410110	Infant coats, jackets, and snowsuits	2	T	39400
+APPAREL	410119	Infant's and toddler's outerwear, dresses, nightwear, and accessories	2	T	39350
+APPAREL	410120	Infant dresses and outerwear	2	T	39450
+APPAREL	410130	Infant underwear	2	T	39500
+APPAREL	410140	Infant nightwear and loungewear	2	T	39550
+APPAREL	410901	Infant accessories	2	T	39600
+APPAREL	420110	Material for making clothes	2	T	40000
+APPAREL	420115	Material and supplies for sewing, needlework, and quilting (includes household items)	2	T	39950
+APPAREL	420120	Sewing patterns and notions	2	T	40050
+APPAREL	430110	Watches	2	T	40500
+APPAREL	430120	Jewelry	2	T	40100
+APPAREL	440110	Shoe repair and other shoe services	2	T	40150
+APPAREL	440120	Coin-operated apparel laundry and dry cleaning	2	T	40200
+APPAREL	440130	Alteration, repair, and tailoring of apparel and accessories	2	T	40250
+APPAREL	440140	Clothing rental	2	T	40300
+APPAREL	440150	Watch and jewelry repair	2	T	40350
+APPAREL	440210	Apparel laundry and dry cleaning not coin-operated	2	T	40400
+APPAREL	440900	Clothing storage	2	T	40450
+APPAREL	APPAREL	Apparel and services	0	T	35650
+APPAREL	BOYS	Boys, 2 to 15	2	T	36600
+APPAREL	FOOTWEAR	Footwear	1	T	39650
+APPAREL	GIRLS	Girls, 2 to 15	2	T	38650
+APPAREL	INFANT	Children under 2	1	T	39300
+APPAREL	MENBOYS	Men and boys	1	T	35700
+APPAREL	MENS	Men, 16 and over	2	T	35750
+APPAREL	OTHAPPRL	Other apparel products and services	1	T	39900
+APPAREL	WMNSGRLS	Women and girls	1	T	37500
+APPAREL	WOMENS	Women, 16 and over	2	T	37550
+CASHCONT	800111	Alimony expenditures	1	T	58000
+CASHCONT	800121	Child support expenditures	1	T	58050
+CASHCONT	800804	Support for college students	1	T	57950
+CASHCONT	800811	Gift to non-CU members of stocks, bonds, and mutual funds	1	T	58100
+CASHCONT	800821	Cash contributions to charities and other organizations	1	T	58150
+CASHCONT	800831	Cash contributions to churches and other religious organizations	1	T	58200
+CASHCONT	800841	Cash contribution to educational institutions	1	T	58250
+CASHCONT	800851	Cash contribution to political organizations	1	T	58300
+CASHCONT	800861	Other cash gifts	1	T	58350
+CASHCONT	CASHCONT	Cash contributions	0	T	57900
+CHGASLI	001000	Purchase price of stocks, bonds or mutual funds	4	T	62200
+CHGASLI	001010	Sale price of stocks, bonds, and mutual funds, net	4	T	62250
+CHGASLI	001210	Investments to farm or business	3	T	62500
+CHGASLI	001220	Assets taken from farm or business	3	T	62550
+CHGASLI	002010	Change in savings account	3	T	62000
+CHGASLI	002020	Change in checking account	3	T	62050
+CHGASLI	002030	Change in U.S. savings bonds	3	T	62100
+CHGASLI	003000	Change in money owed to consumer unit	3	T	62400
+CHGASLI	003100	Change in surrender of insurance policies	2	T	63050
+CHGASLI	005100	Value of savings, checking, money market, and CDs	4	T	61900
+CHGASLI	005110	Value of savings, checking, money market, and CDs one year ago	4	T	61950
+CHGASLI	005200	Value of retirement plans	3	T	62800
+CHGASLI	005210	Value of retirement plans one year ago	3	T	62850
+CHGASLI	005300	Surrender value of whole life insurance policies	3	T	62650
+CHGASLI	005310	Surrender value of whole life insurance policies one year ago	3	T	62700
+CHGASLI	005400	Amount owed on credit cards	3	T	66150
+CHGASLI	005410	Amount owed on credit cards one year ago	3	T	66200
+CHGASLI	005500	Amount owed on student loans	3	T	66250
+CHGASLI	005510	Amount owed on student loans one year ago	3	T	66300
+CHGASLI	005600	Amount owed on other loans	3	T	66350
+CHGASLI	005610	Amount owed on other loans one year ago	3	T	66400
+CHGASLI	005700	Value of other financial assets	3	T	62950
+CHGASLI	005710	Value of other financial assets one year ago	3	T	63000
+CHGASLI	005800	Value of stocks, bonds, and mutual funds	4	T	62300
+CHGASLI	005810	Value of stocks, bonds, and mutual funds one year ago	4	T	62350
+CHGASLI	006003	Total amount owed 2nd interview, CY Q1	3	T	65650
+CHGASLI	006004	Total amount owed 5th interview, CY Q1	3	T	65700
+CHGASLI	006005	Total amount owed 2nd interview, CY+1, Q1	3	T	65750
+CHGASLI	006006	Total amount owed 5th interview, CY+1, Q1	3	T	65800
+CHGASLI	006007	Total amt owed CY Q1	3	T	65550
+CHGASLI	006008	Total amt owed CY+1, Q1	3	T	65600
+CHGASLI	220512	Materials and supplies purchased for insulation, dwellings under construction, additions, finishing, remodeling, landscaping, etc.	4	T	63650
+CHGASLI	220513	Supplies purchased for additions, maintenance, repairs, and new construction	3	T	64250
+CHGASLI	220611	Capital improvements: labor and materials (owned home)	3	T	63500
+CHGASLI	220612	Dishwasher, disposal, or range hood	4	T	63700
+CHGASLI	220615	Capital improvements: labor and materials (owned vacation)	3	T	64200
+CHGASLI	220616	Wall-to-wall carpeting	3	T	63550
+CHGASLI	790610	Contractors labor and materials, supplies CU obtained, appliances provided by contractor, and other property	4	T	64800
+CHGASLI	790611	Dishwasher, disposal, and range hood capital improvement (other property)	4	T	64900
+CHGASLI	790620	Management services and improvements of other properties	4	T	64850
+CHGASLI	790630	Special assessments (other property)	3	T	64450
+CHGASLI	790640	Property management, security, parking (other property)	3	T	64700
+CHGASLI	790710	Purchase price of property (other property)	3	T	64350
+CHGASLI	790730	Closing costs purchase of property (other property)	3	T	64400
+CHGASLI	790810	Sale price of property or trade-in amount (other property)	3	T	64500
+CHGASLI	790830	Total expenses in sale of property (other property)	3	T	64600
+CHGASLI	790910	Special lump sum mortgage payments (other property)	3	T	67200
+CHGASLI	790930	Original loan amount (mortgage obtained during interview quarter) (other property)	3	T	67300
+CHGASLI	790940	Reduction mortgage principal, home equity loan (other property)	3	T	67250
+CHGASLI	790950	Original loan amount, home equity loan (loan obtained during interview quarter) (other property)	3	T	67350
+CHGASLI	810101	Purchase price of property (owned home)	3	T	63150
+CHGASLI	810102	Purchase price of property (owned vacation)	3	T	63850
+CHGASLI	810301	Closing costs purchase of property (owned home)	3	T	63200
+CHGASLI	810302	Closing costs on purchase of property (owned vacation)	3	T	63900
+CHGASLI	820101	Sale price of property or trade-in amount (owned home)	3	T	63300
+CHGASLI	820102	Sale price of property or trade-in amount (owned vacation)	3	T	64000
+CHGASLI	820202	Mortgage principal held after sale of real estate (owned vacation)	3	T	64050
+CHGASLI	820301	Total expenses in sale of property (owned home)	3	T	63400
+CHGASLI	820302	Total expenses in sale of property (owned vacation)	3	T	64100
+CHGASLI	830101	Special lump sum mortgage payment (owned home)	3	T	66500
+CHGASLI	830102	Special lump sum mortgage payment (owned vacation)	3	T	66850
+CHGASLI	830201	Reduction of mortgage principal (owned home)	3	T	66550
+CHGASLI	830202	Reduction of mortgage principal (owned vacation)	3	T	66900
+CHGASLI	830203	Reduction of mortgage principal, home equity loan (owned home)	3	T	66600
+CHGASLI	830204	Reduction mortgage principal, home equity loan (owned vacation)	3	T	66950
+CHGASLI	830301	Original loan amount (mortgage obtained during interview quarter) (owned home)	3	T	66650
+CHGASLI	830302	Original loan amount (mortgage obtained during interview quarter) (owned vacation)	3	T	67000
+CHGASLI	830303	Original loan amount, home equity loan (loan obtained during interview quarter) (owned home)	3	T	66700
+CHGASLI	830304	Original loan amount, home equity loan (loan obtained during interview quarter) (owned vacation)	3	T	67050
+CHGASLI	840101	Special assessments (owned home)	3	T	63250
+CHGASLI	840102	Special assessments (owned vacation)	3	T	63950
+CHGASLI	850100	Reduction of vehicle loan principal	3	T	67500
+CHGASLI	850200	Vehicle principal balance (loan obtained during interview quarter)	3	T	67550
+CHGASLI	860100	Sale of automobiles	3	T	65000
+CHGASLI	860200	Sale of trucks, including vans	3	T	65050
+CHGASLI	860301	Sale of motor camper	3	T	65100
+CHGASLI	860302	Sale of other vehicles	3	T	65150
+CHGASLI	860400	Sale of trailer type and other attachable campers	3	T	65200
+CHGASLI	860500	Sale of motorcycles	3	T	65250
+CHGASLI	860600	Sale of boats, with motors	3	T	65300
+CHGASLI	860700	Sale of boats, without motors and boat trailers	3	T	65350
+CHGASLI	860800	Sale of aircraft	3	T	65400
+CHGASLI	880120	Principal paid, home equity line of credit (owned home)	3	T	66750
+CHGASLI	880220	Principal paid, home equity line of credit (other property)	3	T	67400
+CHGASLI	880320	Principal paid, home equity line of credit (owned vacation)	3	T	67100
+CHGASLI	990950	Labor and materials for dwellings under construction and additions	4	T	63750
+CHGASLI	CAPIMPOH	Capital improvement material (owned home)	3	T	63600
+CHGASLI	CAPIMPOP	Capital improvement services, labor, materials, and equipment (other property)	3	T	64750
+CHGASLI	CHGACCNT	Change in accounts	2	T	61800
+CHGASLI	CHGASLI	Net change in total assets and liabilities	0	T	61700
+CHGASLI	CHGASSET	Net change in total assets	1	T	61750
+CHGASLI	CHGCAPOH	Change in capital improvements (owned home)	2	T	63450
+CHGASLI	CHGCAPOP	Change in capital improvements (other property)	2	T	64650
+CHGASLI	CHGCAPOV	Change in capital improvements (owned vacation)	2	T	64150
+CHGASLI	CHGCREDT	Change in amount owed to creditors	2	T	65500
+CHGASLI	CHGINSUR	Change in surrender of insurance policies	2	T	62600
+CHGASLI	CHGINVST	Change in investments to own farm or business	2	T	62450
+CHGASLI	CHGLIAB	Net change in total liabilities	1	T	65450
+CHGASLI	CHGMTGOH	Change in mortgage principal (owned home)	2	T	66450
+CHGASLI	CHGMTGOP	Change in mortgage principal (other property)	2	T	67150
+CHGASLI	CHGMTGOV	Change in mortgage principal (owned vacation)	2	T	66800
+CHGASLI	CHGOTHFN	Change in value of other financial assets	2	T	62900
+CHGASLI	CHGPRTOH	Change in net property holdings (owned home)	2	T	63100
+CHGASLI	CHGPRTOP	Change in net property holdings (other property)	2	T	64300
+CHGASLI	CHGPRTOV	Change in net property holdings (owned vacation)	2	T	63800
+CHGASLI	CHGRET	Change in value of retirement plans	2	T	62750
+CHGASLI	CHGSAVNG	Change in value of savings, checking, money market, and CDs	3	T	61850
+CHGASLI	CHGSECUR	Change in securities	3	T	62150
+CHGASLI	CHGVEH	Change in vehicle sales	2	T	64950
+CHGASLI	CHGVEHPR	Change in principal on vehicles	2	T	67450
+CONSUNIT	CONSUNIT	Number of consumer units (in thousands)	0	T	68700
+EDUCATN	005520	Finance, late, and interest charges for student loans	1	T	55700
+EDUCATN	660000	School supplies, etc., unspecified	1	T	56600
+EDUCATN	660001	Educational books, supplies, and other expenditures	2	T	55850
+EDUCATN	660110	School books, supplies, equipment for college	1	T	56050
+EDUCATN	660115	School books for college	1	T	56100
+EDUCATN	660210	School books, supplies, equipment for elementary, high school	1	T	56150
+EDUCATN	660215	School books for elementary and high schools	1	T	56200
+EDUCATN	660410	School books, supplies, equipment for vocational and technical schools	1	T	56250
+EDUCATN	660415	School books for vocational and technical schools	1	T	56300
+EDUCATN	660901	School books, supplies, equipment for day care, nursery	1	T	56350
+EDUCATN	660902	School books, supplies, equipment for other schools	1	T	56400
+EDUCATN	660903	School books for day cares and nurseries	1	T	56450
+EDUCATN	660905	School books for other schools	1	T	56500
+EDUCATN	660906	School supplies and equipment	1	T	56550
+EDUCATN	670110	College tuition	1	T	55550
+EDUCATN	670210	Elementary and high school tuition	1	T	55600
+EDUCATN	670410	Vocational and technical school tuition	1	T	55650
+EDUCATN	670901	Other schools' tuition	1	T	55950
+EDUCATN	670902	Other school expenses including rentals	1	T	56000
+EDUCATN	670903	Test preparation and tutoring services	1	T	55750
+EDUCATN	671000	Prepaid tuition	2	T	55900
+EDUCATN	920050	Educational savings account	2	T	55800
+EDUCATN	EDUCATN	Education	0	T	55500
+ENTRTAIN	270310	Cable and satellite television services	2	T	49950
+ENTRTAIN	270311	Satellite radio services	2	T	50100
+ENTRTAIN	310140	Televisions	2	T	49900
+ENTRTAIN	310210	VCR's and video disc players	2	T	50250
+ENTRTAIN	310220	Video cassettes, tapes, and discs	2	T	50400
+ENTRTAIN	310230	Video game hardware and software	2	T	50350
+ENTRTAIN	310231	Video game software	2	T	50450
+ENTRTAIN	310232	Video game hardware and accessories	2	T	50500
+ENTRTAIN	310240	Streaming, downloading video	2	T	50550
+ENTRTAIN	310243	Rental, streaming, and downloading videos	2	T	50600
+ENTRTAIN	310311	Radios (thru Q20131)	2	T	49700
+ENTRTAIN	310312	Phonographs	2	T	49800
+ENTRTAIN	310313	Tape recorders and players	2	T	49850
+ENTRTAIN	310314	Personal digital audio players	2	T	50800
+ENTRTAIN	310315	Digital media players and recorders	2	T	50300
+ENTRTAIN	310316	Stereos, radios, speakers, and sound components including those in vehicles	2	T	49750
+ENTRTAIN	310320	Sound components and component systems	2	T	50850
+ENTRTAIN	310331	Miscellaneous sound equipment	2	T	50000
+ENTRTAIN	310332	Sound equipment accessories	2	T	50150
+ENTRTAIN	310334	Satellite dishes	2	T	50900
+ENTRTAIN	310335	Miscellaneous video equipment	2	T	50050
+ENTRTAIN	310340	CDs, records, and audio tapes	2	T	50950
+ENTRTAIN	310350	Streaming and downloading audio	2	T	51000
+ENTRTAIN	310400	Applications, games, and ringtones for handheld devices	2	T	50650
+ENTRTAIN	340610	Repair of televisions, radio, and sound equipment	2	T	50700
+ENTRTAIN	340902	Rental of televisions	2	T	50750
+ENTRTAIN	340905	Rental of VCR, radio, and sound equipment	2	T	51050
+ENTRTAIN	520901	Docking and landing fees	2	T	52950
+ENTRTAIN	520904	Rental noncamper trailers	3	T	52550
+ENTRTAIN	520907	Boat and trailer rentals on out of town trips	3	T	52600
+ENTRTAIN	600110	Outboard motors	2	T	52900
+ENTRTAIN	600121	Boats without motor and boat trailers	3	T	52200
+ENTRTAIN	600122	Trailer and other attachable campers	3	T	52250
+ENTRTAIN	600132	Purchase of boats with motor	3	T	52450
+ENTRTAIN	600141	Purchase of motorized campers	3	T	52350
+ENTRTAIN	600142	Purchase of other vehicles	3	T	52400
+ENTRTAIN	600210	Athletic gear, game tables, and exercise equipment	3	T	53050
+ENTRTAIN	600310	Bicycles	3	T	53100
+ENTRTAIN	600311	Bike and E-scooter sharing or rental	3	T	53200
+ENTRTAIN	600315	Scooters and other single-rider transportation	3	T	53150
+ENTRTAIN	600410	Camping equipment	3	T	53250
+ENTRTAIN	600420	Hunting and fishing equipment	3	T	53300
+ENTRTAIN	600430	Winter sports equipment	3	T	53350
+ENTRTAIN	600901	Water sports equipment	3	T	53400
+ENTRTAIN	600902	Other sports equipment	3	T	53450
+ENTRTAIN	600903	Global positioning system devices	3	T	53500
+ENTRTAIN	610110	Toys, games, arts and crafts, and tricycles	3	T	51950
+ENTRTAIN	610120	Playground equipment	3	T	52050
+ENTRTAIN	610130	Musical instruments and accessories	2	T	51100
+ENTRTAIN	610140	Stamp and coin collecting	3	T	52000
+ENTRTAIN	610210	Film	3	T	53650
+ENTRTAIN	610220	Other photographic supplies	3	T	53700
+ENTRTAIN	610230	Photographic equipment	3	T	53850
+ENTRTAIN	610310	Pet food	3	T	51700
+ENTRTAIN	610320	Pet purchase, supplies, and medicine	3	T	51750
+ENTRTAIN	610900	Recreation expenses on out of town trips	2	T	48950
+ENTRTAIN	610901	Fireworks	2	T	53950
+ENTRTAIN	610902	Souvenirs	2	T	54000
+ENTRTAIN	610903	Visual goods	2	T	54050
+ENTRTAIN	620111	Social, recreation, and health club memberships	2	T	49000
+ENTRTAIN	620121	Fees for participant sports	2	T	49050
+ENTRTAIN	620122	Participant sports on out of town trips	2	T	49100
+ENTRTAIN	620211	Movie, theater, amusement parks, and other	2	T	49150
+ENTRTAIN	620212	Movie and other admissions on out of town trips	2	T	49400
+ENTRTAIN	620213	Plays, theater, operas, and concerts	2	T	49200
+ENTRTAIN	620214	Movies, parks, museums	2	T	49250
+ENTRTAIN	620215	Tickets to movies	2	T	49300
+ENTRTAIN	620216	Tickets to parks or museums	2	T	49350
+ENTRTAIN	620221	Admission to sporting events	2	T	49450
+ENTRTAIN	620222	Admission to sports events on out of town trips	2	T	49500
+ENTRTAIN	620310	Fees for recreational lessons	2	T	49550
+ENTRTAIN	620320	Photographer fees	3	T	53900
+ENTRTAIN	620330	Photo processing	3	T	53750
+ENTRTAIN	620410	Pet services	3	T	51800
+ENTRTAIN	620420	Vet services	3	T	51850
+ENTRTAIN	620903	Other entertainment services on out of town trips	2	T	49600
+ENTRTAIN	620904	Rental and repair of musical instruments	2	T	51150
+ENTRTAIN	620905	Repair and rental of photographic equipment	3	T	53800
+ENTRTAIN	620906	Rental of boats	3	T	52750
+ENTRTAIN	620908	Rental and repair of miscellaneous sports equipment	3	T	53550
+ENTRTAIN	620909	Rental of campers on out of town trips	3	T	52650
+ENTRTAIN	620912	Rental of video cassettes, tapes, films, and discs	2	T	51200
+ENTRTAIN	620913	Pinball and electronic video games	2	T	54100
+ENTRTAIN	620916	Rental of computer and video game hardware and software	2	T	51250
+ENTRTAIN	620917	Rental of video hardware/accessories	2	T	51300
+ENTRTAIN	620918	Rental of video software	2	T	51350
+ENTRTAIN	620919	Rental of other vehicles on out of town trips	3	T	52700
+ENTRTAIN	620921	Rental of motorized campers	3	T	52800
+ENTRTAIN	620922	Rental of other recreational vehicles	3	T	52850
+ENTRTAIN	620930	Online gaming services	2	T	50200
+ENTRTAIN	680310	Live entertainment for catered affairs	2	T	54150
+ENTRTAIN	680320	Rental of party supplies for catered affairs	2	T	54200
+ENTRTAIN	690320	Installation of televisions	2	T	51400
+ENTRTAIN	690330	Installation of satellite television equipment	2	T	51450
+ENTRTAIN	690340	Installation of sound systems	2	T	51500
+ENTRTAIN	690350	Installation of other video equipment or sound systems	2	T	51550
+ENTRTAIN	ENTEROTH	Other entertainment supplies, equipment, and services	1	T	52100
+ENTRTAIN	ENTRTAIN	Entertainment	0	T	48850
+ENTRTAIN	FEESADM	Fees and admissions	1	T	48900
+ENTRTAIN	PETS	Pets	2	T	51650
+ENTRTAIN	PETSPLAY	Pets, toys, hobbies, and playground equipment	1	T	51600
+ENTRTAIN	PHOTOEQ	Photographic equipment, supplies, and services	2	T	53600
+ENTRTAIN	PWRSPVEH	Motorized recreational vehicles	2	T	52300
+ENTRTAIN	RECEQUIP	Sports, recreation, and exercise equipment	2	T	53000
+ENTRTAIN	RNTSPVEH	Rental of recreational vehicles	2	T	52500
+ENTRTAIN	TOYS	Toys, hobbies, and playground equipment	2	T	51900
+ENTRTAIN	TVAUDIO	Audio and visual equipment and services	1	T	49650
+ENTRTAIN	UNMTRBOT	Un-motored recreational vehicles	2	T	52150
+FOODTOTL	010110	Flour	4	T	10250
+FOODTOTL	010119	Flour and prepared flour mixes	2	T	10350
+FOODTOTL	010120	Prepared flour mixes	4	T	10300
+FOODTOTL	010210	Cereal, breakfast, and granola bars	4	T	10400
+FOODTOTL	010310	Rice	4	T	10450
+FOODTOTL	010320	Pasta, cornmeal, and other cereal products	4	T	10500
+FOODTOTL	020110	White bread	5	T	10650
+FOODTOTL	020210	Bread, other than white	5	T	10700
+FOODTOTL	020219	Bread	2	T	10750
+FOODTOTL	020310	Biscuits and rolls	5	T	11050
+FOODTOTL	020410	Cakes and cupcakes	5	T	11100
+FOODTOTL	020510	Cookies	5	T	10850
+FOODTOTL	020610	Crackers	5	T	10900
+FOODTOTL	020620	Bread and cracker products	5	T	11150
+FOODTOTL	020710	Sweetrolls, coffee cakes, and doughnuts	5	T	11200
+FOODTOTL	020810	Frozen and refrigerated bakery products	4	T	10950
+FOODTOTL	020820	Pies, tarts, and turnovers	5	T	11250
+FOODTOTL	030110	Ground beef	4	T	11400
+FOODTOTL	030210	Chuck roast	5	T	11500
+FOODTOTL	030219	Roasts	2	T	11650
+FOODTOTL	030310	Round roast	5	T	11550
+FOODTOTL	030410	Other roast	5	T	11600
+FOODTOTL	030510	Round steak	5	T	11800
+FOODTOTL	030519	Steak	2	T	11700
+FOODTOTL	030610	Sirloin steak	5	T	11850
+FOODTOTL	030710	Other steak	5	T	11900
+FOODTOTL	030810	Other beef	4	T	11950
+FOODTOTL	040110	Bacon	4	T	12050
+FOODTOTL	040119	Bacon, breakfast sausage, and related products	2	T	12100
+FOODTOTL	040210	Pork chops	4	T	12200
+FOODTOTL	040310	Ham, not canned	5	T	12300
+FOODTOTL	040319	Ham	2	T	12150
+FOODTOTL	040410	Other pork	4	T	12450
+FOODTOTL	040510	Sausage	4	T	12400
+FOODTOTL	040610	Canned ham	5	T	12350
+FOODTOTL	050110	Frankfurters	4	T	12550
+FOODTOTL	050210	Bologna, liverwurst, and salami	5	T	12750
+FOODTOTL	050310	Other lunchmeats	5	T	12800
+FOODTOTL	050319	Lunchmeats	2	T	12650
+FOODTOTL	050410	Lamb and organ meats	5	T	12900
+FOODTOTL	050419	Lamb, organ meat, and game	2	T	12700
+FOODTOTL	050900	Mutton, goat, and game	5	T	12950
+FOODTOTL	060110	Fresh and frozen whole chickens	5	T	13150
+FOODTOTL	060119	Chicken	2	T	13050
+FOODTOTL	060210	Fresh and frozen chicken parts	5	T	13200
+FOODTOTL	060310	Other poultry	4	T	13250
+FOODTOTL	070110	Canned fish and seafood	4	T	13350
+FOODTOTL	070119	Processed fish and seafood	2	T	13500
+FOODTOTL	070230	Fresh fish and shellfish	4	T	13400
+FOODTOTL	070240	Frozen fish and shellfish	4	T	13450
+FOODTOTL	080110	Eggs	3	T	13550
+FOODTOTL	090110	Fresh milk, all types	4	T	13700
+FOODTOTL	090210	Cream	4	T	13750
+FOODTOTL	100110	Butter	4	T	13850
+FOODTOTL	100119	Butter and margarine	2	T	13900
+FOODTOTL	100210	Cheese	4	T	13950
+FOODTOTL	100410	Ice cream and related products	4	T	14000
+FOODTOTL	100510	Miscellaneous dairy products	4	T	14100
+FOODTOTL	100519	Other dairy and related products	2	T	14050
+FOODTOTL	110110	Apples	4	T	14500
+FOODTOTL	110210	Bananas	4	T	14550
+FOODTOTL	110310	Oranges	4	T	14650
+FOODTOTL	110319	Citrus fruits	2	T	14600
+FOODTOTL	110410	Other fresh fruits	4	T	14750
+FOODTOTL	110510	Citrus fruits, excluding oranges	4	T	14700
+FOODTOTL	120110	Potatoes	4	T	14850
+FOODTOTL	120210	Lettuce	4	T	14900
+FOODTOTL	120310	Tomatoes	4	T	14950
+FOODTOTL	120410	Other fresh vegetables	4	T	15000
+FOODTOTL	130110	Frozen orange juice	5	T	15150
+FOODTOTL	130119	Frozen noncarbonated juices and drinks	2	T	14250
+FOODTOTL	130121	Frozen fruits	5	T	15200
+FOODTOTL	130122	Frozen fruit juices	5	T	15250
+FOODTOTL	130129	Frozen fruits and vegetables	2	T	14400
+FOODTOTL	130211	Fresh fruit juice	4	T	15400
+FOODTOTL	130212	Canned and bottled fruit juice	4	T	15450
+FOODTOTL	130310	Canned fruits	4	T	15300
+FOODTOTL	130320	Dried fruits	4	T	15350
+FOODTOTL	140110	Frozen vegetables	4	T	15550
+FOODTOTL	140210	Canned beans	5	T	15650
+FOODTOTL	140219	Canned fruits and vegetables	2	T	14350
+FOODTOTL	140220	Canned corn	5	T	15700
+FOODTOTL	140230	Canned miscellaneous vegetables	5	T	15750
+FOODTOTL	140310	Dried processed vegetables	5	T	15950
+FOODTOTL	140320	Dried peas	5	T	15800
+FOODTOTL	140330	Dried beans	5	T	15850
+FOODTOTL	140340	Dried miscellaneous vegetables	5	T	15900
+FOODTOTL	140349	Dried fruits and vegetables	2	T	14300
+FOODTOTL	140410	Frozen vegetable juices	5	T	16000
+FOODTOTL	140420	Fresh and canned vegetable juices	5	T	16050
+FOODTOTL	150110	Candy and chewing gum	4	T	16200
+FOODTOTL	150211	Sugar	4	T	16300
+FOODTOTL	150212	Artificial sweeteners	4	T	16350
+FOODTOTL	150219	Sugar and artificial sweeteners	2	T	16250
+FOODTOTL	150310	Jams, preserves, and other sweets	4	T	16400
+FOODTOTL	160110	Margarine	4	T	16500
+FOODTOTL	160211	Fats and oils	4	T	16550
+FOODTOTL	160212	Salad dressings	4	T	16600
+FOODTOTL	160310	Nondairy cream and imitation milk	4	T	16650
+FOODTOTL	160320	Peanut butter	4	T	16700
+FOODTOTL	170110	Cola	4	T	17750
+FOODTOTL	170210	Other carbonated drinks	4	T	17800
+FOODTOTL	170310	Roasted coffee	5	T	18000
+FOODTOTL	170319	Coffee	2	T	17950
+FOODTOTL	170410	Instant and freeze dried coffee	5	T	18050
+FOODTOTL	170510	Noncarbonated fruit flavored drinks, including non-frozen lemonade	4	T	18100
+FOODTOTL	170520	Tea	4	T	17850
+FOODTOTL	170531	Other noncarbonated beverages and ice	4	T	18200
+FOODTOTL	170532	Bottled water	4	T	18250
+FOODTOTL	170533	Sports drinks	4	T	18300
+FOODTOTL	170539	Nonfrozen noncarbonated juices and drinks	2	T	18150
+FOODTOTL	180110	Canned and packaged soups	4	T	16950
+FOODTOTL	180210	Frozen meals	5	T	16850
+FOODTOTL	180220	Other frozen prepared foods	5	T	16900
+FOODTOTL	180310	Potato chips and other snacks	5	T	17050
+FOODTOTL	180320	Nuts	5	T	17100
+FOODTOTL	180410	Salt, spices, and other seasonings	5	T	17200
+FOODTOTL	180420	Olives, pickles, and relishes	5	T	17250
+FOODTOTL	180510	Sauces and gravies	5	T	17300
+FOODTOTL	180520	Baking needs and miscellaneous products	5	T	17350
+FOODTOTL	180611	Prepared salads	5	T	17450
+FOODTOTL	180612	Prepared desserts	5	T	17500
+FOODTOTL	180620	Baby food	5	T	17550
+FOODTOTL	180710	Miscellaneous prepared foods	5	T	17600
+FOODTOTL	180720	Vitamin supplements	5	T	17650
+FOODTOTL	190111	Lunch at fast food, carry out, delivery, concession stands, buffets, and cafeterias (other than employer and school cafeteria)	4	T	18600
+FOODTOTL	190112	Lunch at full service restaurants	4	T	18650
+FOODTOTL	190113	Lunch at vending machines and mobile vendors	4	T	18700
+FOODTOTL	190114	Lunch at employer and school cafeterias	4	T	18750
+FOODTOTL	190211	Dinner at fast food, carry out, delivery, concession stands, buffets, and cafeterias (other than employer and school cafeteria)	4	T	18850
+FOODTOTL	190212	Dinner at full service restaurants	4	T	18900
+FOODTOTL	190213	Dinner at vending machines and mobile vendors	4	T	18950
+FOODTOTL	190214	Dinner at employer and school cafeterias	4	T	19000
+FOODTOTL	190311	Snacks and nonalcoholic beverages at fast food, carry out, delivery, concession stands, buffets and cafeterias (other than employer and school cafeteria)	4	T	19100
+FOODTOTL	190312	Snacks and nonalcoholic beverages at full service restaurants	4	T	19150
+FOODTOTL	190313	Snacks and nonalcoholic beverages at vending machines and mobile vendors	4	T	19200
+FOODTOTL	190314	Snacks and nonalcoholic beverages at employer and school cafeterias	4	T	19250
+FOODTOTL	190321	Breakfast and brunch at fast food, carry out, delivery, concession stands, buffets, and cafeterias (other than employer and school cafeteria)	4	T	19350
+FOODTOTL	190322	Breakfast and brunch at full service restaurants	4	T	19400
+FOODTOTL	190323	Breakfast and brunch at vending machines and mobile vendors	4	T	19450
+FOODTOTL	190324	Breakfast and brunch at employer and school cafeterias	4	T	19500
+FOODTOTL	190400	Food and nonalcoholic beverages at fast food	2	T	19550
+FOODTOTL	190500	Food and nonalcoholic beverages at full service restaurants	2	T	19600
+FOODTOTL	190600	Food and nonalcoholic beverages at vending machines and mobile vendors	2	T	19650
+FOODTOTL	190700	Food and nonalcoholic beverages at employer	2	T	19700
+FOODTOTL	190901	Food or board at school	2	T	19750
+FOODTOTL	190902	Catered affairs	2	T	19850
+FOODTOTL	190903	Food on out of town trips	2	T	19900
+FOODTOTL	190904	Food prepared by consumer unit on out of town trips	3	T	18400
+FOODTOTL	190905	School meals and board	2	T	19800
+FOODTOTL	200112	Nonalcoholic beer	4	T	18350
+FOODTOTL	790430	School lunches	2	T	19950
+FOODTOTL	800700	Meals as pay	1	T	20000
+FOODTOTL	ANIMAL	Meats, poultry, fish, and eggs	2	T	11300
+FOODTOTL	BAKERY	Bakery products	3	T	10550
+FOODTOTL	BEEF	Beef	3	T	11350
+FOODTOTL	BREAD	Bread	4	T	10600
+FOODTOTL	BRKFBRUN	Breakfast and brunch	3	T	19300
+FOODTOTL	CANDVEG	Canned and dried vegetables and juices	4	T	15600
+FOODTOTL	CERBAKRY	Cereals and bakery products	2	T	10150
+FOODTOTL	CEREAL	Cereals and cereal products	3	T	10200
+FOODTOTL	CHICKEN	Fresh and frozen chickens	4	T	13100
+FOODTOTL	COFFEE	Coffee	4	T	17900
+FOODTOTL	CONDMNTS	Condiments and seasonings	4	T	17150
+FOODTOTL	CRAKCOOK	Cookies and crackers	4	T	10800
+FOODTOTL	DAIRY	Dairy products	2	T	13600
+FOODTOTL	DINNER	Dinner	3	T	18800
+FOODTOTL	FATSOILS	Fats and oils	3	T	16450
+FOODTOTL	FISHSEA	Fish and seafood	3	T	13300
+FOODTOTL	FOODAWAY	Food away from home	1	T	18450
+FOODTOTL	FOODHOME	Food at home	1	T	10100
+FOODTOTL	FOODTOTL	Food	0	T	10050
+FOODTOTL	FRESHVEG	Fresh vegetables	3	T	14800
+FOODTOTL	FRSHFRUT	Fresh fruits	3	T	14450
+FOODTOTL	FRUITVEG	Fruits and vegetables	2	T	14150
+FOODTOTL	FRZNFRUT	Frozen fruits and fruit juices	4	T	15100
+FOODTOTL	FRZNPREP	Frozen prepared foods	4	T	16800
+FOODTOTL	HAM	Ham	4	T	12250
+FOODTOTL	LAMBOTHR	Lamb, organ meats, and others	4	T	12850
+FOODTOTL	LNCHMEAT	Lunch meats (cold cuts)	4	T	12600
+FOODTOTL	LUNCH	Lunch	3	T	18550
+FOODTOTL	MILKCRM	Fresh milk and cream	3	T	13650
+FOODTOTL	MISCFOOD	Miscellaneous foods	3	T	16750
+FOODTOTL	NALCBEVG	Nonalcoholic beverages	3	T	17700
+FOODTOTL	OTHBAKRY	Other bakery products	4	T	11000
+FOODTOTL	OTHDAIRY	Other dairy products	3	T	13800
+FOODTOTL	OTHRFOOD	Other food at home	2	T	16100
+FOODTOTL	OTHRMEAT	Other meats	3	T	12500
+FOODTOTL	OTHRPREP	Other canned and packaged prepared foods	4	T	17400
+FOODTOTL	PORK	Pork	3	T	12000
+FOODTOTL	POULTRY	Poultry	3	T	13000
+FOODTOTL	PROCFRUT	Processed fruits	3	T	15050
+FOODTOTL	PROCFRVG	Processed fruits and vegetables	2	T	14200
+FOODTOTL	PROCVEG	Processed vegetables	3	T	15500
+FOODTOTL	RESTCOAO	Meals at restaurants, carry out, delivery, and other	2	T	18500
+FOODTOTL	ROAST	Roast	4	T	11450
+FOODTOTL	SNACKS	Potato chips, nuts, and other snacks	4	T	17000
+FOODTOTL	SNKNABEV	Snacks and nonalcoholic beverages	3	T	19050
+FOODTOTL	STEAK	Steak	4	T	11750
+FOODTOTL	SWEETS	Sugar and other sweets	3	T	16150
+HEALTH	540000	Prescription drugs	2	T	48350
+HEALTH	550110	Eyeglasses and contact lenses	2	T	48450
+HEALTH	550210	Nonprescription drugs	2	T	48200
+HEALTH	550219	Vitamins and supplements	2	T	48250
+HEALTH	550310	Topicals and dressings	2	T	48550
+HEALTH	550320	Medical equipment for general use	2	T	48650
+HEALTH	550330	Supportive and convalescent medical equipment	2	T	48700
+HEALTH	550340	Hearing aids	2	T	48500
+HEALTH	550410	Nonprescription vitamins	2	T	48300
+HEALTH	560110	Physician's services	2	T	47550
+HEALTH	560210	Dental services	2	T	47600
+HEALTH	560310	Eyecare services	2	T	47650
+HEALTH	560330	Lab tests and x-rays	2	T	47850
+HEALTH	560400	Service by professionals other than physician	2	T	47700
+HEALTH	560410	Non physician services inside the home	2	T	47750
+HEALTH	560420	Non physician services outside the home	2	T	47800
+HEALTH	570111	Hospital room and services	2	T	47900
+HEALTH	570220	Care in convalescent or nursing home	2	T	48000
+HEALTH	570230	Other medical care services	2	T	48100
+HEALTH	570240	Medical care in retirement community	2	T	47950
+HEALTH	570901	Rental of medical equipment	2	T	48750
+HEALTH	570902	Repair of medical equipment	2	T	48050
+HEALTH	570903	Rental of supportive and convalescent medical equipment	2	T	48800
+HEALTH	580111	Traditional fee for service health plan (not BCBS)	3	T	46000
+HEALTH	580112	Traditional fee for service health plan (BCBS)	3	T	46200
+HEALTH	580113	Preferred provider health plan (not BCBS)	3	T	46050
+HEALTH	580114	Preferred provider health plan (BCBS)	3	T	46250
+HEALTH	580115	Fee for service health plan (not BCBS)	3	T	46100
+HEALTH	580116	Fee for service health plan (BCBS)	3	T	46300
+HEALTH	580311	Health maintenance organization (not BCBS)	2	T	46800
+HEALTH	580312	Health maintenance organization (BCBS)	3	T	46350
+HEALTH	580400	Long term care insurance	2	T	46750
+HEALTH	580401	Long term care insurance (not BCBS)	2	T	47400
+HEALTH	580402	Long term care insurance (BCBS)	2	T	47450
+HEALTH	580411	Dental care insurance (not BCBS)	3	T	47200
+HEALTH	580412	Dental care insurance (BCBS)	3	T	46550
+HEALTH	580421	Prescription drug insurance (not BCBS)	3	T	47350
+HEALTH	580422	Prescription drug insurance (BCBS)	3	T	46700
+HEALTH	580431	Vision care insurance (not BCBS)	3	T	47250
+HEALTH	580432	Vision care insurance (BCBS)	3	T	46600
+HEALTH	580441	Other single service insurance (not BCBS)	3	T	47300
+HEALTH	580442	Other single service insurance (BCBS)	3	T	46650
+HEALTH	580901	Medicare payments	2	T	46850
+HEALTH	580903	Commercial medicare supplement (not BCBS)	3	T	47150
+HEALTH	580904	Commercial medicare supplement (BCBS)	3	T	46400
+HEALTH	580905	Other health insurance (not BCBS)	3	T	46450
+HEALTH	580906	Other health insurance (BCBS)	3	T	46500
+HEALTH	580907	Medicare prescription drug premiums	2	T	46900
+HEALTH	580908	Medicaid premiums	2	T	46950
+HEALTH	580909	Tricare/military premiums	2	T	47000
+HEALTH	580910	Children's Health Insurance Program (CHIP) premiums	2	T	47050
+HEALTH	640430	Adult diapers	2	T	48600
+HEALTH	BCBS	Blue Cross, Blue Shield	2	T	46150
+HEALTH	COMEDOTH	Commercial medicare supplements and other health insurance	2	T	47100
+HEALTH	COMHLTIN	Commercial health insurance	2	T	45950
+HEALTH	DRUGS	Drugs	1	T	48150
+HEALTH	HEALTH	Healthcare	0	T	45850
+HEALTH	HLTHINSR	Health insurance	1	T	45900
+HEALTH	MEDSERVS	Medical services	1	T	47500
+HEALTH	MEDSUPPL	Medical supplies	1	T	48400
+HOUSING	210110	Rent	3	T	23550
+HOUSING	210210	Lodging on out of town trips	3	T	26200
+HOUSING	210310	Housing while attending school	3	T	26150
+HOUSING	210901	Ground rent	4	T	22150
+HOUSING	210902	Ground rent	5	T	25100
+HOUSING	220121	Homeowners insurance	4	T	22100
+HOUSING	220122	Homeowners insurance	5	T	25050
+HOUSING	220211	Property taxes	3	T	22000
+HOUSING	220212	Property taxes	4	T	24950
+HOUSING	220311	Mortgage interest	4	T	21850
+HOUSING	220312	Mortgage interest	5	T	24800
+HOUSING	220313	Interest paid, home equity loan	4	T	21900
+HOUSING	220314	Interest paid, home equity loan	5	T	24850
+HOUSING	220901	Parking	4	T	23450
+HOUSING	220902	Parking	5	T	26100
+HOUSING	230112	Painting and papering	5	T	22250
+HOUSING	230113	Plumbing and water heating	5	T	22300
+HOUSING	230114	Heat, a/c, and electrical work	5	T	22350
+HOUSING	230115	Roofing and gutters	5	T	22400
+HOUSING	230117	Dishwashers (built-in), garbage disposals, and range hoods (renter)	3	T	32250
+HOUSING	230118	Dishwashers (built-in), garbage disposals, and range hoods (owned home)	3	T	32300
+HOUSING	230121	Repair and replacement of hard surface flooring	5	T	23850
+HOUSING	230122	Repair and replacement of hard surface flooring	5	T	22500
+HOUSING	230123	Repair and replacement of hard surface flooring	6	T	25250
+HOUSING	230133	Wall-to-wall carpet (replacement) (owned home)	3	T	32100
+HOUSING	230134	Wall-to-wall carpet (renter)	4	T	32000
+HOUSING	230141	Repair of built-in appliances	5	T	23900
+HOUSING	230142	Repair of built-in appliances	5	T	22550
+HOUSING	230150	Repair or maintenance services	5	T	23800
+HOUSING	230151	Other repair and maintenance services	5	T	22450
+HOUSING	230152	Repair and remodeling services	6	T	25200
+HOUSING	230901	Property management	5	T	23350
+HOUSING	230902	Property management	6	T	26000
+HOUSING	240111	Paint, wallpaper, and supplies	5	T	24050
+HOUSING	240112	Paints, wallpaper, and supplies	5	T	22700
+HOUSING	240113	Paints, wallpaper, and supplies	6	T	25400
+HOUSING	240121	Tools and equipment for painting and wallpapering	5	T	24100
+HOUSING	240122	Tools and equipment for painting and wallpapering	5	T	22750
+HOUSING	240123	Tools and equipment for painting and wallpapering	6	T	25450
+HOUSING	240211	Materials for plastering, panels, roofing, and gutters, etc.	5	T	24150
+HOUSING	240212	Materials for plaster, panel, siding, windows, doors, screens, and awnings	5	T	23000
+HOUSING	240213	Materials and equipment for roofs and gutters	5	T	22950
+HOUSING	240214	Materials for plastering, paneling, roofing, gutters, downspouts, siding, windows, doors, screens, and awnings	6	T	25500
+HOUSING	240221	Materials for patio, walk, fence, driveway, masonry, brick and stucco work	5	T	24200
+HOUSING	240222	Materials for patio, walk, fence, driveway, masonry, brick, and stucco work	5	T	23050
+HOUSING	240223	Material for patio, walk, fence, drive, masonry, brick, and stucco	6	T	25550
+HOUSING	240311	Plumbing supplies and equipment	5	T	24250
+HOUSING	240312	Plumbing supplies and equipment	5	T	22800
+HOUSING	240313	Plumbing supplies and equipment	6	T	25600
+HOUSING	240321	Electrical supplies, heating, and cooling equipment	5	T	24300
+HOUSING	240322	Electrical supplies, heating, and cooling equipment	5	T	22850
+HOUSING	240323	Electrical supplies, heating, and cooling equipment	6	T	25650
+HOUSING	250111	Fuel oil (renter)	4	T	26900
+HOUSING	250112	Fuel oil (owned home)	4	T	26950
+HOUSING	250113	Fuel oil (owned vacation)	4	T	27000
+HOUSING	250114	Fuel oil (rented vacation)	4	T	27050
+HOUSING	250211	Gas, bottled/tank (renter)	4	T	27400
+HOUSING	250212	Gas, bottled/tank (owned home)	4	T	27450
+HOUSING	250213	Gas, bottled/tank (owned vacation)	4	T	27500
+HOUSING	250214	Gas, bottled/tank (rented vacation)	4	T	27550
+HOUSING	250911	Coal, wood, and other fuels (renter)	4	T	27150
+HOUSING	250912	Coal, wood, and other fuels (owned home)	4	T	27200
+HOUSING	250913	Coal, wood, and other fuels (owned vacation)	4	T	27250
+HOUSING	250914	Coal, wood, and other fuels (rented vacation)	4	T	27300
+HOUSING	260111	Electricity (renter)	3	T	26600
+HOUSING	260112	Electricity (owned home)	3	T	26650
+HOUSING	260113	Electricity (owned vacation)	3	T	26700
+HOUSING	260114	Electricity (rented vacation)	3	T	26750
+HOUSING	260211	Natural gas (renter)	3	T	26350
+HOUSING	260212	Natural gas (owned home)	3	T	26400
+HOUSING	260213	Natural gas (owned vacation)	3	T	26450
+HOUSING	260214	Natural gas (rented vacation)	3	T	26500
+HOUSING	270101	Residential telephone/pay phones	4	T	27700
+HOUSING	270102	Cellular phone service	3	T	27900
+HOUSING	270104	Phone cards	4	T	27750
+HOUSING	270105	Voice over IP service	4	T	27800
+HOUSING	270106	Residential telephone including VOIP	4	T	27850
+HOUSING	270211	Water/sewer maintenance (renter)	4	T	28050
+HOUSING	270212	Water/sewer maintenance (owned home)	4	T	28100
+HOUSING	270213	Water/sewer maintenance (owned vacation)	4	T	28150
+HOUSING	270214	Water/sewer maintenance (rented vacation)	4	T	28200
+HOUSING	270411	Trash/garbage collection (renter)	4	T	28300
+HOUSING	270412	Trash/garbage collection (owned home)	4	T	28350
+HOUSING	270413	Trash/garbage collection (owned vacation)	4	T	28400
+HOUSING	270414	Trash/garbage collection (rented vacation)	4	T	28450
+HOUSING	270901	Septic tank cleaning (renter)	4	T	28550
+HOUSING	270902	Septic tank cleaning (owned home)	4	T	28600
+HOUSING	270903	Septic tank cleaning (owned vacation)	4	T	28650
+HOUSING	270904	Septic tank cleaning (rented vacation)	4	T	28700
+HOUSING	280110	Bathroom linens	3	T	31000
+HOUSING	280120	Bedroom linens	3	T	31050
+HOUSING	280130	Kitchen and dining room linens	3	T	31100
+HOUSING	280140	Kitchen, dining room, and other linens	3	T	31350
+HOUSING	280210	Curtains and draperies	3	T	31150
+HOUSING	280220	Slipcovers and decorative pillows	3	T	31200
+HOUSING	280230	Sewing materials for slipcovers, curtains, other	3	T	31250
+HOUSING	280900	Other linens (thru Q20124)	3	T	31300
+HOUSING	290110	Mattresses and springs	3	T	31450
+HOUSING	290120	Other bedroom furniture	3	T	31500
+HOUSING	290210	Sofas	3	T	31550
+HOUSING	290310	Living room chairs	3	T	31600
+HOUSING	290320	Living room tables	3	T	31650
+HOUSING	290410	Kitchen and dining room furniture	3	T	31700
+HOUSING	290420	Infants' furniture	3	T	31750
+HOUSING	290430	Outdoor furniture	3	T	31800
+HOUSING	290440	Wall units, cabinets, and other furniture	3	T	31850
+HOUSING	300111	Refrigerators and freezers (renter)	3	T	32350
+HOUSING	300112	Refrigerators and freezers (owned home)	3	T	32400
+HOUSING	300211	Washing machines (renter)	3	T	32450
+HOUSING	300212	Washing machines (owned home)	3	T	32500
+HOUSING	300216	Clothes washers or dryers (renter)	3	T	32650
+HOUSING	300217	Clothes washers or dryers (owned home)	3	T	32700
+HOUSING	300221	Clothes dryers (renter)	3	T	32550
+HOUSING	300222	Clothes dryers (owned home)	3	T	32600
+HOUSING	300311	Cooking stoves and ovens (renter)	3	T	32750
+HOUSING	300312	Cooking stoves and ovens (owned home)	3	T	32800
+HOUSING	300321	Microwave ovens (renter)	3	T	32850
+HOUSING	300322	Microwave ovens (owned home)	3	T	32900
+HOUSING	300331	Portable dishwashers (renter)	3	T	32950
+HOUSING	300332	Portable dishwashers (owned home)	3	T	33000
+HOUSING	300411	Window air conditioners (renter)	3	T	33050
+HOUSING	300412	Window air conditioners (owned home)	3	T	33100
+HOUSING	300900	Miscellaneous household appliances	3	T	33250
+HOUSING	320111	Floor coverings, nonpermanent	3	T	32150
+HOUSING	320120	Window coverings	3	T	34050
+HOUSING	320130	Infants' equipment	3	T	34100
+HOUSING	320140	Laundry and cleaning equipment	3	T	34150
+HOUSING	320150	Outdoor equipment	3	T	34200
+HOUSING	320163	Wall-to-wall carpet (replacement)(renter)	4	T	32050
+HOUSING	320220	Lamps and lighting fixtures	3	T	34250
+HOUSING	320221	Lamps, lighting fixtures, and ceiling fans	3	T	34300
+HOUSING	320232	Telephones and accessories	3	T	34400
+HOUSING	320233	Clocks and other household decorative items	3	T	34350
+HOUSING	320310	Plastic dinnerware	4	T	33400
+HOUSING	320320	China and other dinnerware	4	T	33450
+HOUSING	320330	Flatware	4	T	33500
+HOUSING	320340	Glassware	4	T	33550
+HOUSING	320345	Dinnerware, glassware, and serving pieces	4	T	33700
+HOUSING	320350	Silver serving pieces	4	T	33600
+HOUSING	320360	Other serving pieces	4	T	33650
+HOUSING	320370	Nonelectric cookware	4	T	33750
+HOUSING	320380	Tableware and nonelectric kitchenware	4	T	33800
+HOUSING	320410	Lawn and garden equipment	3	T	34450
+HOUSING	320420	Power tools	3	T	34500
+HOUSING	320430	Other hardware	3	T	35300
+HOUSING	320511	Electric floor cleaning equipment	3	T	33150
+HOUSING	320512	Sewing machines	3	T	33200
+HOUSING	320521	Small electric kitchen appliances	4	T	33900
+HOUSING	320522	Portable heating and cooling equipment	4	T	33950
+HOUSING	320611	Material for insulation, other maintenance, and repair	6	T	24400
+HOUSING	320612	Material for insulation, other maintenance, and repair	6	T	23200
+HOUSING	320613	Material for insulation, other maintenance, and repair	7	T	25750
+HOUSING	320621	Material for hard surface flooring	5	T	24550
+HOUSING	320622	Materials for hard surface flooring, repair and	5	T	22900
+HOUSING	320623	Materials for hard surface flooring (thru	6	T	25850
+HOUSING	320624	Flooring installation, repair, and replacement	5	T	23950
+HOUSING	320625	Flooring installation, repair, and replacement	5	T	22600
+HOUSING	320626	Flooring installation, repair, and replacement	6	T	25300
+HOUSING	320631	Material for landscape maintenance	5	T	24600
+HOUSING	320632	Materials for landscaping maintenance	5	T	23100
+HOUSING	320633	Materials for landscaping maintenance	6	T	25900
+HOUSING	320901	Office furniture for home use	3	T	34550
+HOUSING	320902	Hand tools	3	T	34600
+HOUSING	320903	Indoor plants and fresh flowers	3	T	34650
+HOUSING	320904	Closet and storage items	3	T	34700
+HOUSING	320905	Miscellaneous household equipment and parts	3	T	35600
+HOUSING	330110	Soaps and detergents	3	T	30400
+HOUSING	330119	Laundry and cleaning products	2	T	30300
+HOUSING	330210	Other laundry cleaning products	3	T	30450
+HOUSING	330310	Cleansing and toilet tissue, paper towels, and napkins	3	T	30550
+HOUSING	330410	Stationery, stationery supplies, and gift wrap	3	T	30750
+HOUSING	330510	Miscellaneous household products	3	T	30600
+HOUSING	330511	Termite/pest control products	3	T	29650
+HOUSING	330610	Lawn and garden supplies	3	T	30650
+HOUSING	340110	Postage	3	T	30800
+HOUSING	340120	Delivery services	3	T	30850
+HOUSING	340210	Babysitting and childcare	3	T	28950
+HOUSING	340211	and child care in your own home (thru	3	T	28850
+HOUSING	340212	and child care in someone else''s home	3	T	28900
+HOUSING	340310	Housekeeping services	3	T	29250
+HOUSING	340410	Gardening and lawn care service	3	T	29300
+HOUSING	340420	Water softening services	3	T	29350
+HOUSING	340510	Moving, storage, and freight	3	T	29700
+HOUSING	340520	Household laundry and dry cleaning, sent out (nonclothing) not coin-operated	3	T	29400
+HOUSING	340530	Coin-operated household laundry and dry cleaning (nonclothing)	3	T	29450
+HOUSING	340620	Appliance repair, including service center	3	T	29750
+HOUSING	340630	Reupholstering, furniture repair	3	T	29800
+HOUSING	340901	Repairs/rentals of lawn and garden equipment, hand or power tools, and other household equipment	3	T	29850
+HOUSING	340903	Other home services	3	T	29600
+HOUSING	340904	Rental of furniture	3	T	34750
+HOUSING	340906	Care for elderly, invalids, handicapped, etc.	3	T	29000
+HOUSING	340907	Appliance rentals	3	T	29900
+HOUSING	340908	Rental of office equipment for nonbusiness use	3	T	29950
+HOUSING	340910	Adult day care centers	3	T	29050
+HOUSING	340911	Management and upkeep services for security	5	T	23400
+HOUSING	340912	Management and upkeep services for security	6	T	26050
+HOUSING	340913	Repair of miscellaneous household equipment and furnishings	3	T	30000
+HOUSING	340914	Services for termite/pest control	3	T	29500
+HOUSING	340915	Home security system service fees	3	T	29550
+HOUSING	350110	Tenant's insurance	4	T	23700
+HOUSING	430130	Luggage	3	T	34800
+HOUSING	670310	Day care centers, nurseries, and preschools	3	T	29100
+HOUSING	670320	Babysitting, childcare, daycare, preschool	2	T	29150
+HOUSING	690111	Computers and computer hardware for nonbusiness use	3	T	34850
+HOUSING	690112	Computer software and accessories for nonbusiness use	3	T	34950
+HOUSING	690113	Repair of computer systems for nonbusiness use	3	T	30050
+HOUSING	690114	Computer information services (internet)	3	T	30100
+HOUSING	690115	Personal digital assistants	3	T	35100
+HOUSING	690116	Internet services away from home	3	T	35150
+HOUSING	690117	Portable memory	3	T	34900
+HOUSING	690119	Computer software	3	T	35000
+HOUSING	690120	Computer accessories	3	T	35050
+HOUSING	690210	Telephone answering devices	3	T	35200
+HOUSING	690230	Business equipment for home use	3	T	35250
+HOUSING	690241	Smoke alarms (renter)	3	T	35400
+HOUSING	690242	Smoke alarms (owned home)	3	T	35350
+HOUSING	690243	Smoke alarms (owned vacation)	3	T	35450
+HOUSING	690244	Other household appliances (renter)	3	T	35550
+HOUSING	690245	Other household appliances (owned home)	3	T	35500
+HOUSING	690310	Installation of computers	3	T	30150
+HOUSING	790690	Construction materials for jobs not started	6	T	24500
+HOUSING	800710	Rent as pay	1	T	23600
+HOUSING	880110	Interest paid, home equity line of credit	4	T	21950
+HOUSING	880310	Interest paid, home equity line of credit	5	T	24900
+HOUSING	990900	Rental and installation of dishwashers, range hoods, and garbage disposals	3	T	30200
+HOUSING	990920	Materials for additions, finishing basements, and remodeling rooms	6	T	24450
+HOUSING	990930	Materials to finish basements, remodel rooms, or build patios or walkways	6	T	23250
+HOUSING	990940	Material for finishing basements and remodeling rooms	7	T	25800
+HOUSING	BOTTLGAS	Bottled gas	3	T	27350
+HOUSING	CLWDOTFL	Coal, wood, and other fuels	3	T	27100
+HOUSING	ELECTRIC	Electricity	2	T	26550
+HOUSING	FLOORCOV	Floor coverings	2	T	31900
+HOUSING	FUELOIL	Fuel oil	3	T	26850
+HOUSING	FURNITUR	Furniture	2	T	31400
+HOUSING	HHFURNSH	Household furnishings and equipment	1	T	30900
+HOUSING	HHOPER	Household operations	1	T	28750
+HOUSING	HHOTHXPN	Other household expenses	2	T	29200
+HOUSING	HHPERSRV	Personal services	2	T	28800
+HOUSING	HHTXTILE	Household textiles	2	T	30950
+HOUSING	HKPGOTHR	Other household products	2	T	30500
+HOUSING	HKPGSUPP	Housekeeping supplies	1	T	30250
+HOUSING	HOUSING	Housing	0	T	21650
+HOUSING	HOUSWARE	Housewares	3	T	33350
+HOUSING	LAUNDRY	Laundry and cleaning supplies	2	T	30350
+HOUSING	MAJAPPL	Major appliances	2	T	32200
+HOUSING	MISCHHEQ	Miscellaneous household equipment	2	T	34000
+HOUSING	NATRLGAS	Natural gas	2	T	26300
+HOUSING	OTHLODGE	Other lodging	2	T	24650
+HOUSING	OTHRFUEL	Fuel oil and other fuels	2	T	26800
+HOUSING	OWNDWELL	Owned dwellings	2	T	21750
+HOUSING	OWNEXPEN	Maintenance, repairs, insurance, and other expenses	3	T	22050
+HOUSING	OWNMISC	Miscellaneous supplies and equipment	5	T	23150
+HOUSING	OWNMNAGE	Property management and security	4	T	23300
+HOUSING	OWNMORTG	Mortgage interest and charges	3	T	21800
+HOUSING	OWNREPSP	Maintenance and repair commodities	4	T	22650
+HOUSING	OWNREPSV	Maintenance and repair services	4	T	22200
+HOUSING	OWNVMORT	Mortgage interest and charges	4	T	24750
+HOUSING	OWVEXPEN	Maintenance, insurance, and other expenses	4	T	25000
+HOUSING	OWVHOME	Owned vacation homes	3	T	24700
+HOUSING	OWVMISC	Miscellaneous supplies and equipment	6	T	25700
+HOUSING	OWVMNAGE	Property management and security	5	T	25950
+HOUSING	OWVREPSP	Maintenance and repair commodities	5	T	25350
+HOUSING	OWVREPSV	Maintenance and repair services	5	T	25150
+HOUSING	PHONE	Telephone services	2	T	27600
+HOUSING	POSTAGE	Postage and stationery	2	T	30700
+HOUSING	RESPHONE	Residential phone service, VOIP, and phone cards	3	T	27650
+HOUSING	RNTCARPT	Wall-to-wall carpeting (renter)	3	T	31950
+HOUSING	RNTDWELL	Rented dwellings	2	T	23500
+HOUSING	RNTEXPEN	Maintenance, insurance, and other expenses	3	T	23650
+HOUSING	RNTMISC	Miscellaneous supplies and equipment	5	T	24350
+HOUSING	RNTREPSP	Maintenance and repair commodities	4	T	24000
+HOUSING	RNTREPSV	Maintenance and repair services	4	T	23750
+HOUSING	SEPTANK	Septic tank cleaning	3	T	28500
+HOUSING	SEWER	Water and sewerage maintenance	3	T	28000
+HOUSING	SHELTER	Shelter	1	T	21700
+HOUSING	SMAPPHWR	Small appliances and miscellaneous housewares	2	T	33300
+HOUSING	SMLLAPPL	Small appliances	3	T	33850
+HOUSING	TRASH	Trash and garbage collection	3	T	28250
+HOUSING	UTILS	Utilities, fuels, and public services	1	T	26250
+HOUSING	WATER	Water and other public services	2	T	27950
+INCAFTTX	980070	Income after taxes	1	T	61550
+INCAFTTX	980071	Income after taxes	1	T	61500
+INCAFTTX	INCAFTTX	Income after taxes	0	T	61450
+INCBEFTX	900000	Wages and salaries	1	T	59000
+INCBEFTX	900010	Net business income	2	T	59150
+INCBEFTX	900020	Net farm income	2	T	59200
+INCBEFTX	900030	Social Security and railroad retirement income	2	T	59300
+INCBEFTX	900040	Pensions and annuities	2	T	59400
+INCBEFTX	900050	Dividends, royalties, estates, trusts	2	T	59700
+INCBEFTX	900060	Roomer and boarder income	2	T	59750
+INCBEFTX	900070	Other rental income	2	T	59800
+INCBEFTX	900080	Interest	2	T	59650
+INCBEFTX	900090	Supplemental Security Income	2	T	59950
+INCBEFTX	900100	Unemployment compensation	2	T	60200
+INCBEFTX	900110	Workers'' compensation and veterans'' benefits	2	T	60250
+INCBEFTX	900120	Public assistance	2	T	60000
+INCBEFTX	900131	Child support payments	2	T	60300
+INCBEFTX	900132	Other regular contributions including alimony	2	T	60350
+INCBEFTX	900140	Other income	2	T	60500
+INCBEFTX	900150	Supplementary Nutrition Assistance Program (SNAP)	2	T	60050
+INCBEFTX	900160	Self-employment income	2	T	59100
+INCBEFTX	900170	Retirement, survivors, and disability income	2	T	59350
+INCBEFTX	900180	Interest and dividends	2	T	59500
+INCBEFTX	900190	Net room/rental income	2	T	59550
+INCBEFTX	900200	Royalty, estate, and trust income	2	T	59600
+INCBEFTX	900210	Other regular income	2	T	60400
+INCBEFTX	INCBEFTX	Income before taxes	0	T	58950
+INCBEFTX	INDIVRNT	Interest, dividends, rental income, and other property income	1	T	59450
+INCBEFTX	OTHBNFTS	Unemployment and workers' compensation, veterans' benefits	1	T	59850
+INCBEFTX	OTHREGIN	Unemployment and workers' compensation, veterans' benefits, and regular contributions for support	1	T	60150
+INCBEFTX	OTHRINC	Other income	1	T	60450
+INCBEFTX	REGCONT	Regular contributions for support	1	T	60100
+INCBEFTX	RETIRINC	Social Security, private and government retirement	1	T	59250
+INCBEFTX	SFEMPINC	Self-employment income	1	T	59050
+INCBEFTX	WELFARE	Public assistance, Supplemental Security Income, Supplementary Nutrition Assistance Program (SNAP)	1	T	59900
+INSPENSN	002120	Other non-health insurance	2	T	58550
+INSPENSN	700110	Life, endowment, annuity, and other personal insurance	2	T	58500
+INSPENSN	800910	Deductions for government retirement	2	T	58650
+INSPENSN	800920	Deductions for railroad retirement	2	T	58700
+INSPENSN	800931	Deductions for private pensions	2	T	58750
+INSPENSN	800932	Non-payroll deposit to retirement plans	2	T	58800
+INSPENSN	800940	Deductions for Social Security	2	T	58850
+INSPENSN	INSPENSN	Personal insurance and pensions	0	T	58400
+INSPENSN	LIFEINSR	Life and other personal insurance	1	T	58450
+INSPENSN	PENSIONS	Pensions and Social Security	1	T	58600
+MISC	005420	Finance, late, and interest charges for credit cards	1	T	57500
+MISC	005620	Finance, late, and interest charges for other loans	1	T	57550
+MISC	620112	Credit card memberships	1	T	57750
+MISC	620115	Shopping club membership fees	1	T	57800
+MISC	620925	Miscellaneous fees	1	T	56950
+MISC	620926	Lotteries and pari-mutuel losses	1	T	57000
+MISC	680110	Legal fees	1	T	57050
+MISC	680140	Funeral expenses	1	T	57100
+MISC	680210	Safe deposit box rental	1	T	57150
+MISC	680220	Checking accounts, other bank service charges	1	T	57200
+MISC	680901	Cemetery lots, vaults, and maintenance fees	1	T	57250
+MISC	680902	Accounting fees	1	T	57300
+MISC	680903	Miscellaneous personal services	1	T	57350
+MISC	680904	Dating services	1	T	57400
+MISC	680905	Vacation clubs	1	T	57850
+MISC	710110	Finance charges excluding mortgage and vehicle	1	T	57450
+MISC	790600	Expenses for other properties	1	T	57650
+MISC	880210	Interest paid, home equity line of credit (other property)	1	T	57700
+MISC	900002	Occupational expenses	1	T	57600
+MISC	MISC	Miscellaneous	0	T	56900
+PERSCARE	640110	Haircare products	2	T	54350
+PERSCARE	640119	Products for the hair	2	T	54450
+PERSCARE	640120	Nonelectric articles for hair	2	T	54400
+PERSCARE	640130	Wigs and hairpieces	2	T	54500
+PERSCARE	640210	Oral hygiene products and articles	2	T	54550
+PERSCARE	640219	Nonelectric dental and shaving products	2	T	54650
+PERSCARE	640220	Shaving needs	2	T	54600
+PERSCARE	640310	Cosmetics, perfume, and bath preparations	2	T	54700
+PERSCARE	640410	Deodorants, feminine hygiene, and miscellaneous personal care	2	T	54750
+PERSCARE	640420	Electric personal care appliances	2	T	54800
+PERSCARE	650310	Personal care services	2	T	54900
+PERSCARE	650900	Repair of personal care appliances	2	T	54950
+PERSCARE	PERSCARE	Personal care products and services	0	T	54250
+PERSCARE	PERSPROD	Personal care products	1	T	54300
+PERSCARE	PERSSERV	Personal care services	1	T	54850
+PERSTAX	950001	Federal income tax refunds	2	T	60800
+PERSTAX	950002	Federal income tax deducted	2	T	60700
+PERSTAX	950003	Additional federal income tax paid	2	T	60750
+PERSTAX	950004	Federal income tax (imputed)	2	T	60650
+PERSTAX	950011	State and local income tax refunds	2	T	61150
+PERSTAX	950012	State and local income tax deducted	2	T	61000
+PERSTAX	950013	Additional state and local income tax paid	2	T	61050
+PERSTAX	950014	State and local income taxes (imputed)	2	T	61100
+PERSTAX	950021	Other taxes	2	T	61350
+PERSTAX	950022	Personal property taxes	2	T	61250
+PERSTAX	950023	tax refunds	2	T	61400
+PERSTAX	950024	Vehicle personal property taxes	2	T	61300
+PERSTAX	950040	Stimulus payment	1	T	60900
+PERSTAX	FEDTAXES	Federal income taxes	1	T	60600
+PERSTAX	OTHRTAX	Other taxes	1	T	61200
+PERSTAX	PERSTAX	Personal taxes (contains some imputed values)	0	T	60550
+PERSTAX	STATETAX	State and local income taxes	1	T	60950
+READING	590110	Newspapers	1	T	55050
+READING	590210	Magazines	1	T	55100
+READING	590220	Books through book clubs	1	T	55300
+READING	590230	Books, digital books, or book subscriptions	1	T	55350
+READING	590310	Newspaper, magazine by subscription	1	T	55150
+READING	590410	Newspaper, magazine non-subscription	1	T	55200
+READING	590900	Newsletters	1	T	55250
+READING	660310	Encyclopedias and other sets of reference books	1	T	55400
+READING	690118	Digital book readers	1	T	55450
+READING	READING	Reading	0	T	55000
+TITLECU	980010	Number of People in CU	1	T	68950
+TITLECU	980020	Age of reference person	0	T	68850
+TITLECU	980030	Number of Earners	1	T	69100
+TITLECU	980040	Vehicles (owned)	4	T	69200
+TITLECU	980050	Number of Children under 18	1	T	69000
+TITLECU	980060	Adults 65 and older	1	T	69050
+TITLECU	980360	Vehicles (leased)	4	T	69250
+TITLECU	INCAFTAX	Income after taxes	0	T	68800
+TITLECU	INCBFTAX	Income before taxes	0	T	68750
+TITLECU	TITLEACU	Average number in consumer unit:	0	F	68900
+TITLECU	VEHICLES	Number of Vehicles	1	T	69150
+TITLEOFI	790920	Reduction of mortgage principal (other property)	3	T	68400
+TITLEOFI	800721	Estimated market value of owned home	1	T	68450
+TITLEOFI	900220	Lump sum payment received	2	T	68000
+TITLEOFI	910000	Lump sum receipts	2	T	67700
+TITLEOFI	910010	Money from sale of household furnishings, etc.	2	T	67750
+TITLEOFI	910020	Refund from overpayment on Social Security	2	T	67800
+TITLEOFI	910030	Refunds from insurance policies	2	T	67850
+TITLEOFI	910040	Refunds from property taxes	2	T	67900
+TITLEOFI	910041	Lump sum child support payment	2	T	67950
+TITLEOFI	910042	Monthly transit subsidy	2	T	68050
+TITLEOFI	910050	Estimated monthly rental value of owned home	1	T	68500
+TITLEOFI	910101	Estimated monthly rental value of vacation home not available for rent	1	T	68550
+TITLEOFI	910102	Estimated monthly rental value of vacation home available for rent	1	T	68600
+TITLEOFI	910103	Estimated annual rental value of timeshare	1	T	68650
+TITLEOFI	920010	Market value of all savings accounts	2	T	68150
+TITLEOFI	920020	Market value of all checking accounts	2	T	68200
+TITLEOFI	920030	Market value of all U.S. savings bonds	2	T	68250
+TITLEOFI	920040	Market value of all securities	2	T	68300
+TITLEOFI	MRTPRINP	Mortgage principal paid on owned property	1	T	68350
+TITLEOFI	OTHRMONY	Other money receipts	1	T	67650
+TITLEOFI	VALUASST	Market value of financial assets	1	T	68100
+TITLEPD	980210	Percent Men reference persons	1	T	69350
+TITLEPD	980220	Percent Women reference persons	1	T	69400
+TITLEPD	980230	Percent Homeowner with mortgage	2	T	69550
+TITLEPD	980240	Percent Homeowner without mortgage	2	T	69600
+TITLEPD	980260	Percent Renter	1	T	69650
+TITLEPD	980270	Percent Black or African American	1	T	69750
+TITLEPD	980281	White	4	T	69850
+TITLEPD	980282	Asian	4	T	69900
+TITLEPD	980283	All other races not including Black or African-American	4	T	69950
+TITLEPD	980285	Percent Hispanic or Latino	1	T	70050
+TITLEPD	980286	Percent Not Hispanic or Latino	1	T	70100
+TITLEPD	980290	Percent Elementary (1-8)	1	T	70200
+TITLEPD	980300	Percent High school (9-12)	1	T	70250
+TITLEPD	980310	Percent College	1	T	70300
+TITLEPD	980320	Percent Never attended school and other	1	T	70350
+TITLEPD	980330	At least one vehicle owned	2	T	70450
+TITLEPD	980340	At least one vehicle leased	2	T	70500
+TITLEPD	980350	At least one vehicle owned or leased	0	T	70400
+TITLEPD	HOMEOWN	Percent Homeowner	1	T	69500
+TITLEPD	TITLEEDU	Education of reference person:	0	F	70150
+TITLEPD	TITLEHOP	Hispanic or Latino origin of reference person:	0	F	70000
+TITLEPD	TITLEHT	Housing tenure:	0	F	69450
+TITLEPD	TITLERRP	Race of reference person:	0	F	69700
+TITLEPD	TITLESRP	Reference person:	0	F	69300
+TITLEPD	WHTNDOTH	Percent White, Asian, and All Other Races, not including African American	1	T	69800
+TOBACCO	630110	Cigarettes	1	T	56700
+TOBACCO	630210	Other tobacco products	1	T	56750
+TOBACCO	630220	Smoking accessories	1	T	56800
+TOBACCO	630900	Marijuana	1	T	56850
+TOBACCO	TOBACCO	Tobacco products and smoking supplies	0	T	56650
+TOTALEXP	TOTALEXP	Average annual expenditures	0	T	10000
+TRANS	450110	New cars	3	T	40700
+TRANS	450210	New trucks	3	T	40750
+TRANS	450220	New motorcycles	3	T	41000
+TRANS	450310	Car lease payments	5	T	44050
+TRANS	450313	Cash downpayment (car lease)	5	T	44350
+TRANS	450314	Termination fee (car lease)	5	T	44400
+TRANS	450350	Car/truck lease payments	5	T	44100
+TRANS	450351	Extra fees for car/truck lease	5	T	44250
+TRANS	450352	Trade in allowance for car/truck lease	5	T	44300
+TRANS	450353	Cash down payment car/truck lease	5	T	44150
+TRANS	450354	Termination fee for car/truck lease	5	T	44200
+TRANS	450410	Truck lease payments	5	T	44450
+TRANS	450413	Cash downpayment (truck lease)	5	T	44500
+TRANS	450414	Termination fee (truck lease)	5	T	44550
+TRANS	450900	New aircraft	3	T	41050
+TRANS	460110	Used cars	3	T	40850
+TRANS	460901	Used trucks	3	T	40900
+TRANS	460902	Used motorcycles	3	T	41100
+TRANS	460903	Used aircraft	3	T	41150
+TRANS	470111	Gasoline	2	T	41250
+TRANS	470112	Diesel fuel	2	T	41300
+TRANS	470113	Gasoline on out of town trips	2	T	41350
+TRANS	470114	Alternative fuels	2	T	41400
+TRANS	470211	Motor oil	2	T	41450
+TRANS	470212	Motor oil on out of town trips	2	T	41500
+TRANS	470220	Coolant, brake fluid, transmission fluid, and other additives	3	T	42000
+TRANS	470311	Electric vehicle charging	2	T	41600
+TRANS	480100	Vehicle parts, accessories, fluid excluding tires	2	T	42150
+TRANS	480110	Tires - purchased, replaced, and installed	3	T	42100
+TRANS	480212	Vehicle products and cleaning services	3	T	42300
+TRANS	480213	Parts, equipment, and accessories	3	T	42200
+TRANS	480214	Vehicle audio equipment	3	T	42250
+TRANS	480215	Vehicle video equipment	3	T	42350
+TRANS	490000	Miscellaneous auto repair and servicing	3	T	42400
+TRANS	490100	Vehicle maintenance/repair excluding tire purchase	2	T	42050
+TRANS	490110	Body work and painting	3	T	42450
+TRANS	490211	Clutch, transmission repair	3	T	42550
+TRANS	490212	Drive shaft and rear-end repair	3	T	42600
+TRANS	490221	Brake work, including adjustments	3	T	42650
+TRANS	490231	Repair to steering or front-end	3	T	42700
+TRANS	490232	Repair to engine cooling system	3	T	42750
+TRANS	490300	Vehicle or engine repairs	3	T	42500
+TRANS	490311	Motor tune up	3	T	42800
+TRANS	490312	Lube, oil change, and oil filters	3	T	42850
+TRANS	490313	Front end alignment, wheel balance, and rotation	3	T	42900
+TRANS	490314	Shock absorber replacement	3	T	42950
+TRANS	490316	Gas tank repair and replacement	3	T	43000
+TRANS	490318	Repair tires and other repair work	3	T	43050
+TRANS	490319	Vehicle air conditioning repair	3	T	43100
+TRANS	490411	Exhaust system repair	3	T	43150
+TRANS	490412	Electrical system repair	3	T	43200
+TRANS	490413	Motor repair, replacement	3	T	43250
+TRANS	490900	Auto repair service policy	3	T	43300
+TRANS	500110	Vehicle insurance	2	T	45300
+TRANS	510110	Automobile finance charges	3	T	41750
+TRANS	510901	Truck finance charges	3	T	41800
+TRANS	510902	Motorcycle and plane finance charges	3	T	41850
+TRANS	520110	State and local vehicle registration	2	T	44700
+TRANS	520111	Vehicle registrations, state	3	T	44600
+TRANS	520112	Vehicle registrations, local	3	T	44650
+TRANS	520310	Drivers' licenses	3	T	44750
+TRANS	520410	Vehicle inspections	3	T	44800
+TRANS	520511	Auto rental	5	T	43500
+TRANS	520512	Auto rental, out-of-town trips	5	T	43550
+TRANS	520516	Auto/truck rental	5	T	43700
+TRANS	520517	Auto/truck rental on out of town trips	5	T	43750
+TRANS	520521	Truck rental	5	T	43600
+TRANS	520522	Truck rental, out-of-town trips	5	T	43650
+TRANS	520531	Parking fees in home city, excluding residence	4	T	44900
+TRANS	520532	Parking fees on out of town trips	4	T	44950
+TRANS	520541	Tolls or electronic toll passes	3	T	45000
+TRANS	520542	Tolls on out of town trips	3	T	45050
+TRANS	520550	Towing charges	3	T	45100
+TRANS	520560	Global positioning services	3	T	45150
+TRANS	520902	Motorcycle rental	5	T	43800
+TRANS	520903	Aircraft rental	5	T	43900
+TRANS	520905	Motorcycle rental on out of town trips	5	T	43850
+TRANS	520906	Aircraft rental on out of town trips	5	T	43950
+TRANS	530110	Airline fares	2	T	45400
+TRANS	530210	Intercity bus fares	2	T	45450
+TRANS	530311	Intracity mass transit fares	2	T	45500
+TRANS	530312	Local transportation on out of town trips	2	T	45550
+TRANS	530411	Taxi fares and limousine services on trips	2	T	45600
+TRANS	530412	Taxi fares and limousine services	2	T	45650
+TRANS	530510	Intercity train fares	2	T	45700
+TRANS	530901	Ship fares	2	T	45750
+TRANS	530902	School bus	2	T	45800
+TRANS	620113	Automobile service clubs	3	T	45200
+TRANS	620114	Automobile service clubs and GPS services	3	T	45250
+TRANS	850300	Other vehicle finance charges	3	T	41900
+TRANS	CAREPAIR	Maintenance and repairs	2	T	41950
+TRANS	GASFUEL	Gasoline and other fuels	2	T	41550
+TRANS	GASOIL	Gasoline, other fuels, and motor oil	1	T	41200
+TRANS	LEASVEH	Leased vehicles	4	T	44000
+TRANS	NEWCARS	Cars and trucks, new	2	T	40650
+TRANS	OTHVEHCL	Other vehicles	2	T	40950
+TRANS	PARKING	Parking fees	3	T	44850
+TRANS	PUBTRANS	Public and other transportation	1	T	45350
+TRANS	RENTVEH	Rented vehicles	4	T	43450
+TRANS	TRANS	Transportation	0	T	40550
+TRANS	USEDCARS	Cars and trucks, used	2	T	40800
+TRANS	VEHFINCH	Vehicle finance charges	2	T	41700
+TRANS	VEHOTHXP	Other vehicle expenses	1	T	41650
+TRANS	VEHPURCH	Vehicle purchases (net outlay)	1	T	40600
+TRANS	VEHRENT	Leased and rented vehicles	3	T	43400
+TRANS	VEHRNTLC	Vehicle rental, leases, licenses, and other charges	2	T	43350

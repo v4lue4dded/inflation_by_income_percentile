@@ -5,6 +5,7 @@ from cx_series
 where lower(series_title) like '%flour%'
 and demographics_code = 'LB01'
 
+;
 
 select
   substring(series_id || '1', 11, 5) as cu_code_prep,
@@ -19,7 +20,7 @@ select
   *
 from cu_series
 where lower(series_title) like '%flour%'
-
+;
 
 select substring(series_id,4,6) as cx_code
 , 'ucc' as join_type
@@ -56,6 +57,7 @@ select substring(series_id,4,6) as cx_code
 from cx_series
 where demographics_code = 'LB01'
 and item_code is null
+;
 
 select
   cx_code
