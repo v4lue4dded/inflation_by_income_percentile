@@ -53,19 +53,11 @@ cpi_filtered = cpi_series_df[
     (cpi_series_df["periodicity_code"].isin(["R","S"]))
 ]
 
-# ────────────────────────────────────────────────────────────────────────────────
-# Derive CPI weight series (CW...). Same item/area/seasonal codes; replace 2nd char 'U'→'W'
-# ────────────────────────────────────────────────────────────────────────────────
-cpi_weight_filtered = cpi_filtered.copy()
-cpi_weight_filtered["series_id"] = cpi_weight_filtered["series_id"].str.replace(
-    "^C(U)(..)", lambda m: "CW" + m.group(0)[2:], regex=True
-)
 
 # Combine all series (CE expenditures + CPI prices + CPI weights)
 total_filtered = pd.concat([
     ce_filtered[["series_id","begin_year","end_year"]],
     cpi_filtered[["series_id","begin_year","end_year"]],
-    cpi_weight_filtered[["series_id","begin_year","end_year"]]
 ], ignore_index=True)
 
 # Build series dict with begin/end bounds
@@ -98,6 +90,7 @@ for start, end in year_ranges:
             "startyear": start,
             "endyear": end,
             "annualaverage": "true",
+            "aspects": "true",
         }
         if bls_api_key:
             payload["registrationkey"] = bls_api_key

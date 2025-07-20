@@ -1,9 +1,3 @@
-"""
-build_duckdb.py
-Create/overwrite a DuckDB database containing the BLS‑series observations that
-were previously downloaded into data/raw/requests/*.json
-"""
-
 from pathlib import Path
 import json
 import pandas as pd
