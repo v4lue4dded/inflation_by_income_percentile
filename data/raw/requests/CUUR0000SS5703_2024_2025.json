@@ -10,6 +10,29 @@
             "periodName": "June",
             "latest": "true",
             "value": "955.512",
+            "aspects": [
+              {
+                "name": "Historical reference to 12 month % change",
+                "value": "L-Dec. 2024",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Median Standard Error 12 Month Change",
+                "value": "1.87",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "12 month % change prior to the current month",
+                "value": "4.0",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
             "footnotes": [
               {}
             ]
@@ -19,6 +42,29 @@
             "period": "M05",
             "periodName": "May",
             "value": "950.013",
+            "aspects": [
+              {
+                "name": "Historical reference to 12 month % change",
+                "value": "L-Feb. 2025",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Median Standard Error 12 Month Change",
+                "value": "1.87",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "12 month % change prior to the current month",
+                "value": "3.2",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
             "footnotes": [
               {}
             ]
@@ -28,6 +74,29 @@
             "period": "M04",
             "periodName": "April",
             "value": "942.111",
+            "aspects": [
+              {
+                "name": "Historical reference to 12 month % change",
+                "value": "L-Feb. 2025",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Median Standard Error 12 Month Change",
+                "value": "1.87",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "12 month % change prior to the current month",
+                "value": "3.2",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
             "footnotes": [
               {}
             ]
@@ -37,6 +106,29 @@
             "period": "M03",
             "periodName": "March",
             "value": "935.800",
+            "aspects": [
+              {
+                "name": "Historical reference to 12 month % change",
+                "value": "S-Jan. 2025",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Median Standard Error 12 Month Change",
+                "value": "1.87",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "12 month % change prior to the current month",
+                "value": "2.6",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
             "footnotes": [
               {}
             ]
@@ -46,6 +138,29 @@
             "period": "M02",
             "periodName": "February",
             "value": "929.105",
+            "aspects": [
+              {
+                "name": "Historical reference to 12 month % change",
+                "value": "L-Dec. 2024",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Median Standard Error 12 Month Change",
+                "value": "1.87",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "12 month % change prior to the current month",
+                "value": "4.0",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
             "footnotes": [
               {}
             ]
@@ -55,6 +170,29 @@
             "period": "M01",
             "periodName": "January",
             "value": "928.427",
+            "aspects": [
+              {
+                "name": "Historical reference to 12 month % change",
+                "value": "S-Mar. 2022",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Median Standard Error 12 Month Change",
+                "value": "1.87",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "12 month % change prior to the current month",
+                "value": "2.5",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
             "footnotes": [
               {}
             ]
@@ -64,6 +202,7 @@
             "period": "M13",
             "periodName": "Annual",
             "value": "912.693",
+            "aspects": [],
             "footnotes": [
               {}
             ]
@@ -73,6 +212,29 @@
             "period": "M12",
             "periodName": "December",
             "value": "921.928",
+            "aspects": [
+              {
+                "name": "Historical reference to 12 month % change",
+                "value": "S-Feb. 2023",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Median Standard Error 12 Month Change",
+                "value": "1.78",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "12 month % change prior to the current month",
+                "value": "3.6",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
             "footnotes": [
               {}
             ]
@@ -82,6 +244,29 @@
             "period": "M11",
             "periodName": "November",
             "value": "919.298",
+            "aspects": [
+              {
+                "name": "Historical reference to 12 month % change",
+                "value": "L-Jul. 2024",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Median Standard Error 12 Month Change",
+                "value": "1.78",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "12 month % change prior to the current month",
+                "value": "5.4",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
             "footnotes": [
               {}
             ]
@@ -91,6 +276,29 @@
             "period": "M10",
             "periodName": "October",
             "value": "916.243",
+            "aspects": [
+              {
+                "name": "Historical reference to 12 month % change",
+                "value": "L-Jul. 2024",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Median Standard Error 12 Month Change",
+                "value": "1.78",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "12 month % change prior to the current month",
+                "value": "5.4",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
             "footnotes": [
               {}
             ]
@@ -100,6 +308,29 @@
             "period": "M09",
             "periodName": "September",
             "value": "909.527",
+            "aspects": [
+              {
+                "name": "Historical reference to 12 month % change",
+                "value": "S-Mar. 2023",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Median Standard Error 12 Month Change",
+                "value": "1.78",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "12 month % change prior to the current month",
+                "value": "4.1",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
             "footnotes": [
               {}
             ]
@@ -109,6 +340,29 @@
             "period": "M07",
             "periodName": "July",
             "value": "903.675",
+            "aspects": [
+              {
+                "name": "Historical reference to 12 month % change",
+                "value": "S-Aug. 2023",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Median Standard Error 12 Month Change",
+                "value": "1.78",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "12 month % change prior to the current month",
+                "value": "4.9",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
             "footnotes": [
               {}
             ]
@@ -118,6 +372,29 @@
             "period": "M06",
             "periodName": "June",
             "value": "920.715",
+            "aspects": [
+              {
+                "name": "Historical reference to 12 month % change",
+                "value": "S-Dec. 2023",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Median Standard Error 12 Month Change",
+                "value": "1.78",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "12 month % change prior to the current month",
+                "value": "6.7",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
             "footnotes": [
               {}
             ]
@@ -127,6 +404,29 @@
             "period": "M05",
             "periodName": "May",
             "value": "920.335",
+            "aspects": [
+              {
+                "name": "Historical reference to 12 month % change",
+                "value": "S-Feb. 2024",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Median Standard Error 12 Month Change",
+                "value": "1.78",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "12 month % change prior to the current month",
+                "value": "7.9",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
             "footnotes": [
               {}
             ]
@@ -136,6 +436,29 @@
             "period": "M04",
             "periodName": "April",
             "value": "915.379",
+            "aspects": [
+              {
+                "name": "Historical reference to 12 month % change",
+                "value": "S-Feb. 2024",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Median Standard Error 12 Month Change",
+                "value": "1.78",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "12 month % change prior to the current month",
+                "value": "7.9",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
             "footnotes": [
               {}
             ]
@@ -145,6 +468,29 @@
             "period": "M03",
             "periodName": "March",
             "value": "912.152",
+            "aspects": [
+              {
+                "name": "Historical reference to 12 month % change",
+                "value": "L-Jan. 2024",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Median Standard Error 12 Month Change",
+                "value": "1.78",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "12 month % change prior to the current month",
+                "value": "8.3",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
             "footnotes": [
               {}
             ]
@@ -154,6 +500,29 @@
             "period": "M02",
             "periodName": "February",
             "value": "900.466",
+            "aspects": [
+              {
+                "name": "Historical reference to 12 month % change",
+                "value": "S-Dec. 2023",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Median Standard Error 12 Month Change",
+                "value": "1.78",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "12 month % change prior to the current month",
+                "value": "6.7",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
             "footnotes": [
               {}
             ]
@@ -163,6 +532,29 @@
             "period": "M01",
             "periodName": "January",
             "value": "904.516",
+            "aspects": [
+              {
+                "name": "Historical reference to 12 month % change",
+                "value": "L-May 2008",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Median Standard Error 12 Month Change",
+                "value": "1.78",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "12 month % change prior to the current month",
+                "value": "8.3",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
             "footnotes": [
               {}
             ]

@@ -10,6 +10,50 @@
             "periodName": "September",
             "latest": "true",
             "value": "457.042",
+            "aspects": [
+              {
+                "name": "Historical reference to 12 month % change",
+                "value": "S-Dec. 2019",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Relative Importance",
+                "value": "0.261",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Relative Importance for previous year",
+                "value": "0.267",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Median Standard Error 12 Month Change",
+                "value": "1.38",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "12 month % change prior to the current month",
+                "value": "-0.9",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "12 Month Effect on All Items",
+                "value": "0.001",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
             "footnotes": [
               {}
             ]
@@ -19,6 +63,50 @@
             "period": "M03",
             "periodName": "March",
             "value": "446.314",
+            "aspects": [
+              {
+                "name": "Historical reference to 12 month % change",
+                "value": "S-Jul. 2023",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Relative Importance",
+                "value": "0.252",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Relative Importance for previous year",
+                "value": "0.267",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Median Standard Error 12 Month Change",
+                "value": "1.38",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "12 month % change prior to the current month",
+                "value": "4.6",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "12 Month Effect on All Items",
+                "value": "0.021",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
             "footnotes": [
               {}
             ]
