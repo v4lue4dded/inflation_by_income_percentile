@@ -1,0 +1,48 @@
+{
+  "Results": {
+    "series": [
+      {
+        "seriesID": "CWUS0000SEHH02",
+        "data": [
+          {
+            "year": "2025",
+            "period": "S01",
+            "periodName": "1st Half",
+            "latest": "true",
+            "value": "78.598",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2024",
+            "period": "S03",
+            "periodName": "Annual",
+            "value": "77.005",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2024",
+            "period": "S02",
+            "periodName": "2nd Half",
+            "value": "77.111",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2024",
+            "period": "S01",
+            "periodName": "1st Half",
+            "value": "76.899",
+            "footnotes": [
+              {}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

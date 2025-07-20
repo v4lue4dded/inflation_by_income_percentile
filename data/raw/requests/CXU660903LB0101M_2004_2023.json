@@ -1,0 +1,48 @@
+{
+  "Results": {
+    "series": [
+      {
+        "seriesID": "CXU660903LB0101M",
+        "data": [
+          {
+            "year": "2023",
+            "period": "A01",
+            "periodName": "Annual",
+            "latest": "true",
+            "value": "-",
+            "footnotes": [
+              {
+                "code": "7",
+                "text": "No data reported."
+              }
+            ]
+          },
+          {
+            "year": "2022",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "-",
+            "footnotes": [
+              {
+                "code": "6",
+                "text": "Data are suppressed due to the Relative Standard Error (RSE) being equal to or greater than 25 percent. See www.bls.gov/cex/tables-getting-started-guide.htm for more information."
+              }
+            ]
+          },
+          {
+            "year": "2021",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "-",
+            "footnotes": [
+              {
+                "code": "8",
+                "text": "Value is too small to display."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

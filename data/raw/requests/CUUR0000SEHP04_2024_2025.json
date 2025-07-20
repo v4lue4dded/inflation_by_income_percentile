@@ -1,0 +1,39 @@
+{
+  "Results": {
+    "series": [
+      {
+        "seriesID": "CUUR0000SEHP04",
+        "data": [
+          {
+            "year": "2024",
+            "period": "M07",
+            "periodName": "July",
+            "latest": "true",
+            "value": "393.373",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2024",
+            "period": "M03",
+            "periodName": "March",
+            "value": "383.372",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2024",
+            "period": "M01",
+            "periodName": "January",
+            "value": "377.611",
+            "footnotes": [
+              {}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

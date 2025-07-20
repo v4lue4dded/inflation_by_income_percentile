@@ -1,0 +1,84 @@
+{
+  "Results": {
+    "series": [
+      {
+        "seriesID": "CUUR0000SETA03",
+        "data": [
+          {
+            "year": "2025",
+            "period": "M06",
+            "periodName": "June",
+            "latest": "true",
+            "value": "115.033",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2025",
+            "period": "M05",
+            "periodName": "May",
+            "value": "115.380",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2025",
+            "period": "M04",
+            "periodName": "April",
+            "value": "115.517",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2024",
+            "period": "M09",
+            "periodName": "September",
+            "value": "118.200",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2024",
+            "period": "M07",
+            "periodName": "July",
+            "value": "114.253",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2024",
+            "period": "M05",
+            "periodName": "May",
+            "value": "119.810",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2024",
+            "period": "M03",
+            "periodName": "March",
+            "value": "118.946",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2024",
+            "period": "M01",
+            "periodName": "January",
+            "value": "109.689",
+            "footnotes": [
+              {}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -28,7 +28,7 @@ ce_series_df = (
 )
 ce_series_df.columns = ce_series_df.columns.str.strip()
 
-# Filter CE: average annual expenditures by income‑before‑tax quintile
+# Filter CE: average annual expenditures by income‑before‑tax quintile (keep all quintiles now)
 quints = ['02','03','04','05','06']
 ce_filtered = ce_series_df[
      (ce_series_df["category_code"]      == "EXPEND")   # total consumer expenditures
@@ -36,7 +36,6 @@ ce_filtered = ce_series_df[
    & (ce_series_df["demographics_code"]  == "LB01")     # income‑before‑tax classification
 #    & (ce_series_df["characteristics_code"].isin(quints)) # quintiles 
 ]
-
 
 # ────────────────────────────────────────────────────────────────────────────────
 # Load CPI (Consumer Price Index) series metadata
@@ -47,18 +46,29 @@ cpi_series_df = (
 )
 cpi_series_df.columns = cpi_series_df.columns.str.strip()
 
-# Filter CPI: U.S. City Average, getting semianual data will filter on full year later
+# Filter CPI: U.S. City Average, unadjusted (keep both monthly 'R' and semiannual 'S'; annual avg via API flag)
 cpi_filtered = cpi_series_df[
-    (cpi_series_df["area_code"] == "0000") &   # U.S. city average
-    (cpi_series_df["seasonal"]  == "U")    &   # unadjusted
-    (cpi_series_df["periodicity_code"] == "S") # annual average
+    (cpi_series_df["area_code"]        == "0000") &
+    (cpi_series_df["seasonal"]         == "U")    &
+    (cpi_series_df["periodicity_code"].isin(["R","S"]))
 ]
 
+# ────────────────────────────────────────────────────────────────────────────────
+# Derive CPI weight series (CW...). Same item/area/seasonal codes; replace 2nd char 'U'→'W'
+# ────────────────────────────────────────────────────────────────────────────────
+cpi_weight_filtered = cpi_filtered.copy()
+cpi_weight_filtered["series_id"] = cpi_weight_filtered["series_id"].str.replace(
+    "^C(U)(..)", lambda m: "CW" + m.group(0)[2:], regex=True
+)
 
-# ────────────────────────  series dict  ───────────────────
+# Combine all series (CE expenditures + CPI prices + CPI weights)
+total_filtered = pd.concat([
+    ce_filtered[["series_id","begin_year","end_year"]],
+    cpi_filtered[["series_id","begin_year","end_year"]],
+    cpi_weight_filtered[["series_id","begin_year","end_year"]]
+], ignore_index=True)
 
-total_filtered = pd.concat([ce_filtered[["series_id","begin_year","end_year"]], cpi_filtered[["series_id","begin_year","end_year"]]])
-
+# Build series dict with begin/end bounds
 series_dict = {
     row.series_id: {"begin": int(row.begin_year), "end": int(row.end_year)}
     for _, row in total_filtered.iterrows()

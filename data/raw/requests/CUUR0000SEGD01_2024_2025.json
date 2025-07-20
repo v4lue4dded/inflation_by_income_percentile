@@ -1,0 +1,30 @@
+{
+  "Results": {
+    "series": [
+      {
+        "seriesID": "CUUR0000SEGD01",
+        "data": [
+          {
+            "year": "2024",
+            "period": "M09",
+            "periodName": "September",
+            "latest": "true",
+            "value": "457.042",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2024",
+            "period": "M03",
+            "periodName": "March",
+            "value": "446.314",
+            "footnotes": [
+              {}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

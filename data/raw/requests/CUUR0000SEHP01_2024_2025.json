@@ -1,0 +1,57 @@
+{
+  "Results": {
+    "series": [
+      {
+        "seriesID": "CUUR0000SEHP01",
+        "data": [
+          {
+            "year": "2024",
+            "period": "M11",
+            "periodName": "November",
+            "latest": "true",
+            "value": "227.085",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2024",
+            "period": "M10",
+            "periodName": "October",
+            "value": "225.598",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2024",
+            "period": "M04",
+            "periodName": "April",
+            "value": "221.136",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2024",
+            "period": "M03",
+            "periodName": "March",
+            "value": "225.914",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2024",
+            "period": "M02",
+            "periodName": "February",
+            "value": "223.921",
+            "footnotes": [
+              {}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

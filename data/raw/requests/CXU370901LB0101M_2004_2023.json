@@ -1,0 +1,57 @@
+{
+  "Results": {
+    "series": [
+      {
+        "seriesID": "CXU370901LB0101M",
+        "data": [
+          {
+            "year": "2018",
+            "period": "A01",
+            "periodName": "Annual",
+            "latest": "true",
+            "value": "11",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2017",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "16",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2016",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "14",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "13",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2014",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "24",
+            "footnotes": [
+              {}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

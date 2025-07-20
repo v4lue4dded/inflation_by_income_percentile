@@ -1,0 +1,30 @@
+{
+  "Results": {
+    "series": [
+      {
+        "seriesID": "CUUR0000SS31023",
+        "data": [
+          {
+            "year": "1998",
+            "period": "M01",
+            "periodName": "January",
+            "latest": "true",
+            "value": "96.3",
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "1997",
+            "period": "M12",
+            "periodName": "December",
+            "value": "100.0",
+            "footnotes": [
+              {}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
