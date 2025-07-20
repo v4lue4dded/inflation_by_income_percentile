@@ -1,3 +1,51 @@
+select
+  display_level
+, count(*) as freq
+from cx_item as x
+group by
+  display_level
+order by freq desc
+;
+
+select
+  display_level
+, count(*) as freq
+from cu_item as x
+group by
+  display_level
+order by freq desc
+;
+
+select
+*
+from cx_item as x
+where display_level = 2
+;
+
+
+
+
+select
+*
+from cu_item as x
+where display_level = 4
+;
+
+
+select
+*
+from cx_item as x
+where lower(item_text) like '%egg%'
+;
+
+select
+*
+from cu_item as x
+where lower(item_name) like '%egg%'
+;
+
+
+
 create or replace temp table cx_basis_table as
 select substring(series_id,4,6) as cx_code
 , 'ucc' as join_type
