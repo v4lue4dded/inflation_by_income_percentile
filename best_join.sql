@@ -1,63 +1,16 @@
-select
-  display_level
-, count(*) as freq
-from cx_item as x
-group by
-  display_level
-order by freq desc
-;
-
-select
-  display_level
-, count(*) as freq
-from cu_item as x
-group by
-  display_level
-order by freq desc
-;
-
-select
-*
-from cx_item as x
-where display_level = 2
-;
-
-
-
-
-select
-*
-from cu_item as x
-where display_level = 4
-;
-
-
-select
-*
-from cx_item as x
-where lower(item_text) like '%egg%'
-;
-
-select
-*
-from cu_item as x
-where lower(item_name) like '%egg%'
-;
-
-
-
 create or replace temp table cx_basis_table as
-select substring(series_id,4,6) as cx_code
+select substring(se.series_id,4,6) as cx_code
 , 'ucc' as join_type
 , *
-from cx_series
-where demographics_code = 'LB01'
-and item_code is null
+from      cx_series         as se
+left join cx_item_hierarchy as ih on se.item_code = ih.item_code
+where se.demographics_code = 'LB01'
+and   ih.display_level <= 2
 ;
 
 create or replace temp table cu_basis_table as
 select
-  substring(series_id || '1', 11, 5) as cu_code_prep,
+  substring(se.series_id || '1', 11, 5) as cu_code_prep,
   case
     when cu_code_prep ~ '^[0-9]+$' then cu_code_prep || '0'
     else cu_code_prep
@@ -67,11 +20,11 @@ select
     else 'eli'
   end as join_type,
   *
-from cu_series
+from      cu_series         as se
+left join cu_item_hierarchy as ih on se.item_code = ih.item_code
+where ih.display_level <= 2
+and se.area_code = '0000'
 ;
-
-
-create or replace schema processing;
 
 create or replace table processing.best_raw_match as
 select
@@ -83,6 +36,8 @@ select
 , cu.cu_code
 , cu.join_type
 , co.*
+, cx.*
+, cu.*
 from      cx_basis_table     as cx
 full join ce_cpi_concordance as co on cx.cx_code = co.UCC
 full join cu_basis_table     as cu on
@@ -90,13 +45,34 @@ full join cu_basis_table     as cu on
       when cu.join_type = 'ucc' then cx.cx_code = cu.cu_code
       when cu.join_type = 'eli' then co.ELI = cu.cu_code
     end
+where cx.series_id is not null
+or    cu.series_id is not null
 ;
 
 select *
 from processing.best_raw_match
 where cu_series_id is null
+or    cx_series_id is null
 
 order by random()
+
+
+select *
+from cx_basis_table
+
+select
+  cx_series_id
+, count(*) as freq
+from processing.best_raw_match as x
+group by
+  cx_series_id
+order by freq desc
+;
+
+
+select
+from processing.best_raw_match
+
 
 
 select *

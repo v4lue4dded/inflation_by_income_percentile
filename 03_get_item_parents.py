@@ -5,109 +5,123 @@ import duckdb
 import re
 
 # ────────────────────────────────────────────────────────────────────────────────
-# Paths
+# Paths (BLS = Bureau of Labor Statistics)
 # ────────────────────────────────────────────────────────────────────────────────
-main_folder   = Path(__file__).resolve().parent
-raw_dir       = main_folder / "data" / "raw"
-requests_dir  = main_folder / "data" / "raw" / "requests"
-db_path       = main_folder / "data" / "processing" / "inflation.duckdb"
-db_path.parent.mkdir(parents=True, exist_ok=True)      # be sure the data/ folder exists
+main_folder  = Path(__file__).resolve().parent
+raw_dir      = main_folder / "data" / "raw"
+requests_dir = raw_dir / "requests"
+db_path      = main_folder / "data" / "processing" / "inflation.duckdb"
+db_path.parent.mkdir(parents=True, exist_ok=True)
 
-
-
+# ────────────────────────────────────────────────────────────────────────────────
+# Hierarchy helpers
+# ────────────────────────────────────────────────────────────────────────────────
 def add_parent(df, id_col="item_code"):
     """
     Adds a 'parent_code' column based on display_level & sort_sequence.
+    Assumes parents appear earlier in ascending sort_sequence.
     """
     df = df.sort_values("sort_sequence").reset_index(drop=True)
     last_at_level = {}
-    parent_codes = []
-
+    parents = []
     for _, row in df.iterrows():
         lvl = int(row.display_level)
-        parent = last_at_level.get(lvl - 1)  # None for top level
-        parent_codes.append(parent)
+        parents.append(last_at_level.get(lvl - 1))
         last_at_level[lvl] = row[id_col]
-
-    df["parent_code"] = parent_codes
+    df["parent_code"] = parents
     return df
 
 def add_level_columns(df, id_col="item_code", name_col="item_name",
                       parent_col="parent_code", fill_empty=""):
     """
-    For each row, build ancestor chain (root ... self) and expand into
-    level_0, level_1, ..., level_{max_depth-1}. Current item occupies the
-    last non-empty level for that row. Deeper levels are left empty.
+    Expands each row into level_0..level_k (root..self). Deeper levels blank.
     """
-    # Build quick lookups
     parent_map = dict(zip(df[id_col], df[parent_col]))
     name_map   = dict(zip(df[id_col], df[name_col]))
-
-    # Cache chains to avoid re-walking parents repeatedly
     chain_cache = {}
 
     def chain(code):
         if code in chain_cache:
             return chain_cache[code]
-        path = []
+        seq = []
         cur = code
         while cur:
-            path.append(cur)
+            seq.append(cur)
             cur = parent_map.get(cur)
-        # path now: [self, parent, grandparent, ...]; reverse to root→self
-        full = list(reversed(path))
-        chain_cache[code] = full
-        return full
+        seq = list(reversed(seq))        # root → self
+        chain_cache[code] = seq
+        return seq
 
-    # Build all chains, track max depth
-    chains = {}
     max_depth = 0
+    chains = {}
     for code in df[id_col]:
         c = chain(code)
         chains[code] = c
         if len(c) > max_depth:
             max_depth = len(c)
 
-    # Prepare columns
+    # Create empty columns
     for lvl in range(max_depth):
         df[f"level_{lvl}"] = fill_empty
 
-    # Fill columns with names
-    for idx, row in df.iterrows():
-        codes_chain = chains[row[id_col]]
-        for lvl, code in enumerate(codes_chain):
-            df.at[idx, f"level_{lvl}"] = name_map[code]
+    # Fill
+    for i, row in df.iterrows():
+        seq = chains[row[id_col]]
+        for lvl, code in enumerate(seq):
+            df.at[i, f"level_{lvl}"] = name_map[code]
 
     return df, max_depth
 
-# --- CPI example ---
-cpi_items = pd.read_csv("data/raw/cu.item", sep="\t", dtype=str)
-cpi_items["display_level"] = cpi_items["display_level"].astype(int)
-cpi_items["sort_sequence"] = cpi_items["sort_sequence"].astype(int)
+def add_path_column(df, max_depth):
+    """Optional: concatenate non-empty level_* into a 'path' column."""
+    level_cols = [f"level_{i}" for i in range(max_depth)]
+    df["path"] = df[level_cols].replace("", pd.NA).apply(
+        lambda r: " > ".join([x for x in r if pd.notna(x)]), axis=1
+    )
+    return df
 
-cpi_with_parent = add_parent(cpi_items)
-cpi_with_levels, cpi_depth = add_level_columns(cpi_with_parent)
+# ────────────────────────────────────────────────────────────────────────────────
+# Load cu (Consumer Price Index) items
+# ────────────────────────────────────────────────────────────────────────────────
+cu_items = pd.read_csv(raw_dir / "cu.item", sep="\t", dtype=str)
+cu_items["display_level"] = cu_items["display_level"].astype(int)
+cu_items["sort_sequence"] = cu_items["sort_sequence"].astype(int)
 
-# --- CE example ---
-ce_items = pd.read_csv("data/raw/cx.item", sep="\t", dtype=str)
-ce_items["display_level"] = ce_items["display_level"].astype(int)
-ce_items["sort_sequence"] = ce_items["sort_sequence"].astype(int)
+cu_with_parent = add_parent(cu_items.copy())
+cu_with_levels, cu_depth = add_level_columns(cu_with_parent, name_col="item_name")
+cu_with_levels = add_path_column(cu_with_levels, cu_depth)
 
-# If hierarchy must be confined within subcategory_code groups, group first; else do global.
-# Here we assume a global hierarchy analogous to CPI; if not, uncomment the groupby approach.
+# ────────────────────────────────────────────────────────────────────────────────
+# Load CX (Consumer Expenditure) items
+# ────────────────────────────────────────────────────────────────────────────────
+cx_items = pd.read_csv(raw_dir / "cx.item", sep="\t", dtype=str)
+cx_items["display_level"] = cx_items["display_level"].astype(int)
+cx_items["sort_sequence"] = cx_items["sort_sequence"].astype(int)
 
-# Global approach:
-ce_with_parent = add_parent(ce_items)
-ce_with_levels, ce_depth = add_level_columns(ce_with_parent, name_col='item_text')
+# Global hierarchy (change to groupby subcategory_code if desired)
+cx_with_parent = add_parent(cx_items.copy())
+cx_with_levels, cx_depth = add_level_columns(cx_with_parent, name_col="item_text")
+cx_with_levels = add_path_column(cx_with_levels, cx_depth)
 
-# Example: inspect a few rows
-print(cpi_with_levels.filter(regex="^level_").head())
-print(ce_with_levels.filter(regex="^level_").head())
+# ────────────────────────────────────────────────────────────────────────────────
+# Persist to DuckDB
+# ────────────────────────────────────────────────────────────────────────────────
+con = duckdb.connect(db_path)
 
-# reopen the same database or create it if it doesn't exist yet
-con = duckdb.connect(db_path)           # db_path defined earlier (e.g. data/series.duckdb)
-con.execute(f"DROP TABLE IF EXISTS {table_name};")
-con.register("tmp_df_tsv", df_tsv)
-con.execute(f"CREATE TABLE {table_name} AS SELECT * FROM tmp_df_tsv;")
-con.unregister("tmp_df_tsv")
+# Write / replace cu hierarchy table
+con.execute("DROP TABLE IF EXISTS cu_item_hierarchy;")
+con.register("tmp_cu", cu_with_levels)
+con.execute("CREATE TABLE cu_item_hierarchy AS SELECT * FROM tmp_cu;")
+con.unregister("tmp_cu")
+
+# Write / replace CE hierarchy table
+con.execute("DROP TABLE IF EXISTS cx_item_hierarchy;")
+con.register("tmp_ce", cx_with_levels)
+con.execute("CREATE TABLE cx_item_hierarchy AS SELECT * FROM tmp_ce;")
+con.unregister("tmp_ce")
+
 con.close()
+
+print("✅ Loaded tables into DuckDB:")
+print("  - cu_item_hierarchy")
+print("  - cx_item_hierarchy")
