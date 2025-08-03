@@ -16,29 +16,17 @@ select
   mm.id
 , mm.level
 , mm."expenditure cateogories with spaces"
-, mm."expenditure cateogories"
-, mm.check_name
-, mm.series_id_cx_all_consumer_units
+-- , mm.series_id_cx_all_consumer_units
 , replace(mm.series_id_cx_all_consumer_units, 'B0101M', qc.series_ending) series_id_cx
 , mm.series_id_cu
-, mm.series_title
-, mm.questionable_match
-, mm.comment
-from      my_matching_categories          mm
-cross join expediture_series_quintile_cat qc
+, cx.series_title as cx_series_title
+, cu.series_title as cu_series_title
+, cx.begin_year
+, cx.end_year
+, cu.begin_year
+, cu.end_year
+from      my_matching_categories          as mm
+cross join expediture_series_quintile_cat as qc
+left join cu_series                       as cu on mm.series_id_cu = cu.series_id
+left join cx_series                       as cx on replace(mm.series_id_cx_all_consumer_units, 'B0101M', qc.series_ending) = cx.series_id
 order by id
-
-
-select *
-from cu_series
-where series_id like '%SA0'
-
-select *
-from cx_series
-where series_id like 'CXUTOTALEXPL%'
-
-
-
-select *
-from cx_series
-where series_title like 'Cereal%Quin%'
