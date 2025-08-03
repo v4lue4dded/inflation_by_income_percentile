@@ -71,10 +71,6 @@ con.execute(
     """
 )
 
-
-# reopen the same database or create it if it doesn't exist yet
-con = duckdb.connect(db_path)           # db_path defined earlier (e.g. data/series.duckdb)
-
 for fp in bls_dir.iterdir():
     # skip directories
     if fp.is_dir():
@@ -97,6 +93,29 @@ for fp in bls_dir.iterdir():
     con.unregister("tmp_df_tsv")
 
     print(f"✅  Imported {fp.name:15} ➜ table '{table_name}' ({len(df_tsv):,} rows)")
+
+
+
+# read as TSV and strip whitespace from headers & string cells
+df_tsv = (
+pd.read_csv("", sep="\t")
+  .apply(lambda col: col.str.strip() if col.dtype == "object" else col)
+)
+df_tsv.columns = df_tsv.columns.str.strip()
+
+# derive a legal SQL table name → file stem with dots changed to underscores
+table_name = re.sub(r"\W+", "_", fp.name).lower()
+
+# replace existing table each run so things stay in sync with the files
+con.execute(f"DROP TABLE IF EXISTS {table_name};")
+con.register("tmp_df_tsv", df_tsv)
+con.execute(f"CREATE TABLE {table_name} AS SELECT * FROM tmp_df_tsv;")
+con.unregister("tmp_df_tsv")
+
+
+
+
+
 
 con.close()
 
