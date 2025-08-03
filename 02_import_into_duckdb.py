@@ -10,7 +10,8 @@ import re
 main_folder   = Path(__file__).resolve().parent
 bls_dir       = main_folder / "data" / "raw" / "bureau_of_labor_statistics_tables"
 requests_dir  = main_folder / "data" / "raw" / "requests"
-my_matching_categories = main_folder / "data" / "selfmade" / "my_matching_categories_with_levels.csv"
+my_matching_categories             = main_folder / "data" / "selfmade" / "my_matching_categories.csv"
+my_matching_categories_with_levels = main_folder / "data" / "selfmade" / "my_matching_categories_with_levels.csv"
 db_path       = main_folder / "data" / "processing" / "inflation.duckdb"
 db_path.parent.mkdir(parents=True, exist_ok=True)      # be sure the data/ folder exists
 
@@ -101,6 +102,35 @@ for fp in bls_dir.iterdir():
 df_my_matching_categories = (
 pd.read_csv(my_matching_categories, sep="\t"))
 df_my_matching_categories.columns = df_my_matching_categories.columns.str.strip()
+df_my_matching_categories = df_my_matching_categories.sort_values("ID").reset_index(drop=True)
+
+# ---- Prepare output columns --------------------------------------------------
+# We'll create level_0 ... level_4 and fill them as we iterate
+for j in range(5):
+    df_my_matching_categories[f"level_{j}"] = ""
+
+# This will store the current path (what we've seen so far at each level)
+current = [""] * 5
+
+# ---- Build the hierarchy row-by-row ------------------------------------------
+for i in range(len(df_my_matching_categories)):
+    L = int(df_my_matching_categories.at[i, "level"])
+    label = df_my_matching_categories.at[i, "Expenditure cateogories with spaces"]
+
+    # Put the current row's label at its level
+    current[L] = label
+
+    # Anything deeper than L is no longer in scope for this branch
+    for j in range(L + 1, 5):
+        current[j] = label
+
+    # Write the full path for this row
+    for j in range(5):
+        df_my_matching_categories.at[i, f"level_{j}"] = current[j]
+
+# ---- Save/inspect ------------------------------------------------------------
+df_my_matching_categories.to_csv(my_matching_categories_with_levels, index=False, sep='\t')
+
 
 # replace existing table each run so things stay in sync with the files
 con.execute(f"DROP TABLE IF EXISTS my_matching_categories;")
