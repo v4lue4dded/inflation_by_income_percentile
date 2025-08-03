@@ -7,8 +7,8 @@ order by sort_sequence
 
 select *
 from cu_series
-where series_title like  '% in U.S. city average, all urban consumers, seasonally adjusted'
-where item_code like '%SEED%'
+where series_title like  '% in U.S. city average, all urban consumers%'
+and item_code like '%SEME%'
 -- and(
 --       lower(series_title) like '%phone%'
 --     )

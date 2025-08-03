@@ -79,7 +79,7 @@ ID	level	Expenditure cateogories with spaces	Expenditure cateogories	check_name	
 77	3	         Vehicle rent., licenses, other charges    	Vehicle rent., licenses, other charges	Vehicle rental, leases, licenses, and other charges	CXUVEHRNTLCLB0101M				
 78	2	      Public transportation                        	Public transportation	Public and other transportation	CXUPUBTRANSLB0101M	CUUR0000SETG	Public transportation in U.S. city average, all urban consumers, not seasonally adjusted		
 79	1	   Health care                                     	Health care	Healthcare	CXUHEALTHLB0101M	CUUR0000SAM	Medical care in U.S. city average, all urban consumers, not seasonally adjusted		
-80	2	      Health insurance                             	Health insurance	Health insurance	CXUHLTHINSRLB0101M				
+80	2	      Health insurance                             	Health insurance	Health insurance	CXUHLTHINSRLB0101M	CUUR0000SEME	Health insurance in U.S. city average, all urban consumers, not seasonally adjusted		
 81	2	      Medical services                             	Medical services	Medical services	CXUMEDSERVSLB0101M	CUUR0000SAM2	Medical care services in U.S. city average, all urban consumers, not seasonally adjusted		
 82	2	      Drugs                                        	Drugs	Drugs	CXUDRUGSLB0101M	CUUR0000SEMF	Medicinal drugs in U.S. city average, all urban consumers, not seasonally adjusted		
 83	2	      Medical supplies                             	Medical supplies	Medical supplies	CXUMEDSUPPLLB0101M	???			

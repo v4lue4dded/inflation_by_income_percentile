@@ -8,8 +8,8 @@ import re
 # Paths (BLS = Bureau of Labor Statistics)
 # ────────────────────────────────────────────────────────────────────────────────
 main_folder  = Path(__file__).resolve().parent
-raw_dir      = main_folder / "data" / "raw"
-requests_dir = raw_dir / "requests"
+bls_dir      = main_folder / "data" / "raw" / "bureau_of_labor_statistics_tables"
+requests_dir = main_folder / "data" / "raw" / "requests"
 db_path      = main_folder / "data" / "processing" / "inflation.duckdb"
 db_path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -83,7 +83,7 @@ def add_path_column(df, max_depth):
 # ────────────────────────────────────────────────────────────────────────────────
 # Load cu (Consumer Price Index) items
 # ────────────────────────────────────────────────────────────────────────────────
-cu_items = pd.read_csv(raw_dir / "cu.item", sep="\t", dtype=str)
+cu_items = pd.read_csv(bls_dir / "cu.item", sep="\t", dtype=str)
 cu_items["display_level"] = cu_items["display_level"].astype(int)
 cu_items["sort_sequence"] = cu_items["sort_sequence"].astype(int)
 
@@ -94,7 +94,7 @@ cu_with_levels = add_path_column(cu_with_levels, cu_depth)
 # ────────────────────────────────────────────────────────────────────────────────
 # Load CX (Consumer Expenditure) items
 # ────────────────────────────────────────────────────────────────────────────────
-cx_items = pd.read_csv(raw_dir / "cx.item", sep="\t", dtype=str)
+cx_items = pd.read_csv(bls_dir / "cx.item", sep="\t", dtype=str)
 cx_items["display_level"] = cx_items["display_level"].astype(int)
 cx_items["sort_sequence"] = cx_items["sort_sequence"].astype(int)
 
