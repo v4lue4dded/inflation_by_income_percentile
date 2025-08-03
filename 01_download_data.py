@@ -8,9 +8,9 @@ import json
 # Paths and folders (BLS = Bureau of Labor Statistics)
 # ────────────────────────────────────────────────────────────────────────────────
 main_folder  = Path(__file__).resolve().parent
-output_dir   = main_folder / "data" / "raw"
-requests_dir = output_dir / "requests"
-output_dir.mkdir(parents=True, exist_ok=True)
+bls_dir   = main_folder / "data" / "raw" / "bureau_of_labor_statistics_tables"
+requests_dir = main_folder / "data" / "raw" / "requests"
+bls_dir.mkdir(parents=True, exist_ok=True)
 requests_dir.mkdir(parents=True, exist_ok=True)
 
 # ────────────────────────────────────────────────────────────────────────────────
@@ -23,7 +23,7 @@ with open(main_folder / "private" / "keys.json", encoding="utf-8") as f:
 # Load CE (Consumer Expenditure) series metadata
 # ────────────────────────────────────────────────────────────────────────────────
 ce_series_df = (
-    pd.read_csv(output_dir / "cx.series", sep="\t")
+    pd.read_csv(bls_dir / "cx.series", sep="\t")
       .apply(lambda col: col.str.strip() if col.dtype == "object" else col)
 )
 ce_series_df.columns = ce_series_df.columns.str.strip()
@@ -41,7 +41,7 @@ ce_filtered = ce_series_df[
 # Load CPI (Consumer Price Index) series metadata
 # ────────────────────────────────────────────────────────────────────────────────
 cpi_series_df = (
-    pd.read_csv(output_dir / "cu.series", sep="\t")
+    pd.read_csv(bls_dir / "cu.series", sep="\t")
       .apply(lambda col: col.str.strip() if col.dtype == "object" else col)
 )
 cpi_series_df.columns = cpi_series_df.columns.str.strip()
