@@ -2,14 +2,14 @@
 create or replace table expediture_series_quintile_cat as
 select *
 from (
-      select 'B0101M' series_ending, 'All Consumer Units' series_ending_txt
-union select 'B0102M' series_ending, 'Lowest 20 percent income quintile' series_ending_txt
-union select 'B0103M' series_ending, 'Second 20 percent income quintile' series_ending_txt
-union select 'B0104M' series_ending, 'Third 20 percent income quintile' series_ending_txt
-union select 'B0105M' series_ending, 'Fourth 20 percent income quintile' series_ending_txt
-union select 'B0106M' series_ending, 'Highest 20 percent income quintile' series_ending_txt
-union select 'B01A1M' series_ending, 'Total complete income reporters' series_ending_txt
-union select 'B01A2M' series_ending, 'Incomplete income reports' series_ending_txt
+      select 'B0101M' type_of_quintile, 'All Consumer Units' type_of_quintile_txt
+union select 'B0102M' type_of_quintile, 'Lowest 20 percent income quintile' type_of_quintile_txt
+union select 'B0103M' type_of_quintile, 'Second 20 percent income quintile' type_of_quintile_txt
+union select 'B0104M' type_of_quintile, 'Third 20 percent income quintile' type_of_quintile_txt
+union select 'B0105M' type_of_quintile, 'Fourth 20 percent income quintile' type_of_quintile_txt
+union select 'B0106M' type_of_quintile, 'Highest 20 percent income quintile' type_of_quintile_txt
+union select 'B01A1M' type_of_quintile, 'Total complete income reporters' type_of_quintile_txt
+union select 'B01A2M' type_of_quintile, 'Incomplete income reports' type_of_quintile_txt
 )
 ;
 
@@ -24,8 +24,10 @@ select
 , mm.level_2
 , mm.level_3
 , mm.level_4
+, qc.type_of_quintile_txt
 -- , mm.series_id_cx_all_consumer_units
-, replace(mm.series_id_cx_all_consumer_units, 'B0101M', qc.series_ending) series_id_cx
+, replace(mm.series_id_cx_all_consumer_units, 'B0101M', qc.type_of_quintile) series_id_cx
+, qc.type_of_quintile
 , mm.series_id_cu
 , cx.series_title as cx_series_title
 , cu.series_title as cu_series_title
@@ -40,16 +42,16 @@ select
 from      my_matching_categories          as mm
 cross join expediture_series_quintile_cat as qc
 left join cu_series                       as cu on mm.series_id_cu = cu.series_id
-left join cx_series                       as cx on replace(mm.series_id_cx_all_consumer_units, 'B0101M', qc.series_ending) = cx.series_id
+left join cx_series                       as cx on replace(mm.series_id_cx_all_consumer_units, 'B0101M', qc.type_of_quintile) = cx.series_id
 order by id
 ;
 
-CREATE TABLE years AS
-SELECT y::INT AS year
-FROM generate_series(1984, 2023) AS t(y);
+create or replace table years as
+select y::int as year
+from generate_series(1984, 2023) as t(y);
 ;
 
-create table processing.basis as
+create or replace table processing.basis as
 select *
 from extended_match
 cross join years
