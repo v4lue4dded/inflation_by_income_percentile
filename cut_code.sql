@@ -76,4 +76,65 @@ from cu_item as x
 where lower(item_name) like '%egg%'
 ;
 
+select *
+from processing.flatfile as x
+where is_valid_data = 0
+
+select
+  is_valid_data
+, count(*) as freq
+from processing.flatfile as x
+group by
+  is_valid_data
+order by freq desc
+;
+
+
+select distinct periodName from main.series_import
+
+
+select *
+from main.series_import
+
+select
+  cx_begin_year
+, count(*) as freq
+from extended_match as x
+group by
+  cx_begin_year
+order by freq desc
+;
+
+
+select
+  cu_begin_year
+, count(*) as freq
+from extended_match as x
+group by
+  cu_begin_year
+order by freq desc
+;
+
+
+select
+  cu_begin_year
+, level
+, count(*) as freq
+from extended_match as x
+group by
+  cu_begin_year
+, level
+order by freq desc
+;
+
+
+select *
+from extended_match as x
+where cx_begin_year = 2010
+
+
+
+select *
+from extended_match as x
+where cu_begin_year = 2009
 

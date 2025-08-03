@@ -53,6 +53,7 @@ from extended_match
 cross join years
 
 
+create or replace table processing.flatfile as
 select
   ba.*
 , cx.seriesID    cx_seriesID
@@ -65,54 +66,20 @@ select
 , cu.periodName  cu_periodName
 , cu.value       cu_value
 , cu.footnotes   cu_footnotes
+, case when cu_value is not null and cx.value is not null then 1 else 0 end as is_valid_data
 from      processing.basis   ba
 left join main.series_import cx on ba.series_id_cx = cx.seriesID and ba.year = cx.period and cx.periodName = 'Annual'
 left join main.series_import cu on ba.series_id_cu = cu.seriesID and ba.year = cu.period and cu.periodName = 'Annual'
-
-select distinct periodName from main.series_import
-
-
-select *
-from main.series_import
-
-select
-  cx_begin_year
-, count(*) as freq
-from extended_match as x
-group by
-  cx_begin_year
-order by freq desc
-;
+where ba.
 
 
 select
-  cu_begin_year
+  series_id_cx
+, year
 , count(*) as freq
-from extended_match as x
+from processing.flatfile as x
 group by
-  cu_begin_year
+  series_id_cx
+, year
 order by freq desc
 ;
-
-
-select
-  cu_begin_year
-, level
-, count(*) as freq
-from extended_match as x
-group by
-  cu_begin_year
-, level
-order by freq desc
-;
-
-
-select *
-from extended_match as x
-where cx_begin_year = 2010
-
-
-
-select *
-from extended_match as x
-where cu_begin_year = 2009
