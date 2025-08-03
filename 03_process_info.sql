@@ -16,6 +16,11 @@ create or replace table extended_match as
 select
   mm.id
 , mm.level
+, mm.level_0
+, mm.level_1
+, mm.level_2
+, mm.level_3
+, mm.level_4
 , mm."expenditure cateogories with spaces"
 -- , mm.series_id_cx_all_consumer_units
 , replace(mm.series_id_cx_all_consumer_units, 'B0101M', qc.series_ending) series_id_cx
@@ -36,6 +41,39 @@ left join cu_series                       as cu on mm.series_id_cu = cu.series_i
 left join cx_series                       as cx on replace(mm.series_id_cx_all_consumer_units, 'B0101M', qc.series_ending) = cx.series_id
 order by id
 
+
+CREATE TABLE years AS
+SELECT y::INT AS year
+FROM generate_series(1984, 2023) AS t(y);
+
+create schema processing;
+create table processing.basis as
+select *
+from extended_match
+cross join years
+
+
+select
+  ba.*
+, cx.seriesID    cx_seriesID
+, cx.period      cx_period
+, cx.periodName  cx_periodName
+, cx.value       cx_value
+, cx.footnotes   cx_footnotes
+, cu.seriesID    cu_seriesID
+, cu.period      cu_period
+, cu.periodName  cu_periodName
+, cu.value       cu_value
+, cu.footnotes   cu_footnotes
+from      processing.basis   ba
+left join main.series_import cx on ba.series_id_cx = cx.seriesID and ba.year = cx.period and cx.periodName = 'Annual'
+left join main.series_import cu on ba.series_id_cu = cu.seriesID and ba.year = cu.period and cu.periodName = 'Annual'
+
+select distinct periodName from main.series_import
+
+
+select *
+from main.series_import
 
 select
   cx_begin_year

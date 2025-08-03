@@ -10,7 +10,7 @@ import re
 main_folder   = Path(__file__).resolve().parent
 bls_dir       = main_folder / "data" / "raw" / "bureau_of_labor_statistics_tables"
 requests_dir  = main_folder / "data" / "raw" / "requests"
-my_matching_categories = main_folder / "data" / "selfmade" / "my_matching_categories.csv"
+my_matching_categories = main_folder / "data" / "selfmade" / "my_matching_categories_with_levels.csv"
 db_path       = main_folder / "data" / "processing" / "inflation.duckdb"
 db_path.parent.mkdir(parents=True, exist_ok=True)      # be sure the data/ folder exists
 
