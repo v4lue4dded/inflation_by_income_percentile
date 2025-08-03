@@ -8,8 +8,11 @@ import re
 # Paths
 # ────────────────────────────────────────────────────────────────────────────────
 main_folder   = Path(__file__).resolve().parent
-bls_dir       = main_folder / "data" / "raw" / "bureau_of_labor_statistics"
+bls_dir       = main_folder / "data" / "raw" / "bureau_of_labor_statistics_tables"
 requests_dir  = main_folder / "data" / "raw" / "requests"
+my_matching_categories = main_folder / "data" / "raw" / "my_matching_categories.tsv"
+
+
 db_path       = main_folder / "data" / "processing" / "inflation.duckdb"
 db_path.parent.mkdir(parents=True, exist_ok=True)      # be sure the data/ folder exists
 
@@ -97,28 +100,14 @@ for fp in bls_dir.iterdir():
 
 
 # read as TSV and strip whitespace from headers & string cells
-df_tsv = (
-pd.read_csv("", sep="\t")
-  .apply(lambda col: col.str.strip() if col.dtype == "object" else col)
-)
-df_tsv.columns = df_tsv.columns.str.strip()
-
-# derive a legal SQL table name → file stem with dots changed to underscores
-table_name = re.sub(r"\W+", "_", fp.name).lower()
+df_my_matching_categories = (
+pd.read_csv(my_matching_categories, sep="\t"))
+df_my_matching_categories.columns = df_my_matching_categories.columns.str.strip()
 
 # replace existing table each run so things stay in sync with the files
-con.execute(f"DROP TABLE IF EXISTS {table_name};")
-con.register("tmp_df_tsv", df_tsv)
-con.execute(f"CREATE TABLE {table_name} AS SELECT * FROM tmp_df_tsv;")
-con.unregister("tmp_df_tsv")
-
-
-
-
-
+con.execute(f"DROP TABLE IF EXISTS my_matching_categories;")
+con.register("tmp_df_my_matching_categories", df_my_matching_categories)
+con.execute(f"CREATE TABLE my_matching_categories AS SELECT * FROM tmp_df_my_matching_categories;")
+con.unregister("tmp_df_my_matching_categories")
 
 con.close()
-
-
-con.close()
-print(f"✅  {len(df_tsv):,} rows written to {db_path} (table: series_import)")
