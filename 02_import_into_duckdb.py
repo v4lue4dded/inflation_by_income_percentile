@@ -8,7 +8,7 @@ import re
 # Paths
 # ────────────────────────────────────────────────────────────────────────────────
 main_folder   = Path(__file__).resolve().parent
-raw_dir       = main_folder / "data" / "raw"
+bls_dir       = main_folder / "data" / "raw" / "bureau_of_labor_statistics"
 requests_dir  = main_folder / "data" / "raw" / "requests"
 db_path       = main_folder / "data" / "processing" / "inflation.duckdb"
 db_path.parent.mkdir(parents=True, exist_ok=True)      # be sure the data/ folder exists
@@ -75,7 +75,7 @@ con.execute(
 # reopen the same database or create it if it doesn't exist yet
 con = duckdb.connect(db_path)           # db_path defined earlier (e.g. data/series.duckdb)
 
-for fp in raw_dir.iterdir():
+for fp in bls_dir.iterdir():
     # skip directories
     if fp.is_dir():
         continue
