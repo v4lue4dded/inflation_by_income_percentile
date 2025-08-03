@@ -1,127 +1,127 @@
-ID	level	Expenditure cateogories with spaces	Expenditure cateogories	check_name	series_id_cx_all_consumer_units	series_id_cu	series_title	questionable_match	comment
-0	0	Average annual expenditures                        	Average annual expenditures	Average annual expenditures	CXUTOTALEXPLB0101M	CUUR0000SA0	All items in U.S. city average, all urban consumers, not seasonally adjusted		
-1	1	   Food                                            	Food	Food	CXUFOODTOTLLB0101M	CUUR0000SAF1	Food in U.S. city average, all urban consumers, not seasonally adjusted		
-2	2	      Food at home                                 	Food at home	Food at home	CXUFOODHOMELB0101M	CUUR0000SAF11	Food at home in U.S. city average, all urban consumers, not seasonally adjusted		
-3	3	         Cereals and bakery products               	Cereals and bakery products	Cereals and bakery products	CXUCERBAKRYLB0101M	CUUR0000SAF111	Cereals and bakery products in U.S. city average, all urban consumers, not seasonally adjusted		
-4	4	            Cereals and cereal products            	Cereals and cereal products	Cereals and cereal products	CXUCEREALLB0101M	CUUR0000SEFA	Cereals and cereal products in U.S. city average, all urban consumers, not seasonally adjusted		
-5	4	            Bakery products                        	Bakery products	Bakery products	CXUBAKERYLB0101M	CUUR0000SEFB	Bakery products in U.S. city average, all urban consumers, not seasonally adjusted		
-6	3	         Meats, poultry, fish, and eggs            	Meats, poultry, fish, and eggs	Meats, poultry, fish, and eggs	CXUANIMALLB0101M	CUUR0000SAF112	Meats, poultry, fish, and eggs in U.S. city average, all urban consumers, not seasonally adjusted		
-7	4	            Beef                                   	Beef	Beef	CXUBEEFLB0101M	CUUR0000SEFC	Beef and veal in U.S. city average, all urban consumers, not seasonally adjusted		
-8	4	            Pork                                   	Pork	Pork	CXUPORKLB0101M	CUUR0000SEFD	Pork in U.S. city average, all urban consumers, not seasonally adjusted		
-9	4	            Other meats                            	Other meats	Other meats	CXUOTHRMEATLB0101M	CUUR0000SEFE	Other meats in U.S. city average, all urban consumers, not seasonally adjusted		
-10	4	            Poultry                                	Poultry	Poultry	CXUPOULTRYLB0101M	CUUR0000SEFF	Poultry in U.S. city average, all urban consumers, not seasonally adjusted		
-11	4	            Fish and seafood                       	Fish and seafood	Fish and seafood	CXUFISHSEALB0101M	CUUR0000SEFG	Fish and seafood in U.S. city average, all urban consumers, not seasonally adjusted		
-12	4	            Eggs                                   	Eggs	Eggs	CXU080110LB0101M	CUUR0000SEFH	Eggs in U.S. city average, all urban consumers, not seasonally adjusted		
-13	3	         Dairy products                            	Dairy products	Dairy products	CXUDAIRYLB0101M	CUUR0000SEFJ	Dairy and related products in U.S. city average, all urban consumers, not seasonally adjusted		
-14	4	            Fresh milk and cream                   	Fresh milk and cream	Fresh milk and cream	CXUMILKCRMLB0101M	CUUR0000SS09011	Fresh whole milk in U.S. city average, all urban consumers, not seasonally adjusted		
-15	4	            Other dairy products                   	Other dairy products	Other dairy products	CXUOTHDAIRYLB0101M	CUUR0000SEFJ04	Other dairy and related products in U.S. city average, all urban consumers, not seasonally adjusted		
-16	3	         Fruits and vegetables                     	Fruits and vegetables	Fruits and vegetables	CXUFRUITVEGLB0101M	CUUR0000SAF113	Fruits and vegetables in U.S. city average, all urban consumers, not seasonally adjusted		
-17	4	            Fresh fruits                           	Fresh fruits	Fresh fruits	CXUFRSHFRUTLB0101M	CUUR0000SEFK	Fresh fruits in U.S. city average, all urban consumers, not seasonally adjusted		
-18	4	            Fresh vegetables                       	Fresh vegetables	Fresh vegetables	CXUFRESHVEGLB0101M	CUUR0000SEFL	Fresh vegetables in U.S. city average, all urban consumers, not seasonally adjusted		
-19	4	            Processed fruits                       	Processed fruits	Processed fruits	CXUPROCFRUTLB0101M	CUUR0000SEFM	Processed fruits and vegetables in U.S. city average, all urban consumers, not seasonally adjusted	1	
-20	4	            Processed vegetables                   	Processed vegetables	Processed vegetables	CXUPROCVEGLB0101M	CUUR0000SEFM	Processed fruits and vegetables in U.S. city average, all urban consumers, not seasonally adjusted	1	
-21	3	         Other food at home                        	Other food at home	Other food at home	CXUOTHRFOODLB0101M	CUUR0000SAF115	Other food at home in U.S. city average, all urban consumers, not seasonally adjusted		
-22	4	            Sugar and other sweets                 	Sugar and other sweets	Sugar and other sweets	CXUSWEETSLB0101M	CUUR0000SEFR	Sugar and sweets in U.S. city average, all urban consumers, not seasonally adjusted		
-23	4	            Fats and oils                          	Fats and oils	Fats and oils	CXUFATSOILSLB0101M	CUUR0000SEFS	Fats and oils in U.S. city average, all urban consumers, not seasonally adjusted		
-24	4	            Miscellaneous foods                    	Miscellaneous foods	Miscellaneous foods	CXUMISCFOODLB0101M	CUUR0000SEFT06	Other miscellaneous foods in U.S. city average, all urban consumers, not seasonally adjusted		
-25	4	            Nonalcoholic beverages                 	Nonalcoholic beverages	Nonalcoholic beverages	CXUNALCBEVGLB0101M	CUUR0000SAF114	Nonalcoholic beverages and beverage materials in U.S. city average, all urban consumers, not seasonally adjusted		
-26	3	         Food pre. by cu on out of town trips      	Food pre. by cu on out of town trips	Food prepared by consumer unit on out of town trips	CXU190904LB0101M	CUUR0000SAF11	Food at home in U.S. city average, all urban consumers, not seasonally adjusted		
-27	2	      Food away from home                          	Food away from home	Food away from home	CXUFOODAWAYLB0101M	CUUR0000SEFV	Food away from home in U.S. city average, all urban consumers, not seasonally adjusted	2	
-28	1	   Alcoholic beverages                             	Alcoholic beverages	Alcoholic beverages	CXUALCBEVGLB0101M	CUUR0000SAF116	Alcoholic beverages in U.S. city average, all urban consumers, not seasonally adjusted		
-29	1	   Housing                                         	Housing	Housing	CXUHOUSINGLB0101M	CUUR0000SAH	Housing in U.S. city average, all urban consumers, not seasonally adjusted		
-30	2	      Shelter                                      	Shelter	Shelter	CXUSHELTERLB0101M	CUUR0000SAH1	Shelter in U.S. city average, all urban consumers, not seasonally adjusted		
-31	3	         Owned dwellings                           	Owned dwellings	Owned dwellings	CXUOWNDWELLLB0101M	CUUR0000SEHC	Owners' equivalent rent of residences in U.S. city average, all urban consumers, not seasonally adjusted		
-32	4	            Mortgage interest                      	Mortgage interest	Mortgage interest	CXU220311LB0101M	???			
-33	4	            Property taxes                         	Property taxes	Property taxes	CXU220211LB0101M	???			
-34	4	            Maint., rep., ins., other expenses     	Maint., rep., ins., other expenses	Maintenance, repairs, insurance, and other expenses by Income Quintiles: All Consumer Units	CXUOWNEXPENLB0101M	???			
-35	3	         Rented dwellings                          	Rented dwellings	Rented dwellings	CXURNTDWELLLB0101M	CUUR0000SEHA	Rent of primary residence in U.S. city average, all urban consumers, not seasonally adjusted		
-36	3	         Other lodging                             	Other lodging	Other lodging	CXUOTHLODGELB0101M	???			
-37	2	      Utilities, fuels, and public services        	Utilities, fuels, and public services	Utilities, fuels, and public services	CXUUTILSLB0101M	CUUR0000SAH2	Fuels and utilities in U.S. city average, all urban consumers, not seasonally adjusted		
-38	3	         Natural gas                               	Natural gas	Natural gas	CXUNATRLGASLB0101M	CUUR0000SEHF02	Utility (piped) gas service in U.S. city average, all urban consumers, not seasonally adjusted		
-39	3	         Electricity                               	Electricity	Electricity	CXUELECTRICLB0101M	CUUR0000SEHF01	Electricity in U.S. city average, all urban consumers, not seasonally adjusted		
-40	3	         Fuel oil and other fuels                  	Fuel oil and other fuels	Fuel oil and other fuels	CXUOTHRFUELLB0101M	CUUR0000SEHE	Fuel oil and other fuels in U.S. city average, all urban consumers, not seasonally adjusted		
-41	3	         Telephone                                 	Telephone	Telephone services	CXUPHONELB0101M	CUUR0000SEED	Telephone services in U.S. city average, all urban consumers, not seasonally adjusted		
-42	3	         Water and other public services           	Water and other public services	Water and other public services	CXUWATERLB0101M	CUUR0000SEHG	Water and sewer and trash collection services in U.S. city average, all urban consumers, not seasonally adjusted		
-43	2	      Household operations                         	Household operations	Household operations	CXUHHOPERLB0101M	CUUR0000SAH3	Household furnishings and operations in U.S. city average, all urban consumers, not seasonally adjusted		
-44	3	         Personal services                         	Personal services	Personal services	CXUHHPERSRVLB0101M	???			
-45	3	         Other household expenses                  	Other household expenses	Other household expenses	CXUHHOTHXPNLB0101M	???			
-46	2	      Housekeeping supplies                        	Housekeeping supplies	Housekeeping supplies	CXUHKPGSUPPLB0101M	CUUR0000SEHN	Housekeeping supplies in U.S. city average, all urban consumers, not seasonally adjusted		
-47	3	         Laundry and cleaning supplies             	Laundry and cleaning supplies	Laundry and cleaning supplies	CXULAUNDRYLB0101M	CUUR0000SEHN01	Household cleaning products in U.S. city average, all urban consumers, not seasonally adjusted		
-48	3	         Other household products                  	Other household products	Other household products	CXUHKPGOTHRLB0101M	CUUR0000SEHN03	Miscellaneous household products in U.S. city average, all urban consumers, not seasonally adjusted		
-49	3	         Postage and stationery                    	Postage and stationery	Postage and stationery	CXUPOSTAGELB0101M	CUUR0000SEEC	Postage and delivery services in U.S. city average, all urban consumers, not seasonally adjusted		
-50	2	      Household furnishings and equiptment         	Household furnishings and equiptment	Household furnishings and equipment	CXUHHFURNSHLB0101M	CUUR0000SAH3	Household furnishings and operations in U.S. city average, all urban consumers, not seasonally adjusted		
-51	3	         Household textiles                        	Household textiles	Household textiles	CXUHHTXTILELB0101M	???			
-52	3	         Furniture                                 	Furniture	Furniture	CXUFURNITURLB0101M	CUUR0000SEHJ	Furniture and bedding in U.S. city average, all urban consumers, not seasonally adjusted		
-53	3	         Floor coverings                           	Floor coverings	Floor coverings	CXUFLOORCOVLB0101M	CUUR0000SEHH	Window and floor coverings and other linens in U.S. city average, all urban consumers, not seasonally adjusted		
-54	3	         Major appliances                          	Major appliances	Major appliances	CXUMAJAPPLLB0101M	CUUR0000SEHK01	Major appliances in U.S. city average, all urban consumers, not seasonally adjusted		
-55	3	         Small appliances, misc. housewares        	Small appliances, misc. housewares	Small appliances and miscellaneous housewares	CXUSMAPPHWRLB0101M	CUUR0000SEHK02	Other appliances in U.S. city average, all urban consumers, not seasonally adjusted		
-56	3	         Miscellaneous household equipment         	Miscellaneous household equipment	Miscellaneous household equipment	CXUMISCHHEQLB0101M	CUUR0000SEHL	Other household equipment and furnishings in U.S. city average, all urban consumers, not seasonally adjusted		
-57	1	   Apparel and services                            	Apparel and services	Apparel and services	CXUAPPARELLB0101M	CUUR0000SAA	Apparel in U.S. city average, all urban consumers, not seasonally adjusted		
-58	2	      Men and boys                                 	Men and boys	Men and boys	CXUMENBOYSLB0101M	CUUR0000SAA1	Men's and boys' apparel in U.S. city average, all urban consumers, not seasonally adjusted		
-59	3	         Men, 16 and over                          	Men, 16 and over	Men, 16 and over	CXUMENSLB0101M	CUUR0000SEAA	Men's apparel in U.S. city average, all urban consumers, not seasonally adjusted		
-60	3	         Boys, 2 to 15                             	Boys, 2 to 15	Boys, 2 to 15	CXUBOYSLB0101M	CUUR0000SEAB	Boys' apparel in U.S. city average, all urban consumers, not seasonally adjusted		
-61	2	      Women and girls                              	Women and girls	Women and girls	CXUWMNSGRLSLB0101M	CUUR0000SAA2	Women's and girls' apparel in U.S. city average, all urban consumers, not seasonally adjusted		
-62	3	         Women, 16 and over                        	Women, 16 and over	Women, 16 and over	CXUWOMENSLB0101M	CUUR0000SEAC	Women's apparel in U.S. city average, all urban consumers, not seasonally adjusted		
-63	3	         Girls, 2 to 15                            	Girls, 2 to 15	Girls, 2 to 15	CXUGIRLSLB0101M	CUUR0000SEAD	Girls' apparel in U.S. city average, all urban consumers, not seasonally adjusted		
-64	2	      Children under 2                             	Children under 2	Children under 2	CXUINFANTLB0101M	CUUR0000SEAF	Infants' and toddlers' apparel in U.S. city average, all urban consumers, not seasonally adjusted		
-65	2	      Footwear                                     	Footwear	Footwear	CXUFOOTWEARLB0101M	CUUR0000SEAE	Footwear in U.S. city average, all urban consumers, not seasonally adjusted		
-66	2	      Other apparel products and services          	Other apparel products and services	Other apparel products and services	CXUOTHAPPRLLB0101M				
-67	1	   Transportation                                  	Transportation	Transportation	CXUTRANSLB0101M	CUUR0000SAT	Transportation in U.S. city average, all urban consumers, not seasonally adjusted		
-68	2	      Vehicle purchases                            	Vehicle purchases	Vehicle purchases (net outlay)	CXUVEHPURCHLB0101M	CUUR0000SETA	New and used motor vehicles in U.S. city average, all urban consumers, not seasonally adjusted		
-69	3	         Cars and trucks, new (net outlay          	Cars and trucks, new (net outlay	Cars and trucks, new	CXUNEWCARSLB0101M	CUUR0000SS4501A	New cars and trucks in U.S. city average, all urban consumers, not seasonally adjusted		
-70	3	         Cars and trucks, used (net outlay         	Cars and trucks, used (net outlay	Cars and trucks, used	CXUUSEDCARSLB0101M	CUUR0000SETA02	Used cars and trucks in U.S. city average, all urban consumers, not seasonally adjusted		
-71	3	         Other vehicles                            	Other vehicles	Other vehicles	CXUOTHVEHCLLB0101M	???			
-72	2	      Gasoline and motor oil                       	Gasoline and motor oil	Gasoline, other fuels, and motor oil	CXUGASOILLB0101M	CUUR0000SETB	Motor fuel in U.S. city average, all urban consumers, not seasonally adjusted		
-73	2	      Other vehicle expenses                       	Other vehicle expenses	Other vehicle expenses	CXUVEHOTHXPLB0101M	???			
-74	3	         Vehicle finance charges                   	Vehicle finance charges	Vehicle finance charges	CXUVEHFINCHLB0101M	???			
-75	3	         Maintenance and repairs                   	Maintenance and repairs	Maintenance and repairs	CXUCAREPAIRLB0101M	CUUR0000SETC	Motor vehicle parts and equipment in U.S. city average, all urban consumers, not seasonally adjusted		
-76	3	         Vehicle insurance                         	Vehicle insurance	Vehicle insurance	CXU500110LB0101M	CUUR0000SETE	Motor vehicle insurance in U.S. city average, all urban consumers, not seasonally adjusted		
-77	3	         Vehicle rent., licenses, other charges    	Vehicle rent., licenses, other charges	Vehicle rental, leases, licenses, and other charges	CXUVEHRNTLCLB0101M				
-78	2	      Public transportation                        	Public transportation	Public and other transportation	CXUPUBTRANSLB0101M	CUUR0000SETG	Public transportation in U.S. city average, all urban consumers, not seasonally adjusted		
-79	1	   Health care                                     	Health care	Healthcare	CXUHEALTHLB0101M	CUUR0000SAM	Medical care in U.S. city average, all urban consumers, not seasonally adjusted		
-80	2	      Health insurance                             	Health insurance	Health insurance	CXUHLTHINSRLB0101M	CUUR0000SEME	Health insurance in U.S. city average, all urban consumers, not seasonally adjusted		
-81	2	      Medical services                             	Medical services	Medical services	CXUMEDSERVSLB0101M	CUUR0000SAM2	Medical care services in U.S. city average, all urban consumers, not seasonally adjusted		
-82	2	      Drugs                                        	Drugs	Drugs	CXUDRUGSLB0101M	CUUR0000SEMF	Medicinal drugs in U.S. city average, all urban consumers, not seasonally adjusted		
-83	2	      Medical supplies                             	Medical supplies	Medical supplies	CXUMEDSUPPLLB0101M	???			
-84	1	   Entertainment                                   	Entertainment	Entertainment	CXUENTRTAINLB0101M	CUUR0000SAR	Recreation in U.S. city average, all urban consumers, not seasonally adjusted		
-85	2	      Fees and admissions                          	Fees and admissions	Fees and admissions	CXUFEESADMLB0101M	CUUR0000SERF02	Admissions in U.S. city average, all urban consumers, not seasonally adjusted		
-86	2	      Television, radios, sound equipment          	Television, radios, sound equipment	Audio and visual equipment and services	CXUTVAUDIOLB0101M	CUUR0000SERA	Video and audio in U.S. city average, all urban consumers, not seasonally adjusted		
-87	2	      Pets, toys, and playground equipment         	Pets, toys, and playground equipment	Pets, toys, hobbies, and playground equipment	CXUPETSPLAYLB0101M	CUUR0000SERB	Pets, pet products and services in U.S. city average, all urban consumers, not seasonally adjusted		
-88	2	      Other ent. sup., equip., and services        	Other ent. sup., equip., and services	Other entertainment supplies, equipment, and services	CXUENTEROTHLB0101M	CUUR0000SERE	Other recreational goods in U.S. city average, all urban consumers, not seasonally adjusted		
-89	1	   Personal care products and services             	Personal care products and services	Personal care products and services	CXUPERSCARELB0101M	CUUR0000SAG1	Personal care in U.S. city average, all urban consumers, not seasonally adjusted		
-90	1	   Reading                                         	Reading	Reading	CXUREADINGLB0101M	CUUR0000SERG	Recreational reading materials in U.S. city average, all urban consumers, not seasonally adjusted		
-91	1	   Education                                       	Education	Education	CXUEDUCATNLB0101M	CUUR0000SAE1	Education in U.S. city average, all urban consumers, not seasonally adjusted		
-92	1	   Tobacco products and smoking supplies           	Tobacco products and smoking supplies	Tobacco products and smoking supplies	CXUTOBACCOLB0101M	CUUR0000SEGA	Tobacco and smoking products in U.S. city average, all urban consumers, not seasonally adjusted		
-93	1	   Miscellaneous                                   	Miscellaneous	Miscellaneous	CXUMISCLB0101M	???			
-94	1	   Cash contributions                              	Cash contributions	Cash contributions	CXUCASHCONTLB0101M	???			
-95	1	   Personal insurance and pensions                 	Personal insurance and pensions	Personal insurance and pensions	CXUINSPENSNLB0101M	???			
-96	2	      Life and other personal insurance            	Life and other personal insurance	Life and other personal insurance	CXULIFEINSRLB0101M	???			
-97	2	      Pensions and Social Security                 	Pensions and Social Security	Pensions and Social Security	CXUPENSIONSLB0101M	???			
-98	0	Money income before taxes                          	Money income before taxes	Income before taxes	CXUINCBEFTXLB0101M				
-99	1	   Wages and salaries                              	Wages and salaries	Wages and salaries	CXU900000LB0101M				
-100	1	       Self-employment income                      	Self-employment income	Self-employment income	CXUSFEMPINCLB0101M				
-101	1	       S. Security, private and gvrnmnt retirement 	S. Security, private and gvrnmnt retirement	Social Security, private and government retirement	CXURETIRINCLB0101M				
-102	1	       Int.,divid.,rent. income,other prop. income 	Int.,divid.,rent. income,other prop. income	Interest, dividends, rental income, and other property income	CXUINDIVRNTLB0101M				
-103	1	       Unemp. and workers' compen., veterans' ben  	Unemp. and workers' compen., veterans' ben	Unemployment and workers' compensation, veterans' benefits	CXUOTHBNFTSLB0101M				
-104	1	       Pub. ass., supp. sec. income, foodstamps    	Pub. ass., supp. sec. income, foodstamps	Public assistance, Supplemental Security Income, Supplementary Nutrition Assistance Program (SNAP)	CXUWELFARELB0101M				
-105	1	       Regular contributions for support           	Regular contributions for support	Regular contributions for support	CXUREGCONTLB0101M				
-106	1	       Other income                                	Other income	Other income	CXUOTHRINCLB0101M				
-107	0	    Personal taxes                                 	Personal taxes	Personal taxes (contains some imputed values)	CXUPERSTAXLB0101M				
-108	1	       Federal income taxes                        	Federal income taxes	Federal income taxes	CXUFEDTAXESLB0101M				
-109	1	       State and local income taxes                	State and local income taxes	State and local income taxes	CXUSTATETAXLB0101M				
-110	1	       Other taxes                                 	Other taxes	Other taxes	CXUOTHRTAXLB0101M				
-111	0	    Income after taxes                             	Income after taxes	Income after taxes	CXUINCAFTTXLB0101M				
-112	1	       Net change in total assets                  	Net change in total assets	Net change in total assets	CXUCHGASSETLB0101M				
-113	1	       Net change in total liabilities             	Net change in total liabilities	Net change in total liabilities	CXUCHGLIABLB0101M				
-114	1	       Other money receipts                        	Other money receipts	Other money receipts	CXUOTHRMONYLB0101M				
-115	1	       Mortgage principal paid on owned property   	Mortgage principal paid on owned property	Mortgage principal paid on owned property	CXUMRTPRINPLB0101M				
-116	1	       Estimated market value of owned home        	Estimated market value of owned home	Estimated market value of owned home	CXU800721LB0101M				
-117	1	       Estimated monthly rental value of owned home	Estimated monthly rental value of owned home	Estimated monthly rental value of owned home	CXU910050LB0101M				
-118	0	    Gifts of:                                      	Gifts of:						
-119	1	       Clothing, males 2 and over                  	Clothing, males 2 and over						
-120	1	       Clothing, females 2 and over                	Clothing, females 2 and over						
-121	1	       Clothing, infants less than 2               	Clothing, infants less than 2						
-122	1	       Jewelry and watches                         	Jewelry and watches			CUUR0000SEAG	Jewelry and watches in U.S. city average, all urban consumers, not seasonally adjusted		
-123	1	       Small appliances, misc. housewares          	Small appliances, misc. housewares						
-124	1	       Household textiles                          	Household textiles	Household textiles	CXUHHTXTILELB0101M				
-125	1	       All other gifts                              	All other gifts						
+ID	level	Expenditure cateogories with spaces	category	check_name	series_id_cx_all_consumer_units	series_id_cu	series_title	questionable_match	comment
+0	0	Average annual expenditures                        	expenditure	Average annual expenditures	CXUTOTALEXPLB0101M	CUUR0000SA0	All items in U.S. city average, all urban consumers, not seasonally adjusted		
+1	1	   Food                                            	expenditure	Food	CXUFOODTOTLLB0101M	CUUR0000SAF1	Food in U.S. city average, all urban consumers, not seasonally adjusted		
+2	2	      Food at home                                 	expenditure	Food at home	CXUFOODHOMELB0101M	CUUR0000SAF11	Food at home in U.S. city average, all urban consumers, not seasonally adjusted		
+3	3	         Cereals and bakery products               	expenditure	Cereals and bakery products	CXUCERBAKRYLB0101M	CUUR0000SAF111	Cereals and bakery products in U.S. city average, all urban consumers, not seasonally adjusted		
+4	4	            Cereals and cereal products            	expenditure	Cereals and cereal products	CXUCEREALLB0101M	CUUR0000SEFA	Cereals and cereal products in U.S. city average, all urban consumers, not seasonally adjusted		
+5	4	            Bakery products                        	expenditure	Bakery products	CXUBAKERYLB0101M	CUUR0000SEFB	Bakery products in U.S. city average, all urban consumers, not seasonally adjusted		
+6	3	         Meats, poultry, fish, and eggs            	expenditure	Meats, poultry, fish, and eggs	CXUANIMALLB0101M	CUUR0000SAF112	Meats, poultry, fish, and eggs in U.S. city average, all urban consumers, not seasonally adjusted		
+7	4	            Beef                                   	expenditure	Beef	CXUBEEFLB0101M	CUUR0000SEFC	Beef and veal in U.S. city average, all urban consumers, not seasonally adjusted		
+8	4	            Pork                                   	expenditure	Pork	CXUPORKLB0101M	CUUR0000SEFD	Pork in U.S. city average, all urban consumers, not seasonally adjusted		
+9	4	            Other meats                            	expenditure	Other meats	CXUOTHRMEATLB0101M	CUUR0000SEFE	Other meats in U.S. city average, all urban consumers, not seasonally adjusted		
+10	4	            Poultry                                	expenditure	Poultry	CXUPOULTRYLB0101M	CUUR0000SEFF	Poultry in U.S. city average, all urban consumers, not seasonally adjusted		
+11	4	            Fish and seafood                       	expenditure	Fish and seafood	CXUFISHSEALB0101M	CUUR0000SEFG	Fish and seafood in U.S. city average, all urban consumers, not seasonally adjusted		
+12	4	            Eggs                                   	expenditure	Eggs	CXU080110LB0101M	CUUR0000SEFH	Eggs in U.S. city average, all urban consumers, not seasonally adjusted		
+13	3	         Dairy products                            	expenditure	Dairy products	CXUDAIRYLB0101M	CUUR0000SEFJ	Dairy and related products in U.S. city average, all urban consumers, not seasonally adjusted		
+14	4	            Fresh milk and cream                   	expenditure	Fresh milk and cream	CXUMILKCRMLB0101M	CUUR0000SS09011	Fresh whole milk in U.S. city average, all urban consumers, not seasonally adjusted		
+15	4	            Other dairy products                   	expenditure	Other dairy products	CXUOTHDAIRYLB0101M	CUUR0000SEFJ04	Other dairy and related products in U.S. city average, all urban consumers, not seasonally adjusted		
+16	3	         Fruits and vegetables                     	expenditure	Fruits and vegetables	CXUFRUITVEGLB0101M	CUUR0000SAF113	Fruits and vegetables in U.S. city average, all urban consumers, not seasonally adjusted		
+17	4	            Fresh fruits                           	expenditure	Fresh fruits	CXUFRSHFRUTLB0101M	CUUR0000SEFK	Fresh fruits in U.S. city average, all urban consumers, not seasonally adjusted		
+18	4	            Fresh vegetables                       	expenditure	Fresh vegetables	CXUFRESHVEGLB0101M	CUUR0000SEFL	Fresh vegetables in U.S. city average, all urban consumers, not seasonally adjusted		
+19	4	            Processed fruits                       	expenditure	Processed fruits	CXUPROCFRUTLB0101M	CUUR0000SEFM	Processed fruits and vegetables in U.S. city average, all urban consumers, not seasonally adjusted	1	
+20	4	            Processed vegetables                   	expenditure	Processed vegetables	CXUPROCVEGLB0101M	CUUR0000SEFM	Processed fruits and vegetables in U.S. city average, all urban consumers, not seasonally adjusted	1	
+21	3	         Other food at home                        	expenditure	Other food at home	CXUOTHRFOODLB0101M	CUUR0000SAF115	Other food at home in U.S. city average, all urban consumers, not seasonally adjusted		
+22	4	            Sugar and other sweets                 	expenditure	Sugar and other sweets	CXUSWEETSLB0101M	CUUR0000SEFR	Sugar and sweets in U.S. city average, all urban consumers, not seasonally adjusted		
+23	4	            Fats and oils                          	expenditure	Fats and oils	CXUFATSOILSLB0101M	CUUR0000SEFS	Fats and oils in U.S. city average, all urban consumers, not seasonally adjusted		
+24	4	            Miscellaneous foods                    	expenditure	Miscellaneous foods	CXUMISCFOODLB0101M	CUUR0000SEFT06	Other miscellaneous foods in U.S. city average, all urban consumers, not seasonally adjusted		
+25	4	            Nonalcoholic beverages                 	expenditure	Nonalcoholic beverages	CXUNALCBEVGLB0101M	CUUR0000SAF114	Nonalcoholic beverages and beverage materials in U.S. city average, all urban consumers, not seasonally adjusted		
+26	3	         Food pre. by cu on out of town trips      	expenditure	Food prepared by consumer unit on out of town trips	CXU190904LB0101M	CUUR0000SAF11	Food at home in U.S. city average, all urban consumers, not seasonally adjusted		
+27	2	      Food away from home                          	expenditure	Food away from home	CXUFOODAWAYLB0101M	CUUR0000SEFV	Food away from home in U.S. city average, all urban consumers, not seasonally adjusted	2	
+28	1	   Alcoholic beverages                             	expenditure	Alcoholic beverages	CXUALCBEVGLB0101M	CUUR0000SAF116	Alcoholic beverages in U.S. city average, all urban consumers, not seasonally adjusted		
+29	1	   Housing                                         	expenditure	Housing	CXUHOUSINGLB0101M	CUUR0000SAH	Housing in U.S. city average, all urban consumers, not seasonally adjusted		
+30	2	      Shelter                                      	expenditure	Shelter	CXUSHELTERLB0101M	CUUR0000SAH1	Shelter in U.S. city average, all urban consumers, not seasonally adjusted		
+31	3	         Owned dwellings                           	expenditure	Owned dwellings	CXUOWNDWELLLB0101M	CUUR0000SEHC	Owners' equivalent rent of residences in U.S. city average, all urban consumers, not seasonally adjusted		
+32	4	            Mortgage interest                      	expenditure	Mortgage interest	CXU220311LB0101M	???			
+33	4	            Property taxes                         	expenditure	Property taxes	CXU220211LB0101M	???			
+34	4	            Maint., rep., ins., other expenses     	expenditure	Maintenance, repairs, insurance, and other expenses by Income Quintiles: All Consumer Units	CXUOWNEXPENLB0101M	???			
+35	3	         Rented dwellings                          	expenditure	Rented dwellings	CXURNTDWELLLB0101M	CUUR0000SEHA	Rent of primary residence in U.S. city average, all urban consumers, not seasonally adjusted		
+36	3	         Other lodging                             	expenditure	Other lodging	CXUOTHLODGELB0101M	???			
+37	2	      Utilities, fuels, and public services        	expenditure	Utilities, fuels, and public services	CXUUTILSLB0101M	CUUR0000SAH2	Fuels and utilities in U.S. city average, all urban consumers, not seasonally adjusted		
+38	3	         Natural gas                               	expenditure	Natural gas	CXUNATRLGASLB0101M	CUUR0000SEHF02	Utility (piped) gas service in U.S. city average, all urban consumers, not seasonally adjusted		
+39	3	         Electricity                               	expenditure	Electricity	CXUELECTRICLB0101M	CUUR0000SEHF01	Electricity in U.S. city average, all urban consumers, not seasonally adjusted		
+40	3	         Fuel oil and other fuels                  	expenditure	Fuel oil and other fuels	CXUOTHRFUELLB0101M	CUUR0000SEHE	Fuel oil and other fuels in U.S. city average, all urban consumers, not seasonally adjusted		
+41	3	         Telephone                                 	expenditure	Telephone services	CXUPHONELB0101M	CUUR0000SEED	Telephone services in U.S. city average, all urban consumers, not seasonally adjusted		
+42	3	         Water and other public services           	expenditure	Water and other public services	CXUWATERLB0101M	CUUR0000SEHG	Water and sewer and trash collection services in U.S. city average, all urban consumers, not seasonally adjusted		
+43	2	      Household operations                         	expenditure	Household operations	CXUHHOPERLB0101M	CUUR0000SAH3	Household furnishings and operations in U.S. city average, all urban consumers, not seasonally adjusted		
+44	3	         Personal services                         	expenditure	Personal services	CXUHHPERSRVLB0101M	???			
+45	3	         Other household expenses                  	expenditure	Other household expenses	CXUHHOTHXPNLB0101M	???			
+46	2	      Housekeeping supplies                        	expenditure	Housekeeping supplies	CXUHKPGSUPPLB0101M	CUUR0000SEHN	Housekeeping supplies in U.S. city average, all urban consumers, not seasonally adjusted		
+47	3	         Laundry and cleaning supplies             	expenditure	Laundry and cleaning supplies	CXULAUNDRYLB0101M	CUUR0000SEHN01	Household cleaning products in U.S. city average, all urban consumers, not seasonally adjusted		
+48	3	         Other household products                  	expenditure	Other household products	CXUHKPGOTHRLB0101M	CUUR0000SEHN03	Miscellaneous household products in U.S. city average, all urban consumers, not seasonally adjusted		
+49	3	         Postage and stationery                    	expenditure	Postage and stationery	CXUPOSTAGELB0101M	CUUR0000SEEC	Postage and delivery services in U.S. city average, all urban consumers, not seasonally adjusted		
+50	2	      Household furnishings and equiptment         	expenditure	Household furnishings and equipment	CXUHHFURNSHLB0101M	CUUR0000SAH3	Household furnishings and operations in U.S. city average, all urban consumers, not seasonally adjusted		
+51	3	         Household textiles                        	expenditure	Household textiles	CXUHHTXTILELB0101M	???			
+52	3	         Furniture                                 	expenditure	Furniture	CXUFURNITURLB0101M	CUUR0000SEHJ	Furniture and bedding in U.S. city average, all urban consumers, not seasonally adjusted		
+53	3	         Floor coverings                           	expenditure	Floor coverings	CXUFLOORCOVLB0101M	CUUR0000SEHH	Window and floor coverings and other linens in U.S. city average, all urban consumers, not seasonally adjusted		
+54	3	         Major appliances                          	expenditure	Major appliances	CXUMAJAPPLLB0101M	CUUR0000SEHK01	Major appliances in U.S. city average, all urban consumers, not seasonally adjusted		
+55	3	         Small appliances, misc. housewares        	expenditure	Small appliances and miscellaneous housewares	CXUSMAPPHWRLB0101M	CUUR0000SEHK02	Other appliances in U.S. city average, all urban consumers, not seasonally adjusted		
+56	3	         Miscellaneous household equipment         	expenditure	Miscellaneous household equipment	CXUMISCHHEQLB0101M	CUUR0000SEHL	Other household equipment and furnishings in U.S. city average, all urban consumers, not seasonally adjusted		
+57	1	   Apparel and services                            	expenditure	Apparel and services	CXUAPPARELLB0101M	CUUR0000SAA	Apparel in U.S. city average, all urban consumers, not seasonally adjusted		
+58	2	      Men and boys                                 	expenditure	Men and boys	CXUMENBOYSLB0101M	CUUR0000SAA1	Men's and boys' apparel in U.S. city average, all urban consumers, not seasonally adjusted		
+59	3	         Men, 16 and over                          	expenditure	Men, 16 and over	CXUMENSLB0101M	CUUR0000SEAA	Men's apparel in U.S. city average, all urban consumers, not seasonally adjusted		
+60	3	         Boys, 2 to 15                             	expenditure	Boys, 2 to 15	CXUBOYSLB0101M	CUUR0000SEAB	Boys' apparel in U.S. city average, all urban consumers, not seasonally adjusted		
+61	2	      Women and girls                              	expenditure	Women and girls	CXUWMNSGRLSLB0101M	CUUR0000SAA2	Women's and girls' apparel in U.S. city average, all urban consumers, not seasonally adjusted		
+62	3	         Women, 16 and over                        	expenditure	Women, 16 and over	CXUWOMENSLB0101M	CUUR0000SEAC	Women's apparel in U.S. city average, all urban consumers, not seasonally adjusted		
+63	3	         Girls, 2 to 15                            	expenditure	Girls, 2 to 15	CXUGIRLSLB0101M	CUUR0000SEAD	Girls' apparel in U.S. city average, all urban consumers, not seasonally adjusted		
+64	2	      Children under 2                             	expenditure	Children under 2	CXUINFANTLB0101M	CUUR0000SEAF	Infants' and toddlers' apparel in U.S. city average, all urban consumers, not seasonally adjusted		
+65	2	      Footwear                                     	expenditure	Footwear	CXUFOOTWEARLB0101M	CUUR0000SEAE	Footwear in U.S. city average, all urban consumers, not seasonally adjusted		
+66	2	      Other apparel products and services          	expenditure	Other apparel products and services	CXUOTHAPPRLLB0101M	???			
+67	1	   Transportation                                  	expenditure	Transportation	CXUTRANSLB0101M	CUUR0000SAT	Transportation in U.S. city average, all urban consumers, not seasonally adjusted		
+68	2	      Vehicle purchases                            	expenditure	Vehicle purchases (net outlay)	CXUVEHPURCHLB0101M	CUUR0000SETA	New and used motor vehicles in U.S. city average, all urban consumers, not seasonally adjusted		
+69	3	         Cars and trucks, new (net outlay          	expenditure	Cars and trucks, new	CXUNEWCARSLB0101M	CUUR0000SS4501A	New cars and trucks in U.S. city average, all urban consumers, not seasonally adjusted		
+70	3	         Cars and trucks, used (net outlay         	expenditure	Cars and trucks, used	CXUUSEDCARSLB0101M	CUUR0000SETA02	Used cars and trucks in U.S. city average, all urban consumers, not seasonally adjusted		
+71	3	         Other vehicles                            	expenditure	Other vehicles	CXUOTHVEHCLLB0101M	???			
+72	2	      Gasoline and motor oil                       	expenditure	Gasoline, other fuels, and motor oil	CXUGASOILLB0101M	CUUR0000SETB	Motor fuel in U.S. city average, all urban consumers, not seasonally adjusted		
+73	2	      Other vehicle expenses                       	expenditure	Other vehicle expenses	CXUVEHOTHXPLB0101M	???			
+74	3	         Vehicle finance charges                   	expenditure	Vehicle finance charges	CXUVEHFINCHLB0101M	???			
+75	3	         Maintenance and repairs                   	expenditure	Maintenance and repairs	CXUCAREPAIRLB0101M	CUUR0000SETC	Motor vehicle parts and equipment in U.S. city average, all urban consumers, not seasonally adjusted		
+76	3	         Vehicle insurance                         	expenditure	Vehicle insurance	CXU500110LB0101M	CUUR0000SETE	Motor vehicle insurance in U.S. city average, all urban consumers, not seasonally adjusted		
+77	3	         Vehicle rent., licenses, other charges    	expenditure	Vehicle rental, leases, licenses, and other charges	CXUVEHRNTLCLB0101M	???			
+78	2	      Public transportation                        	expenditure	Public and other transportation	CXUPUBTRANSLB0101M	CUUR0000SETG	Public transportation in U.S. city average, all urban consumers, not seasonally adjusted		
+79	1	   Health care                                     	expenditure	Healthcare	CXUHEALTHLB0101M	CUUR0000SAM	Medical care in U.S. city average, all urban consumers, not seasonally adjusted		
+80	2	      Health insurance                             	expenditure	Health insurance	CXUHLTHINSRLB0101M	CUUR0000SEME	Health insurance in U.S. city average, all urban consumers, not seasonally adjusted		
+81	2	      Medical services                             	expenditure	Medical services	CXUMEDSERVSLB0101M	CUUR0000SAM2	Medical care services in U.S. city average, all urban consumers, not seasonally adjusted		
+82	2	      Drugs                                        	expenditure	Drugs	CXUDRUGSLB0101M	CUUR0000SEMF01	Prescription drugs in U.S. city average, all urban consumers, not seasonally adjusted		
+83	2	      Medical supplies                             	expenditure	Medical supplies	CXUMEDSUPPLLB0101M	???			
+84	1	   Entertainment                                   	expenditure	Entertainment	CXUENTRTAINLB0101M	CUUR0000SAR	Recreation in U.S. city average, all urban consumers, not seasonally adjusted		
+85	2	      Fees and admissions                          	expenditure	Fees and admissions	CXUFEESADMLB0101M	CUUR0000SERF02	Admissions in U.S. city average, all urban consumers, not seasonally adjusted		
+86	2	      Television, radios, sound equipment          	expenditure	Audio and visual equipment and services	CXUTVAUDIOLB0101M	CUUR0000SERA	Video and audio in U.S. city average, all urban consumers, not seasonally adjusted		
+87	2	      Pets, toys, and playground equipment         	expenditure	Pets, toys, hobbies, and playground equipment	CXUPETSPLAYLB0101M	CUUR0000SERB	Pets, pet products and services in U.S. city average, all urban consumers, not seasonally adjusted		
+88	2	      Other ent. sup., equip., and services        	expenditure	Other entertainment supplies, equipment, and services	CXUENTEROTHLB0101M	CUUR0000SERE	Other recreational goods in U.S. city average, all urban consumers, not seasonally adjusted		
+89	1	   Personal care products and services             	expenditure	Personal care products and services	CXUPERSCARELB0101M	CUUR0000SAG1	Personal care in U.S. city average, all urban consumers, not seasonally adjusted		
+90	1	   Reading                                         	expenditure	Reading	CXUREADINGLB0101M	CUUR0000SERG	Recreational reading materials in U.S. city average, all urban consumers, not seasonally adjusted		
+91	1	   Education                                       	expenditure	Education	CXUEDUCATNLB0101M	CUUR0000SAE1	Education in U.S. city average, all urban consumers, not seasonally adjusted		
+92	1	   Tobacco products and smoking supplies           	expenditure	Tobacco products and smoking supplies	CXUTOBACCOLB0101M	CUUR0000SEGA	Tobacco and smoking products in U.S. city average, all urban consumers, not seasonally adjusted		
+93	1	   Miscellaneous                                   	expenditure	Miscellaneous	CXUMISCLB0101M	???			
+94	1	   Cash contributions                              	expenditure	Cash contributions	CXUCASHCONTLB0101M	???			
+95	1	   Personal insurance and pensions                 	expenditure	Personal insurance and pensions	CXUINSPENSNLB0101M	???			
+96	2	      Life and other personal insurance            	expenditure	Life and other personal insurance	CXULIFEINSRLB0101M	???			
+97	2	      Pensions and Social Security                 	expenditure	Pensions and Social Security	CXUPENSIONSLB0101M	???			
+98	0	Money income before taxes                          	income_before_taxes	Income before taxes	CXUINCBEFTXLB0101M				
+99	1	   Wages and salaries                              	income_before_taxes	Wages and salaries	CXU900000LB0101M				
+100	1	       Self-employment income                      	income_before_taxes	Self-employment income	CXUSFEMPINCLB0101M				
+101	1	       S. Security, private and gvrnmnt retirement 	income_before_taxes	Social Security, private and government retirement	CXURETIRINCLB0101M				
+102	1	       Int.,divid.,rent. income,other prop. income 	income_before_taxes	Interest, dividends, rental income, and other property income	CXUINDIVRNTLB0101M				
+103	1	       Unemp. and workers' compen., veterans' ben  	income_before_taxes	Unemployment and workers' compensation, veterans' benefits	CXUOTHBNFTSLB0101M				
+104	1	       Pub. ass., supp. sec. income, foodstamps    	income_before_taxes	Public assistance, Supplemental Security Income, Supplementary Nutrition Assistance Program (SNAP)	CXUWELFARELB0101M				
+105	1	       Regular contributions for support           	income_before_taxes	Regular contributions for support	CXUREGCONTLB0101M				
+106	1	       Other income                                	income_before_taxes	Other income	CXUOTHRINCLB0101M				
+107	0	    Personal taxes                                 	personal_taxes	Personal taxes (contains some imputed values)	CXUPERSTAXLB0101M				
+108	1	       Federal income taxes                        	personal_taxes	Federal income taxes	CXUFEDTAXESLB0101M				
+109	1	       State and local income taxes                	personal_taxes	State and local income taxes	CXUSTATETAXLB0101M				
+110	1	       Other taxes                                 	personal_taxes	Other taxes	CXUOTHRTAXLB0101M				
+111	0	    Income after taxes                             	income_after_taxes	Income after taxes	CXUINCAFTTXLB0101M				
+112	1	       Net change in total assets                  	income_after_taxes	Net change in total assets	CXUCHGASSETLB0101M				
+113	1	       Net change in total liabilities             	income_after_taxes	Net change in total liabilities	CXUCHGLIABLB0101M				
+114	1	       Other money receipts                        	income_after_taxes	Other money receipts	CXUOTHRMONYLB0101M				
+115	1	       Mortgage principal paid on owned property   	income_after_taxes	Mortgage principal paid on owned property	CXUMRTPRINPLB0101M				
+116	1	       Estimated market value of owned home        	income_after_taxes	Estimated market value of owned home	CXU800721LB0101M				
+117	1	       Estimated monthly rental value of owned home	income_after_taxes	Estimated monthly rental value of owned home	CXU910050LB0101M				
+118	0	    Gifts of:                                      	gifts						
+119	1	       Clothing, males 2 and over                  	gifts						
+120	1	       Clothing, females 2 and over                	gifts						
+121	1	       Clothing, infants less than 2               	gifts						
+122	1	       Jewelry and watches                         	gifts			CUUR0000SEAG	Jewelry and watches in U.S. city average, all urban consumers, not seasonally adjusted		
+123	1	       Small appliances, misc. housewares          	gifts						
+124	1	       Household textiles                          	gifts	Household textiles	CXUHHTXTILELB0101M				
+125	1	       All other gifts                              	gifts						
