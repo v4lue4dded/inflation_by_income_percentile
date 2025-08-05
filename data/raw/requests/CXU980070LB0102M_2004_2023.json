@@ -1,0 +1,146 @@
+{
+  "Results": {
+    "series": [
+      {
+        "seriesID": "CXU980070LB0102M",
+        "data": [
+          {
+            "year": "2013",
+            "period": "A01",
+            "periodName": "Annual",
+            "latest": "true",
+            "value": "871",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "3.3",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "38.24",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "9.0",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2012",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "9890",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "3.1",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "368.72",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "7",
+                    "text": "No data reported."
+                  }
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2011",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "9827",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "3.2",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "258.06",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "100.2",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2010",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "9785",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "7",
+                    "text": "No data reported."
+                  }
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "374.11",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "98.8",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

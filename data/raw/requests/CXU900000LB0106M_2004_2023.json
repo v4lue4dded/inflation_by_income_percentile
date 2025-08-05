@@ -1,0 +1,709 @@
+{
+  "Results": {
+    "series": [
+      {
+        "seriesID": "CXU900000LB0106M",
+        "data": [
+          {
+            "year": "2023",
+            "period": "A01",
+            "periodName": "Annual",
+            "latest": "true",
+            "value": "214077",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "54.7",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "6019.20",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "80.9",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2022",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "204079",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "55.7",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "3385.80",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "83.6",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2021",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "187134",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "55.8",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "3093.13",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "82.7",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "181041",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "55.1",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "3241.53",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "83.0",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2019",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "180897",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "56.1",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "6477.73",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "82.7",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2018",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "171558",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "55.9",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "3375.56",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "83.7",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2017",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "157727",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "54.6",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "2468.46",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "83.9",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2016",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "159681",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "55.6",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "2319.49",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "80.4",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "149105",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "55.0",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "2538.61",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "83.8",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2014",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "144444",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "55.7",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "2345.50",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "83.5",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2013",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "137638",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "54.8",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "2386.57",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "84.6",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2012",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "141565",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "54.9",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "2934.03",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "84.8",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2011",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "135103",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "54.2",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "1957.61",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "83.8",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2010",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "135474",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "7",
+                    "text": "No data reported."
+                  }
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "2246.16",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "86.1",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2009",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "135583",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "5",
+                    "text": "Data are not available in LABSTAT."
+                  }
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "5",
+                    "text": "Data are not available in LABSTAT."
+                  }
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "5",
+                    "text": "Data are not available in LABSTAT."
+                  }
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2008",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "134882",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "5",
+                    "text": "Data are not available in LABSTAT."
+                  }
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "5",
+                    "text": "Data are not available in LABSTAT."
+                  }
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "5",
+                    "text": "Data are not available in LABSTAT."
+                  }
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2007",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "132535",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "5",
+                    "text": "Data are not available in LABSTAT."
+                  }
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "5",
+                    "text": "Data are not available in LABSTAT."
+                  }
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "5",
+                    "text": "Data are not available in LABSTAT."
+                  }
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2006",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "124503",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "5",
+                    "text": "Data are not available in LABSTAT."
+                  }
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "5",
+                    "text": "Data are not available in LABSTAT."
+                  }
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "5",
+                    "text": "Data are not available in LABSTAT."
+                  }
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2005",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "122045",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "5",
+                    "text": "Data are not available in LABSTAT."
+                  }
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "5",
+                    "text": "Data are not available in LABSTAT."
+                  }
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "5",
+                    "text": "Data are not available in LABSTAT."
+                  }
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2004",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "110857",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "5",
+                    "text": "Data are not available in LABSTAT."
+                  }
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "5",
+                    "text": "Data are not available in LABSTAT."
+                  }
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "5",
+                    "text": "Data are not available in LABSTAT."
+                  }
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

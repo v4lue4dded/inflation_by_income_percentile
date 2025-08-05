@@ -1,0 +1,357 @@
+{
+  "Results": {
+    "series": [
+      {
+        "seriesID": "CXUOTHBNFTSLB0101M",
+        "data": [
+          {
+            "year": "2012",
+            "period": "A01",
+            "periodName": "Annual",
+            "latest": "true",
+            "value": "428",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "53294.5",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "21.92",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "0.7",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2011",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "579",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "70822.4",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "29.73",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "0.9",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2010",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "634",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "7",
+                    "text": "No data reported."
+                  }
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "27.05",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "1.0",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2009",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "432",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "5",
+                    "text": "Data are not available in LABSTAT."
+                  }
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "5",
+                    "text": "Data are not available in LABSTAT."
+                  }
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "5",
+                    "text": "Data are not available in LABSTAT."
+                  }
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2008",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "225",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "5",
+                    "text": "Data are not available in LABSTAT."
+                  }
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "5",
+                    "text": "Data are not available in LABSTAT."
+                  }
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "5",
+                    "text": "Data are not available in LABSTAT."
+                  }
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2007",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "216",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "5",
+                    "text": "Data are not available in LABSTAT."
+                  }
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "5",
+                    "text": "Data are not available in LABSTAT."
+                  }
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "5",
+                    "text": "Data are not available in LABSTAT."
+                  }
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2006",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "207",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "5",
+                    "text": "Data are not available in LABSTAT."
+                  }
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "5",
+                    "text": "Data are not available in LABSTAT."
+                  }
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "5",
+                    "text": "Data are not available in LABSTAT."
+                  }
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2005",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "203",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "5",
+                    "text": "Data are not available in LABSTAT."
+                  }
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "5",
+                    "text": "Data are not available in LABSTAT."
+                  }
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "5",
+                    "text": "Data are not available in LABSTAT."
+                  }
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2004",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "237",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "5",
+                    "text": "Data are not available in LABSTAT."
+                  }
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "5",
+                    "text": "Data are not available in LABSTAT."
+                  }
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "5",
+                    "text": "Data are not available in LABSTAT."
+                  }
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

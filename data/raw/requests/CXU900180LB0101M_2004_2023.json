@@ -1,0 +1,364 @@
+{
+  "Results": {
+    "series": [
+      {
+        "seriesID": "CXU900180LB0101M",
+        "data": [
+          {
+            "year": "2023",
+            "period": "A01",
+            "periodName": "Annual",
+            "latest": "true",
+            "value": "1691",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "227590.3",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "230.29",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "1.7",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2022",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "1082",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "145121.2",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "122.23",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "1.2",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2021",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "1037",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "138494.1",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "144.76",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "1.2",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "998",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "130931.6",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "105.60",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "1.2",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2019",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "829",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "109651.3",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "78.18",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "1.0",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2018",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "1025",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "134771.4",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "107.68",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "1.3",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2017",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "869",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "112962.6",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "70.06",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "1.2",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2016",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "779",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "100926.4",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "75.81",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "1.0",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "916",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "117685.6",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "103.61",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "1.3",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2014",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "762",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "96802.3",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "62.48",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "1.1",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          },
+          {
+            "year": "2013",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "698",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "87735.0",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "111.57",
+                "footnotes": [
+                  {}
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "1.1",
+                "footnotes": [
+                  {}
+                ]
+              }
+            ],
+            "footnotes": [
+              {}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

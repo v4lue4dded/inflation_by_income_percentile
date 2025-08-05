@@ -1,0 +1,496 @@
+{
+  "Results": {
+    "series": [
+      {
+        "seriesID": "CXU980071LB0106M",
+        "data": [
+          {
+            "year": "2023",
+            "period": "A01",
+            "periodName": "Annual",
+            "latest": "true",
+            "value": "210947",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "48.1",
+                "footnotes": [
+                  {
+                    "code": "9",
+                    "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+                  }
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "4098.87",
+                "footnotes": [
+                  {
+                    "code": "9",
+                    "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+                  }
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "79.7",
+                "footnotes": [
+                  {
+                    "code": "9",
+                    "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+                  }
+                ]
+              }
+            ],
+            "footnotes": [
+              {
+                "code": "9",
+                "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+              }
+            ]
+          },
+          {
+            "year": "2022",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "196710",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "47.3",
+                "footnotes": [
+                  {
+                    "code": "9",
+                    "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+                  }
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "2885.82",
+                "footnotes": [
+                  {
+                    "code": "9",
+                    "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+                  }
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "80.6",
+                "footnotes": [
+                  {
+                    "code": "9",
+                    "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+                  }
+                ]
+              }
+            ],
+            "footnotes": [
+              {
+                "code": "9",
+                "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+              }
+            ]
+          },
+          {
+            "year": "2021",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "184744",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "47.2",
+                "footnotes": [
+                  {
+                    "code": "9",
+                    "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+                  }
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "2864.58",
+                "footnotes": [
+                  {
+                    "code": "9",
+                    "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+                  }
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "81.6",
+                "footnotes": [
+                  {
+                    "code": "9",
+                    "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+                  }
+                ]
+              }
+            ],
+            "footnotes": [
+              {
+                "code": "9",
+                "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+              }
+            ]
+          },
+          {
+            "year": "2020",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "176044",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "46.8",
+                "footnotes": [
+                  {
+                    "code": "9",
+                    "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+                  }
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "4662.71",
+                "footnotes": [
+                  {
+                    "code": "9",
+                    "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+                  }
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "80.7",
+                "footnotes": [
+                  {
+                    "code": "9",
+                    "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+                  }
+                ]
+              }
+            ],
+            "footnotes": [
+              {
+                "code": "9",
+                "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+              }
+            ]
+          },
+          {
+            "year": "2019",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "174688",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "49.1",
+                "footnotes": [
+                  {
+                    "code": "9",
+                    "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+                  }
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "4636.43",
+                "footnotes": [
+                  {
+                    "code": "9",
+                    "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+                  }
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "79.9",
+                "footnotes": [
+                  {
+                    "code": "9",
+                    "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+                  }
+                ]
+              }
+            ],
+            "footnotes": [
+              {
+                "code": "9",
+                "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+              }
+            ]
+          },
+          {
+            "year": "2018",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "161880",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "48.4",
+                "footnotes": [
+                  {
+                    "code": "9",
+                    "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+                  }
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "2724.23",
+                "footnotes": [
+                  {
+                    "code": "9",
+                    "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+                  }
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "7",
+                    "text": "No data reported."
+                  }
+                ]
+              }
+            ],
+            "footnotes": [
+              {
+                "code": "9",
+                "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+              }
+            ]
+          },
+          {
+            "year": "2017",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "149456",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "46.9",
+                "footnotes": [
+                  {
+                    "code": "9",
+                    "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+                  }
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "1787.39",
+                "footnotes": [
+                  {
+                    "code": "9",
+                    "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+                  }
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "79.5",
+                "footnotes": [
+                  {
+                    "code": "9",
+                    "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+                  }
+                ]
+              }
+            ],
+            "footnotes": [
+              {
+                "code": "9",
+                "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+              }
+            ]
+          },
+          {
+            "year": "2016",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "157159",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "48.9",
+                "footnotes": [
+                  {
+                    "code": "9",
+                    "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+                  }
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "4048.91",
+                "footnotes": [
+                  {
+                    "code": "9",
+                    "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+                  }
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "79.1",
+                "footnotes": [
+                  {
+                    "code": "9",
+                    "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+                  }
+                ]
+              }
+            ],
+            "footnotes": [
+              {
+                "code": "9",
+                "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+              }
+            ]
+          },
+          {
+            "year": "2015",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "142362",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "47.4",
+                "footnotes": [
+                  {
+                    "code": "9",
+                    "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+                  }
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "1603.06",
+                "footnotes": [
+                  {
+                    "code": "9",
+                    "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+                  }
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "7",
+                    "text": "No data reported."
+                  }
+                ]
+              }
+            ],
+            "footnotes": [
+              {
+                "code": "9",
+                "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+              }
+            ]
+          },
+          {
+            "year": "2014",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "139593",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "48.0",
+                "footnotes": [
+                  {
+                    "code": "9",
+                    "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+                  }
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "2439.10",
+                "footnotes": [
+                  {
+                    "code": "9",
+                    "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+                  }
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "7",
+                    "text": "No data reported."
+                  }
+                ]
+              }
+            ],
+            "footnotes": [
+              {
+                "code": "9",
+                "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+              }
+            ]
+          },
+          {
+            "year": "2013",
+            "period": "A01",
+            "periodName": "Annual",
+            "value": "121266",
+            "aspects": [
+              {
+                "name": "Aggregate",
+                "value": "47.5",
+                "footnotes": [
+                  {
+                    "code": "9",
+                    "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+                  }
+                ]
+              },
+              {
+                "name": "Standard Error",
+                "value": "1981.23",
+                "footnotes": [
+                  {
+                    "code": "9",
+                    "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+                  }
+                ]
+              },
+              {
+                "name": "Expenditure Share",
+                "value": "-",
+                "footnotes": [
+                  {
+                    "code": "7",
+                    "text": "No data reported."
+                  }
+                ]
+              }
+            ],
+            "footnotes": [
+              {
+                "code": "9",
+                "text": "For more information on the TAXSIM process and the models used to calculate these estimates see https://www.bls.gov/cex/tables-getting-started-guide.htm."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -115,7 +115,7 @@ current = [""] * 5
 # ---- Build the hierarchy row-by-row ------------------------------------------
 for i in range(len(df_my_matching_categories)):
     L = int(df_my_matching_categories.at[i, "level"])
-    label = df_my_matching_categories.at[i, "Expenditure cateogories with spaces"]
+    label = df_my_matching_categories.at[i, "Expenditure categories with spaces"]
 
     # Put the current row's label at its level
     current[L] = label

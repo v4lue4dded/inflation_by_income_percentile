@@ -18,7 +18,7 @@ select
   mm.id
 , mm.level
 , mm.series_category
-, mm."expenditure cateogories with spaces"
+, mm."expenditure categories with spaces"
 , mm.use_1997
 , mm.level_0
 , mm.level_1
@@ -105,7 +105,7 @@ left join main.series_import cu on ba.series_id_cu = cu.seriesID and ba.year = c
 where ba.series_category =  'expenditure'
 ;
 
-
+-- verify diff
 select
 *
 , a.cx_value - b.cx_value
@@ -121,7 +121,7 @@ full join
 (select year,type_of_quintile_txt, sum(cx_value) cx_value
 from processing.check_file
 where type_of_quintile_txt not in ('Incomplete income reports','Total complete income reporters')
-and  "Expenditure cateogories with spaces" = 'Average annual expenditures                        '
+and  "Expenditure categories with spaces" = 'Average annual expenditures                        '
 group by
 year,type_of_quintile_txt
 order by year,type_of_quintile_txt
@@ -137,3 +137,5 @@ where year = 2023
 and type_of_quintile_txt = 'All Consumer Units'
 order by ID
 ;
+
+

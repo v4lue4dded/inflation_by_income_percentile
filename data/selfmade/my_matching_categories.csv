@@ -1,4 +1,4 @@
-ID	level	Expenditure cateogories with spaces	series_category	use_1984	use_1997	check_name	series_id_cx_all_consumer_units	series_id_cu	series_title	questionable_match	comment
+ID	level	Expenditure categories with spaces	series_category	use_1984	use_1997	check_name	series_id_cx_all_consumer_units	series_id_cu	series_title	questionable_match	comment
 0	0	Average annual expenditures                        	expenditure	0	0	Average annual expenditures	CXUTOTALEXPLB0101M	CUUR0000SA0	All items in U.S. city average, all urban consumers, not seasonally adjusted		
 1	1	   Food                                            	expenditure	0	0	Food	CXUFOODTOTLLB0101M	CUUR0000SAF1	Food in U.S. city average, all urban consumers, not seasonally adjusted		
 2	2	      Food at home                                 	expenditure	0	0	Food at home	CXUFOODHOMELB0101M	CUUR0000SAF11	Food at home in U.S. city average, all urban consumers, not seasonally adjusted		
