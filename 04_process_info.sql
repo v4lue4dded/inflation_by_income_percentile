@@ -19,6 +19,7 @@ select
 , mm.level
 , mm.series_category
 , mm."expenditure cateogories with spaces"
+, mm.use_1997
 , mm.level_0
 , mm.level_1
 , mm.level_2
@@ -46,9 +47,14 @@ left join cx_series                       as cx on replace(mm.series_id_cx_all_c
 order by id
 ;
 
+
+select *
+from extended_match
+
+
 create or replace table years as
 select y::int as year
-from generate_series(1984, 2023) as t(y);
+from generate_series(1997, 2021) as t(y);
 ;
 
 create or replace table processing.basis as
@@ -75,4 +81,59 @@ from      processing.basis   ba
 left join main.series_import cx on ba.series_id_cx = cx.seriesID and ba.year = cx.period and cx.periodName = 'Annual'
 left join main.series_import cu on ba.series_id_cu = cu.seriesID and ba.year = cu.period and cu.periodName = 'Annual'
 where ba.series_category =  'expenditure'
+and  ba.use_1997 = 1
+;
+
+
+create or replace table processing.check_file as
+select
+  ba.*
+, cx.seriesID    cx_seriesID
+, cx.period      cx_period
+, cx.periodName  cx_periodName
+, cx.value       cx_value
+, cx.footnotes   cx_footnotes
+, cu.seriesID    cu_seriesID
+, cu.period      cu_period
+, cu.periodName  cu_periodName
+, cu.value       cu_value
+, cu.footnotes   cu_footnotes
+, case when cu_value is not null and cx.value is not null then 1 else 0 end as is_valid_data
+from      processing.basis   ba
+left join main.series_import cx on ba.series_id_cx = cx.seriesID and ba.year = cx.period and cx.periodName = 'Annual'
+left join main.series_import cu on ba.series_id_cu = cu.seriesID and ba.year = cu.period and cu.periodName = 'Annual'
+where ba.series_category =  'expenditure'
+;
+
+
+select
+*
+, a.cx_value - b.cx_value
+from (
+select year,type_of_quintile_txt, sum(cx_value) cx_value
+from processing.flatfile
+where type_of_quintile_txt not in ('Incomplete income reports','Total complete income reporters')
+group by
+year,type_of_quintile_txt
+order by year,type_of_quintile_txt
+) a
+full join
+(select year,type_of_quintile_txt, sum(cx_value) cx_value
+from processing.check_file
+where type_of_quintile_txt not in ('Incomplete income reports','Total complete income reporters')
+and  "Expenditure cateogories with spaces" = 'Average annual expenditures                        '
+group by
+year,type_of_quintile_txt
+order by year,type_of_quintile_txt
+) b on a.year = b.year and a.type_of_quintile_txt = b.type_of_quintile_txt
+order by a.year desc,a.type_of_quintile_txt
+;
+
+
+select cx_value, *
+from processing.check_file
+where year = 2023
+-- and use_1997 = 0
+and type_of_quintile_txt = 'All Consumer Units'
+order by ID
 ;

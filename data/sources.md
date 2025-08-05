@@ -13,3 +13,6 @@
 
 # Load concordance ce_cpi_concordance:
 # https://www.bls.gov/cpi/additional-resources/ce-cpi-concordance.htm
+
+# CU weights:
+# https://www.bls.gov/cpi/tables/relative-importance/
