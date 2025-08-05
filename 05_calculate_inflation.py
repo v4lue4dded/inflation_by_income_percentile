@@ -89,36 +89,49 @@ df_combined.head()
 
 import matplotlib.pyplot as plt
 import numpy as np
+from matplotlib.ticker import MaxNLocator
 
-# Wide table: index = year, columns = type, values = cumulative_inflation
-wide = (df_combined
-        .sort_values('year')
-        .pivot_table(index='year',
-                     columns='type_of_quintile_txt_ordered',
-                     values='cumulative_inflation',
-                     aggfunc='mean'))
+plot_specs = [
+    ("cumulative_inflation", "Cumulative inflation", "cumulative_inflation_over_time_by_quintile.png"),
+    ("cumulative_income", "Cumulative income after taxes", "cumulative_income_over_time_by_quintile.png"),
+    ("cumulative_purchasing_power", "Cumulative purchasing power", "cumulative_purchasing_power_over_time_by_quintile.png"),
+]
 
-years = np.arange(wide.index.min(), wide.index.max() + 1)
-wide = wide.reindex(years)
+for value_col, y_label, filename in plot_specs:
+    # Wide table: index = year, columns = type, values = the current metric
+    min_value = min(df_combined[value_col])
+    max_value = max(df_combined[value_col])
 
-fig, ax = plt.subplots(figsize=(10, 6), constrained_layout=True)
+    wide = (df_combined
+            .sort_values("year")
+            .pivot_table(index="year",
+                         columns="type_of_quintile_txt_ordered",
+                         values=value_col,
+                         aggfunc="mean"))
 
-wide.plot(marker='o', linewidth=2, markersize=3, ax=ax)
+    # Ensure every year shows on the x-axis
+    years = np.arange(wide.index.min(), wide.index.max() + 1)
+    wide = wide.reindex(years)
 
-ax.set_xlabel('Year')
-ax.set_ylabel('Cumulative inflation')
-ax.set_title('Cumulative inflation over time by quintile')
-ax.grid(True, alpha=0.3)
+    fig, ax = plt.subplots(figsize=(10, 6), constrained_layout=True)
+    wide.plot(marker='o', linewidth=2, markersize=3, ax=ax)
 
-# ⬅️ Legend outside on the right
-ax.legend(
-    title='type_of_quintile_txt_ordered',
-    loc='center left',
-    bbox_to_anchor=(1.02, 0.5),
-    frameon=True,
-    borderaxespad=0.0
-)
+    ax.set_xlabel("Year")
+    ax.set_ylabel(y_label)
+    ax.set_title(f"{y_label} over time by quintile")
+    ax.grid(True, alpha=0.3)
+    ax.xaxis.set_major_locator(MaxNLocator(integer=True))
+    ax.set_xlim(years.min(), years.max())
+    ax.set_ylim(bottom=min_value, top=max_value)  # cumulative series typically start near 1.0
 
-plt.show()
-# If saving to file, use tight bbox so the legend isn't cut off:
-fig.savefig("cumulative_inflation.png", dpi=300, bbox_inches="tight")
+    # Legend outside on the right
+    ax.legend(
+        title="type_of_quintile_txt_ordered",
+        loc="center left",
+        bbox_to_anchor=(1.02, 0.5),
+        frameon=True,
+        borderaxespad=0.0
+    )
+
+    plt.show()
+    fig.savefig(filename, dpi=300, bbox_inches="tight")
